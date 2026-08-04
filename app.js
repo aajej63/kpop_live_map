@@ -80,11 +80,38 @@ const state = {
 const map = L.map('map', { zoomControl: false, worldCopyJump: true }).setView([25, 115], 3);
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors',
-  subdomains: 'abc',
+// Base map (Esri primary in CN, OSM fallback)
+const ESRI_TILES = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+const OSM_TILES = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+
+let baseLayerSwitched = false;
+let esriErrorStreak = 0;
+const ESRI_ERROR_STREAK_LIMIT = 6;
+
+const esriLayer = L.tileLayer(ESRI_TILES, {
+  attribution: 'Tiles © Esri',
   maxZoom: 19,
-}).addTo(map);
+});
+
+// If Esri is unreachable for the user (e.g. some overseas networks), fallback to OSM once.
+esriLayer.on('tileload', () => { esriErrorStreak = 0; });
+esriLayer.on('tileerror', () => {
+  esriErrorStreak += 1;
+  if (baseLayerSwitched) return;
+  if (esriErrorStreak < ESRI_ERROR_STREAK_LIMIT) return;
+
+  baseLayerSwitched = true;
+  map.removeLayer(esriLayer);
+
+  const osmLayer = L.tileLayer(OSM_TILES, {
+    attribution: '&copy; OpenStreetMap contributors',
+    subdomains: 'abc',
+    maxZoom: 19,
+  });
+  osmLayer.addTo(map);
+});
+
+esriLayer.addTo(map);
 
 const markerLayer = L.layerGroup().addTo(map);
 let markerIndex = {};
