@@ -1,0 +1,1310 @@
+/* =============================================================================
+ * K-POP LIVE MAP — Concert Dataset (Fallback)
+ * -----------------------------------------------------------------------------
+ * 兜底数据：当 fetch(./data/concerts.json) 失败时使用。
+ * 所有场次均为人工核实的真实场次，附官方购票链接与来源。
+ * ============================================================================= */
+
+// 各购票平台元信息（供 UI/教程按钮匹配 key）
+const TICKET_PLATFORMS = {
+  nol:         { name: "NOL / Interpark Global", region: "Korea", url: "https://world.nol.com/", color: "#e6007e" },
+  yes24:       { name: "YES24 Ticket", region: "Korea", url: "https://ticket.yes24.com/", color: "#00539f" },
+  melon:       { name: "Melon Ticket", region: "Korea", url: "https://tkglobal.melon.com/", color: "#00cd3c" },
+  weverse:     { name: "Weverse Shop", region: "Global", url: "https://weverse.io/", color: "#07d9c4" },
+  ticketlink:  { name: "TicketLink", region: "Korea", url: "https://www.ticketlink.co.kr/", color: "#ff5a00" },
+  ticketmaster:{ name: "Ticketmaster", region: "USA", url: "https://www.ticketmaster.com/", color: "#026cdf" },
+  axs:         { name: "AXS", region: "USA", url: "https://www.axs.com/", color: "#0098db" },
+  livenation:  { name: "Live Nation", region: "USA", url: "https://www.livenation.com/", color: "#e2231a" },
+  pia:         { name: "Ticket Pia", region: "Japan", url: "https://t.pia.jp/", color: "#e60012" },
+  lawson:      { name: "Lawson Ticket", region: "Japan", url: "https://l-tike.com/", color: "#0068b7" },
+  eplus:       { name: "e+ (eplus)", region: "Japan", url: "https://eplus.jp/", color: "#f5a623" },
+  sistic:      { name: "SISTIC", region: "Singapore", url: "https://www.sistic.com.sg/", color: "#c41230" },
+  cityline:    { name: "Cityline", region: "HongKong", url: "https://www.cityline.com/", color: "#ff6600" },
+  klook:       { name: "Klook", region: "Asia", url: "https://www.klook.com/", color: "#ff5722" },
+  ticketmelon: { name: "ThaiTicketMajor / Ticketmelon", region: "Thailand", url: "https://www.thaiticketmajor.com/", color: "#ffc107" },
+  smtickets:   { name: "SM Tickets", region: "Philippines", url: "https://smtickets.com/", color: "#0033a0" },
+  tixcraft:    { name: "拓元 tixCraft", region: "Taiwan", url: "https://tixcraft.com/", color: "#5b2d8e" },
+};
+
+// FALLBACK_CONCERTS：真实人工核实数据（44 场，10 国/地区）
+const FALLBACK_CONCERTS = [
+  {
+    "id": "bts-foxborough-ma-2026-08-05-gillette-stadium-2d0748",
+    "artist": "BTS",
+    "tour": "BTS WORLD TOUR 'ARIRANG'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-08-05",
+    "endDate": "2026-08-06",
+    "time": "",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, MA",
+    "country": "USA",
+    "region": "USA",
+    "lat": 42.0909,
+    "lng": -71.2643,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/bts-tickets/artist/2110227"
+      }
+    ],
+    "source": "https://www.goal.com/en/news/bts-tickets/blta00e9894a6cecfe1",
+    "poster": "#ff3d9a",
+    "note": "Return world tour following 'ARIRANG' album release."
+  },
+  {
+    "id": "young-k-incheon-2026-08-14-inspire-arena-f3b0de",
+    "artist": "Young K",
+    "tour": "Young K Solo Tour <YOUNGEST> in INCHEON",
+    "type": "concert",
+    "tier": "soloist",
+    "date": "2026-08-14",
+    "endDate": "2026-08-16",
+    "time": "",
+    "venue": "INSPIRE ARENA",
+    "city": "Incheon",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.446,
+    "lng": 126.373,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "nol",
+        "name": "NOL World",
+        "region": "Korea",
+        "color": "#e6007e",
+        "url": "https://world.nol.com/en/ticket/places/26000804/products/26009887"
+      }
+    ],
+    "source": "https://www.starnewskorea.com/en/music/2026/07/15/2026071508015977031",
+    "poster": "#ffcf5c",
+    "note": "First solo world tour kickoff."
+  },
+  {
+    "id": "byeon-woo-seok-bangkok-2026-08-16-uob-live-12937a",
+    "artist": "Byeon Woo-seok",
+    "tour": "2026 Asia Fanmeeting Tour <The Secret Library>",
+    "type": "fanmeeting",
+    "tier": "soloist",
+    "date": "2026-08-16",
+    "endDate": "2026-08-16",
+    "time": "",
+    "venue": "UOB LIVE",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "region": "Thailand",
+    "lat": 13.75,
+    "lng": 100.534,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmelon",
+        "name": "ThaiTicketMajor",
+        "region": "Thailand",
+        "color": "#e91e63",
+        "url": "https://www.thaiticketmajor.com/performance/2026-byeonwooseok-asia-fanmeeting-tour-the-secret-library-in-bangkok.html"
+      }
+    ],
+    "source": "https://uoblive.asia/event/2026-byeonwooseok-asia-fanmeeting-tour-the-secret-library-in-bangkok",
+    "poster": "#ffcf5c",
+    "note": "Viu Scream Dates."
+  },
+  {
+    "id": "tiot-singapore-2026-08-22-sota-concert-hall-61034d",
+    "artist": "TIOT",
+    "tour": "TIOT SPECIAL FAN EVENT AND CONCERT IN SINGAPORE",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-08-22",
+    "endDate": "2026-08-22",
+    "time": "",
+    "venue": "SOTA Concert Hall",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.2966,
+    "lng": 103.846,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "sistic",
+        "name": "SISTIC",
+        "region": "Singapore",
+        "color": "#c41230",
+        "url": "https://www.sistic.com.sg/events/tiot0826"
+      }
+    ],
+    "source": "https://www.sistic.com.sg/events/tiot0826",
+    "poster": "#22e3d4",
+    "note": "Rookie boy group first Singapore show."
+  },
+  {
+    "id": "bts-chicago-il-2026-08-27-soldier-field-cacd63",
+    "artist": "BTS",
+    "tour": "BTS WORLD TOUR 'ARIRANG'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-08-27",
+    "endDate": "2026-08-27",
+    "time": "",
+    "venue": "Soldier Field",
+    "city": "Chicago, IL",
+    "country": "USA",
+    "region": "USA",
+    "lat": 41.8623,
+    "lng": -87.6167,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/04006429EEB8CDE1"
+      }
+    ],
+    "source": "https://www.ticketmaster.com/bts-tickets/artist/2110227",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "stray-kids-tokyo-2026-08-29-japan-national-stadium-38c56d",
+    "artist": "Stray Kids",
+    "tour": "Stray Kids World Tour <RUN IT> in JAPAN",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-08-29",
+    "endDate": "2026-08-30",
+    "time": "",
+    "venue": "Japan National Stadium",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.6779,
+    "lng": 139.7146,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "lawson",
+        "name": "Lawson Ticket",
+        "region": "Japan",
+        "color": "#0068b7",
+        "url": "https://l-tike.com/straykids/"
+      }
+    ],
+    "source": "https://www.japanconcerttickets.com/event/stray-kids-in-tokyo-2026-08-29/",
+    "poster": "#ff3d9a",
+    "note": "Lottery system applies."
+  },
+  {
+    "id": "ive-hong-kong-2026-09-04-asiaworld-arena-6b8591",
+    "artist": "IVE",
+    "tour": "IVE WORLD TOUR <SHOW WHAT I AM>",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-09-04",
+    "endDate": "2026-09-06",
+    "time": "",
+    "venue": "AsiaWorld-Arena",
+    "city": "Hong Kong",
+    "country": "HongKong",
+    "region": "HongKong",
+    "lat": 22.321,
+    "lng": 113.941,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "cityline",
+        "name": "Cityline",
+        "region": "HongKong",
+        "color": "#ff6600",
+        "url": "https://shows.cityline.com/en/2026/iveshowwhatiamhk.html"
+      }
+    ],
+    "source": "https://www.livenation.hk/en/event/ive-world-tour-show-what-i-am-in-hong-kong-hong-kong-tickets-edp1662577",
+    "poster": "#ff3d9a",
+    "note": "Three shows."
+  },
+  {
+    "id": "babymonster-manila-2026-09-05-sm-mall-of-asia-arena-74d80d",
+    "artist": "BABYMONSTER",
+    "tour": "BABYMONSTER <CHOOM> WORLD TOUR",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-09-05",
+    "endDate": "2026-09-05",
+    "time": "",
+    "venue": "SM Mall of Asia Arena",
+    "city": "Manila",
+    "country": "Philippines",
+    "region": "Philippines",
+    "lat": 14.535,
+    "lng": 120.982,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "smtickets",
+        "name": "SM Tickets",
+        "region": "Philippines",
+        "color": "#0033a0",
+        "url": "https://www.smtickets.com/events/view/17757"
+      }
+    ],
+    "source": "https://www.smtickets.com/events/view/17757",
+    "poster": "#ff3d9a",
+    "note": "SVIP Soundcheck package."
+  },
+  {
+    "id": "seeya-busan-2026-09-05-kbs-busan-hall-182ac7",
+    "artist": "SeeYa",
+    "tour": "2026 SeeYa 20th Anniversary Tour 'THE FAN'",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-09-05",
+    "endDate": "2026-09-05",
+    "time": "",
+    "venue": "KBS Busan Hall",
+    "city": "Busan",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 35.1683,
+    "lng": 129.133,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "yes24",
+        "name": "YES24",
+        "region": "Korea",
+        "color": "#00539f",
+        "url": "https://ticket.yes24.com/Genre/Concert?Gcode=009_202_001"
+      }
+    ],
+    "source": "https://www.allkpop.com/article/2026/06/",
+    "poster": "#22e3d4",
+    "note": "20th Anniversary reunion tour."
+  },
+  {
+    "id": "treasure-tokyo-2026-09-05-ariake-arena-918268",
+    "artist": "TREASURE",
+    "tour": "TREASURE THE STAGE 2026 NEW WAV: LIVE IN JAPAN",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-09-05",
+    "endDate": "2026-09-06",
+    "time": "",
+    "venue": "Ariake Arena",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.636,
+    "lng": 139.791,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "lawson",
+        "name": "Lawson/Pia/eplus",
+        "region": "Japan",
+        "color": "#0068b7",
+        "url": "https://l-tike.com/treasure/"
+      }
+    ],
+    "source": "https://ygex.jp/en/treasure/news/detail.php?id=1134134",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "plave-incheon-2026-09-12-incheon-munhak-main-stadium-1358c0",
+    "artist": "PLAVE",
+    "tour": "2026 PLAVE World Tour [KEEP IT MANIC] in Incheon",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-09-12",
+    "endDate": "2026-09-13",
+    "time": "",
+    "venue": "Incheon Munhak Main Stadium",
+    "city": "Incheon",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.4351,
+    "lng": 126.6931,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "nol",
+        "name": "Weverse/NOL",
+        "region": "Korea",
+        "color": "#e6007e",
+        "url": "https://world.nol.com/en/ticket"
+      }
+    ],
+    "source": "https://weverse.io/plave/notice/36575?hl=zh-cn",
+    "poster": "#22e3d4",
+    "note": "Stadium shows for virtual idol group."
+  },
+  {
+    "id": "idntt-macau-2026-09-12-the-londoner-theatre-12d57d",
+    "artist": "idntt",
+    "tour": "2026 idntt FAN-CON TOUR <20>",
+    "type": "fanmeeting",
+    "tier": "rising",
+    "date": "2026-09-12",
+    "endDate": "2026-09-12",
+    "time": "",
+    "venue": "The Londoner Theatre",
+    "city": "Macau",
+    "country": "Macau",
+    "region": "Macau",
+    "lat": 22.144,
+    "lng": 113.559,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "klook",
+        "name": "Cotai Ticketing",
+        "region": "Macau",
+        "color": "#8e44ad",
+        "url": "https://cn.cotaiticketing.com/"
+      }
+    ],
+    "source": "https://m.weibo.cn/detail/5327798568485517",
+    "poster": "#22e3d4",
+    "note": "First Macau show."
+  },
+  {
+    "id": "nct-127-seoul-2026-09-18-kspo-dome-632bfd",
+    "artist": "NCT 127",
+    "tour": "NCT 127 5TH TOUR 'NEO CITY : SEOUL - THE REDLINE'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-09-18",
+    "endDate": "2026-09-20",
+    "time": "",
+    "venue": "KSPO DOME",
+    "city": "Seoul",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.5209,
+    "lng": 127.123,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "melon",
+        "name": "Melon Ticket Global",
+        "region": "Korea",
+        "color": "#00cd3c",
+        "url": "https://tkglobal.melon.com/performance/index.htm?langCd=EN&prodId=213585"
+      }
+    ],
+    "source": "https://weverse.io/nct127/notice/37555",
+    "poster": "#ff3d9a",
+    "note": "10th Anniversary tour; Mark, Doyoung, Jungwoo absent."
+  },
+  {
+    "id": "aespa-elmont-ny-2026-09-18-ubs-arena-a384d3",
+    "artist": "aespa",
+    "tour": "aespa LIVE TOUR - SYNK : COMPLAEXITY",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-09-18",
+    "endDate": "2026-09-18",
+    "time": "",
+    "venue": "UBS Arena",
+    "city": "Elmont, NY",
+    "country": "USA",
+    "region": "USA",
+    "lat": 40.716,
+    "lng": -73.722,
+    "status": "presale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/aespa-tickets/artist/2887549"
+      }
+    ],
+    "source": "https://presalepasswordinfo.com/presales/664743",
+    "poster": "#ff3d9a",
+    "note": "North American leg."
+  },
+  {
+    "id": "lee-youngji-taipei-2026-09-19-taipei-music-center-db9850",
+    "artist": "LEE YOUNGJI",
+    "tour": "2026 LEE YOUNGJI WORLD TOUR <2.0>",
+    "type": "concert",
+    "tier": "soloist",
+    "date": "2026-09-19",
+    "endDate": "2026-09-19",
+    "time": "",
+    "venue": "Taipei Music Center",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "region": "Taiwan",
+    "lat": 25.051,
+    "lng": 121.582,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "tixcraft",
+        "name": "tixCraft",
+        "region": "Taiwan",
+        "color": "#5b2d8e",
+        "url": "https://tixcraft.com/activity/detail/26_leeyoungji"
+      }
+    ],
+    "source": "https://tixcraft.com/activity",
+    "poster": "#ffcf5c",
+    "note": "Taipei show."
+  },
+  {
+    "id": "the-rose-kaohsiung-2026-09-19-kaohsiung-music-center-6cf410",
+    "artist": "The Rose",
+    "tour": "ROSETOPIA ASIA TOUR 2026",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-09-19",
+    "endDate": "2026-09-19",
+    "time": "",
+    "venue": "Kaohsiung Music Center",
+    "city": "Kaohsiung",
+    "country": "Taiwan",
+    "region": "Taiwan",
+    "lat": 22.619,
+    "lng": 120.302,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "tixcraft",
+        "name": "tixCraft",
+        "region": "Taiwan",
+        "color": "#5b2d8e",
+        "url": "https://tixcraft.com/activity/detail/26_therose"
+      }
+    ],
+    "source": "https://tixcraft.com/activity",
+    "poster": "#22e3d4",
+    "note": "Mastercard presale."
+  },
+  {
+    "id": "aespa-atlanta-ga-2026-09-24-state-farm-arena-b95678",
+    "artist": "aespa",
+    "tour": "aespa LIVE TOUR - SYNK : COMPLAEXITY",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-09-24",
+    "endDate": "2026-09-24",
+    "time": "",
+    "venue": "State Farm Arena",
+    "city": "Atlanta, GA",
+    "country": "USA",
+    "region": "USA",
+    "lat": 33.7573,
+    "lng": -84.3963,
+    "status": "presale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complaexity-in-atlanta-atlanta-georgia-09-24-2026/event/0E00648AD9A54122"
+      }
+    ],
+    "source": "https://www.ticketmaster.com/search?q=aespa",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "kard-singapore-2026-09-27-sands-theatre-mbs-65e82b",
+    "artist": "KARD",
+    "tour": "2026 WORLD TOUR 'NOW HERE'",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-09-27",
+    "endDate": "2026-09-27",
+    "time": "",
+    "venue": "Sands Theatre, MBS",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.2847,
+    "lng": 103.859,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "sistic",
+        "name": "SISTIC",
+        "region": "Singapore",
+        "color": "#c41230",
+        "url": "https://www.sistic.com.sg/events/kard0926"
+      }
+    ],
+    "source": "https://www.sistic.com.sg/events/kard0926",
+    "poster": "#22e3d4",
+    "note": ""
+  },
+  {
+    "id": "t-o-p-kuala-lumpur-2026-09-27-unifi-arena-7d63df",
+    "artist": "T.O.P",
+    "tour": "PRE-STUDIO 2026 ASIA FAN MEETING TOUR",
+    "type": "fanmeeting",
+    "tier": "soloist",
+    "date": "2026-09-27",
+    "endDate": "2026-09-27",
+    "time": "",
+    "venue": "Unifi Arena",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "region": "Malaysia",
+    "lat": 3.057,
+    "lng": 101.691,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "klook",
+        "name": "GoLive Asia",
+        "region": "Malaysia",
+        "color": "#009688",
+        "url": "https://klconcert.com/concert/top-pre-studio-2026-asia-fan-meeting"
+      }
+    ],
+    "source": "https://www.sarawaktribune.com/t-o-p-finally-returns-to-malaysia-with-first-solo-asia-fan-meeting-tour/",
+    "poster": "#ffcf5c",
+    "note": "First solo Asia fan meeting."
+  },
+  {
+    "id": "team-seoul-2026-10-03-kspo-dome-76e2be",
+    "artist": "&TEAM",
+    "tour": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' ENCORE",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-10-03",
+    "endDate": "2026-10-04",
+    "time": "",
+    "venue": "KSPO DOME",
+    "city": "Seoul",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.5209,
+    "lng": 127.123,
+    "status": "presale",
+    "platforms": [
+      {
+        "key": "nol",
+        "name": "Interpark/NOL",
+        "region": "Korea",
+        "color": "#e6007e",
+        "url": "https://world.nol.com/en/articles/5c238bea-c186-41ae-843d-bafde5727cd1"
+      }
+    ],
+    "source": "https://tickets.interpark.com/contents/notice/detail/13669",
+    "poster": "#22e3d4",
+    "note": "Fanclub presale starts 2026-08-10."
+  },
+  {
+    "id": "itzy-singapore-2026-10-03-singapore-indoor-stadium-b860a5",
+    "artist": "ITZY",
+    "tour": "ITZY 3RD WORLD TOUR <TUNNEL VISION>",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-10-03",
+    "endDate": "2026-10-03",
+    "time": "",
+    "venue": "Singapore Indoor Stadium",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.3018,
+    "lng": 103.874,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster SG",
+        "region": "Singapore",
+        "color": "#026cdf",
+        "url": "https://ticketmaster.sg/activity/detail/26sg_itzy"
+      }
+    ],
+    "source": "https://www.livenation.sg/event/itzy-3rd-world-tour-tunnel-vision-in-singapore-singapore-tickets-edp1682922",
+    "poster": "#ff3d9a",
+    "note": "Asia tour final stop."
+  },
+  {
+    "id": "monsta-x-fairfax-va-2026-10-03-eaglebank-arena-7696f2",
+    "artist": "Monsta X",
+    "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS]",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-10-03",
+    "endDate": "2026-10-03",
+    "time": "",
+    "venue": "EagleBank Arena",
+    "city": "Fairfax, VA",
+    "country": "USA",
+    "region": "USA",
+    "lat": 38.829,
+    "lng": -77.308,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-fairfax-virginia-10-03-2026/event/15006482B90BDA55"
+      }
+    ],
+    "source": "https://help.ticketmaster.com/hc/en-us/articles/45468830055441",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "various-artists-tokyo-2026-10-03-ajinomoto-stadium-c5cb52",
+    "artist": "Various Artists",
+    "tour": "a-nation 2026",
+    "type": "festival",
+    "tier": "festival",
+    "date": "2026-10-03",
+    "endDate": "2026-10-04",
+    "time": "",
+    "venue": "Ajinomoto Stadium",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.6642,
+    "lng": 139.527,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "lawson",
+        "name": "Lawson Ticket",
+        "region": "Japan",
+        "color": "#0068b7",
+        "url": "https://l-tike.com/anation2026/"
+      }
+    ],
+    "source": "https://exo-jp.net/en/news/detail.php?id=1135159",
+    "poster": "#8b5cff",
+    "note": "Featuring Chanyeol and other K-pop acts."
+  },
+  {
+    "id": "le-sserafim-newark-nj-2026-10-08-prudential-center-26c1f1",
+    "artist": "LE SSERAFIM",
+    "tour": "2026 LE SSERAFIM TOUR 'PUREFLOW'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-10-08",
+    "endDate": "2026-10-08",
+    "time": "",
+    "venue": "Prudential Center",
+    "city": "Newark, NJ",
+    "country": "USA",
+    "region": "USA",
+    "lat": 40.7336,
+    "lng": -74.171,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-newark-new-jersey-10-08-2026/event/020064ABF7904B12"
+      }
+    ],
+    "source": "https://kpopofficial.com/event/le-sserafim-concert-newark-2026/",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "akmu-seoul-2026-10-09-kspo-dome-4e52bc",
+    "artist": "AKMU",
+    "tour": "2026 AKMU CONCERT [Paradise of Rumors]",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-10-09",
+    "endDate": "2026-10-11",
+    "time": "",
+    "venue": "KSPO DOME",
+    "city": "Seoul",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.5209,
+    "lng": 127.123,
+    "status": "presale",
+    "platforms": [
+      {
+        "key": "yes24",
+        "name": "YES24",
+        "region": "Korea",
+        "color": "#00539f",
+        "url": "https://m.ticket.yes24.com/Notice/18186?order=1"
+      }
+    ],
+    "source": "https://best.blue4sky.com/2026/07/",
+    "poster": "#22e3d4",
+    "note": "Fanclub presale 08-05, General 08-07."
+  },
+  {
+    "id": "boynextdoor-chiba-2026-10-10-makuhari-messe-0b6cb3",
+    "artist": "BOYNEXTDOOR",
+    "tour": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN JAPAN",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-10-10",
+    "endDate": "2026-10-11",
+    "time": "",
+    "venue": "Makuhari Messe",
+    "city": "Chiba",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.648,
+    "lng": 140.034,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "lawson",
+        "name": "Lawson Ticket",
+        "region": "Japan",
+        "color": "#0068b7",
+        "url": "https://l-tike.com/boynextdoor/"
+      }
+    ],
+    "source": "https://weverse.io/boynextdoor/notice/35847",
+    "poster": "#22e3d4",
+    "note": ""
+  },
+  {
+    "id": "triples-seoul-2026-10-10-jangchung-arena-6311a0",
+    "artist": "tripleS",
+    "tour": "tripleS 2026 World Tour <ANDLESS>",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-10-10",
+    "endDate": "2026-10-11",
+    "time": "",
+    "venue": "Jangchung Arena",
+    "city": "Seoul",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.5583,
+    "lng": 127.0075,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "yes24",
+        "name": "Interpark/YES24",
+        "region": "Korea",
+        "color": "#00539f",
+        "url": "https://ticket.yes24.com/English"
+      }
+    ],
+    "source": "https://kpop-ticket.com/zh-CN/articles/triples-concert-guide-2026",
+    "poster": "#22e3d4",
+    "note": "World tour opening shows."
+  },
+  {
+    "id": "gyubin-tokyo-2026-10-11-odaiba-shiokaze-park-ce9585",
+    "artist": "Gyubin",
+    "tour": "Odaiba Shiokaze Park Festival Show",
+    "type": "festival",
+    "tier": "festival",
+    "date": "2026-10-11",
+    "endDate": "2026-10-11",
+    "time": "",
+    "venue": "Odaiba Shiokaze Park",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.63,
+    "lng": 139.77,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "eplus",
+        "name": "eplus",
+        "region": "Japan",
+        "color": "#f5a623",
+        "url": "https://eplus.jp/gyubin/"
+      }
+    ],
+    "source": "https://www.shazam.com/events/tokyo-japan/",
+    "poster": "#8b5cff",
+    "note": ""
+  },
+  {
+    "id": "chanyeol-yokohama-2026-10-14-kt-zepp-yokohama-3dcfc8",
+    "artist": "CHANYEOL",
+    "tour": "CHANYEOL JAPAN TOUR 2026 -The Route-",
+    "type": "concert",
+    "tier": "soloist",
+    "date": "2026-10-14",
+    "endDate": "2026-10-14",
+    "time": "",
+    "venue": "KT Zepp Yokohama",
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.465,
+    "lng": 139.63,
+    "status": "presale",
+    "platforms": [
+      {
+        "key": "pia",
+        "name": "Ticket Pia",
+        "region": "Japan",
+        "color": "#e60012",
+        "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2531137"
+      }
+    ],
+    "source": "https://www.exo-jp.net/news/detail.php?id=1134946",
+    "poster": "#ffcf5c",
+    "note": "Fanclub lottery first."
+  },
+  {
+    "id": "monsta-x-phoenix-az-2026-10-17-arizona-financial-theatre-855af5",
+    "artist": "Monsta X",
+    "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS]",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-10-17",
+    "endDate": "2026-10-17",
+    "time": "",
+    "venue": "Arizona Financial Theatre",
+    "city": "Phoenix, AZ",
+    "country": "USA",
+    "region": "USA",
+    "lat": 33.448,
+    "lng": -112.077,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-phoenix-arizona-10-17-2026/event/19006483BC7DB50C"
+      }
+    ],
+    "source": "https://www.ticketmaster.com/monsta-x-tickets/artist/2371302",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "plave-singapore-2026-10-17-apex-expo-38e0ab",
+    "artist": "PLAVE",
+    "tour": "2026 PLAVE World Tour [KEEP IT MANIC]",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-10-17",
+    "endDate": "2026-10-17",
+    "time": "",
+    "venue": "APEX @ EXPO",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.3345,
+    "lng": 103.961,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster SG",
+        "region": "Singapore",
+        "color": "#026cdf",
+        "url": "https://ticketmaster.sg/activity/detail/26sg_plave"
+      }
+    ],
+    "source": "https://kavenyou.com/plave-keep-it-manic-singapore/",
+    "poster": "#22e3d4",
+    "note": "Virtual group first offline world tour."
+  },
+  {
+    "id": "various-artists-seoul-2026-10-17-nanji-hangang-park-8e5b4f",
+    "artist": "Various Artists",
+    "tour": "2026 Asia Top Artist Festival",
+    "type": "festival",
+    "tier": "festival",
+    "date": "2026-10-17",
+    "endDate": "2026-10-18",
+    "time": "",
+    "venue": "Nanji Hangang Park",
+    "city": "Seoul",
+    "country": "Korea",
+    "region": "Korea",
+    "lat": 37.5665,
+    "lng": 126.885,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "klook",
+        "name": "Klook/Interpark",
+        "region": "Korea",
+        "color": "#ff5722",
+        "url": "https://www.klook.com/en-US/activity/169313-2026-asia-top-artist-festival-ticket-in-seoul/"
+      }
+    ],
+    "source": "https://www.koreatraveleasy.com/post/2026-k-pop-concerts-ticket-tour-in-korea/",
+    "poster": "#8b5cff",
+    "note": "Autumn K-pop festival."
+  },
+  {
+    "id": "nct-127-singapore-2026-10-18-singapore-indoor-stadium-16c919",
+    "artist": "NCT 127",
+    "tour": "5TH TOUR 'NEO CITY - THE REDLINE'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-10-18",
+    "endDate": "2026-10-18",
+    "time": "",
+    "venue": "Singapore Indoor Stadium",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.3018,
+    "lng": 103.874,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster SG",
+        "region": "Singapore",
+        "color": "#026cdf",
+        "url": "https://ticketmaster.sg/activity/latest"
+      }
+    ],
+    "source": "https://x.com/NCTsmtown_127/status/2083055071127052436",
+    "poster": "#ff3d9a",
+    "note": "Announced Asia tour date."
+  },
+  {
+    "id": "irene-seulgi-yokohama-2026-11-04-pacifico-yokohama-f56d22",
+    "artist": "IRENE & SEULGI",
+    "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-11-04",
+    "endDate": "2026-11-05",
+    "time": "",
+    "venue": "PACIFICO Yokohama",
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.456,
+    "lng": 139.638,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "eplus",
+        "name": "SMTOWN Official JP",
+        "region": "Japan",
+        "color": "#f5a623",
+        "url": "https://redvelvet-jp.net/en/news/detail.php?id=1134652"
+      }
+    ],
+    "source": "https://smtown-official.jp/news/",
+    "poster": "#22e3d4",
+    "note": "Red Velvet sub-unit Japan tour."
+  },
+  {
+    "id": "bigbang-bangkok-2026-11-07-rajamangala-national-stadium-13a59b",
+    "artist": "BIGBANG",
+    "tour": "BIGBANG 2026-2027 WORLD TOUR <XX : COSMOS>",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-11-07",
+    "endDate": "2026-11-07",
+    "time": "",
+    "venue": "Rajamangala National Stadium",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "region": "Thailand",
+    "lat": 13.755,
+    "lng": 100.622,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "ticketmelon",
+        "name": "ThaiTicketMajor",
+        "region": "Thailand",
+        "color": "#e91e63",
+        "url": "https://www.thaiticketmajor.com/concert/bigbang-2026-2027-world-tour-xx-cosmos-in-bangkok.html"
+      }
+    ],
+    "source": "https://www.ygfamily.co.kr/ko/news/notice/5884",
+    "poster": "#ff3d9a",
+    "note": "20th anniversary tour."
+  },
+  {
+    "id": "lisa-las-vegas-nv-2026-11-13-the-colosseum-at-caesars-palace-6d68fb",
+    "artist": "LISA",
+    "tour": "VIVA LA LISA (Las Vegas Residency)",
+    "type": "concert",
+    "tier": "soloist",
+    "date": "2026-11-13",
+    "endDate": "2026-11-14",
+    "time": "",
+    "venue": "The Colosseum at Caesars Palace",
+    "city": "Las Vegas, NV",
+    "country": "USA",
+    "region": "USA",
+    "lat": 36.1173,
+    "lng": -115.174,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/lisa-tickets/artist/2836528"
+      }
+    ],
+    "source": "https://www.billboard.com/culture/product-recommendations/current-k-pop-concerts-1236234463/",
+    "poster": "#ffcf5c",
+    "note": "Blackpink Lisa solo residency."
+  },
+  {
+    "id": "bts-kaohsiung-2026-11-19-kaohsiung-national-stadium-937542",
+    "artist": "BTS",
+    "tour": "BTS WORLD TOUR 'ARIRANG'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-11-19",
+    "endDate": "2026-11-22",
+    "time": "",
+    "venue": "Kaohsiung National Stadium",
+    "city": "Kaohsiung",
+    "country": "Taiwan",
+    "region": "Taiwan",
+    "lat": 22.689,
+    "lng": 120.345,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "tixcraft",
+        "name": "tixCraft",
+        "region": "Taiwan",
+        "color": "#5b2d8e",
+        "url": "https://tixcraft.com/activity"
+      }
+    ],
+    "source": "https://tixcraft.com/activity",
+    "poster": "#ff3d9a",
+    "note": "Kaohsiung 4 shows."
+  },
+  {
+    "id": "wave-to-earth-taipei-2026-11-24-zepp-new-taipei-a6c122",
+    "artist": "wave to earth",
+    "tour": "the pieces tour",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-11-24",
+    "endDate": "2026-11-24",
+    "time": "",
+    "venue": "Zepp New Taipei",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "region": "Taiwan",
+    "lat": 25.012,
+    "lng": 121.459,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "tixcraft",
+        "name": "tixCraft",
+        "region": "Taiwan",
+        "color": "#5b2d8e",
+        "url": "https://tixcraft.com/activity/detail/26_w2e"
+      }
+    ],
+    "source": "https://tixcraft.com/activity",
+    "poster": "#22e3d4",
+    "note": "VIP upgrade packages."
+  },
+  {
+    "id": "triples-los-angeles-ca-2026-11-25-the-wiltern-8ce5db",
+    "artist": "tripleS",
+    "tour": "tripleS 2026 World Tour <ANDLESS>",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-11-25",
+    "endDate": "2026-11-25",
+    "time": "",
+    "venue": "The Wiltern",
+    "city": "Los Angeles, CA",
+    "country": "USA",
+    "region": "USA",
+    "lat": 34.0616,
+    "lng": -118.309,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/triples-tickets/artist/3042496"
+      }
+    ],
+    "source": "https://www.soompi.com/article/1856423wpp",
+    "poster": "#22e3d4",
+    "note": ""
+  },
+  {
+    "id": "seventeen-bangkok-2026-12-03-rajamangala-national-stadium-f51f7c",
+    "artist": "SEVENTEEN",
+    "tour": "SEVENTEEN WORLD TOUR [NEW_]",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-12-03",
+    "endDate": "2026-12-06",
+    "time": "",
+    "venue": "Rajamangala National Stadium",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "region": "Thailand",
+    "lat": 13.755,
+    "lng": 100.622,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "ticketmelon",
+        "name": "ThaiTicketMajor",
+        "region": "Thailand",
+        "color": "#e91e63",
+        "url": "https://www.thaiticketmajor.com/concert/"
+      }
+    ],
+    "source": "https://kpopofficial.com/event/seventeen-concert-singapore-2026/",
+    "poster": "#ff3d9a",
+    "note": "Bangkok dates released."
+  },
+  {
+    "id": "bigbang-tokyo-2026-12-13-tokyo-dome-c79ff5",
+    "artist": "BIGBANG",
+    "tour": "BIGBANG 2026 WORLD TOUR",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-12-13",
+    "endDate": "2026-12-15",
+    "time": "",
+    "venue": "Tokyo Dome",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.7056,
+    "lng": 139.7519,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "lawson",
+        "name": "Lawson Ticket",
+        "region": "Japan",
+        "color": "#0068b7",
+        "url": "https://bigbang2026worldtour.com/"
+      }
+    ],
+    "source": "https://travelodgehotels.asia/travel-guide/kpop-concert-calendar-japan/",
+    "poster": "#ff3d9a",
+    "note": "3 nights at Tokyo Dome."
+  },
+  {
+    "id": "bts-singapore-2026-12-17-singapore-national-stadium-b4f17b",
+    "artist": "BTS",
+    "tour": "BTS WORLD TOUR 'ARIRANG'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-12-17",
+    "endDate": "2026-12-22",
+    "time": "",
+    "venue": "Singapore National Stadium",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.304,
+    "lng": 103.8746,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "klook",
+        "name": "Klook",
+        "region": "Singapore",
+        "color": "#ff5722",
+        "url": "https://www.klook.com/event-detail/102000923-bts-world-tour-arirang-sg/"
+      }
+    ],
+    "source": "https://www.klook.com/blog/bts-world-tour-arirang-singapore/",
+    "poster": "#ff3d9a",
+    "note": "Klook official experience partner."
+  },
+  {
+    "id": "enhypen-nagoya-2026-12-26-vantelin-dome-nagoya-568531",
+    "artist": "ENHYPEN",
+    "tour": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
+    "type": "concert",
+    "tier": "major",
+    "date": "2026-12-26",
+    "endDate": "2026-12-27",
+    "time": "",
+    "venue": "Vantelin Dome Nagoya",
+    "city": "Nagoya",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 35.1859,
+    "lng": 136.9476,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "lawson",
+        "name": "Lawson/Pia",
+        "region": "Japan",
+        "color": "#0068b7",
+        "url": "https://l-tike.com/enhypen/"
+      }
+    ],
+    "source": "https://kpopofficial.com/event/enhypen-concert-nagoya-2026/",
+    "poster": "#ff3d9a",
+    "note": ""
+  },
+  {
+    "id": "enhypen-singapore-2027-03-14-singapore-indoor-stadium-0772c6",
+    "artist": "ENHYPEN",
+    "tour": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+    "type": "concert",
+    "tier": "major",
+    "date": "2027-03-14",
+    "endDate": "2027-03-14",
+    "time": "",
+    "venue": "Singapore Indoor Stadium",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Singapore",
+    "lat": 1.3018,
+    "lng": 103.874,
+    "status": "announced",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster SG",
+        "region": "Singapore",
+        "color": "#026cdf",
+        "url": "https://ticketmaster.sg/activity/detail/27sg_enhypen"
+      }
+    ],
+    "source": "https://ticketmaster.sg/activity/latest",
+    "poster": "#ff3d9a",
+    "note": "2027 preview date."
+  }
+];
+
+// 供 app.js 使用（作为 concerts.json 加载失败时的兜底数据）
+window.KPOP_DATA = { CONCERTS: FALLBACK_CONCERTS, TICKET_PLATFORMS };

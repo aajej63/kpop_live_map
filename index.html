@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-POP LIVE MAP · 全球 K-pop 演出实时地图</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0" rel="stylesheet" />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- ============ Header ============ -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">🎤</div>
+        <div>
+          <h1>K-POP <span class="accent">LIVE MAP</span></h1>
+          <p>全球 K-pop 演出实时地图 · 顶流到小众，一图掌握</p>
+        </div>
+      </div>
+
+      <div class="topbar-stats">
+        <div class="stat"><b id="stat-shows">0</b><span>Shows</span></div>
+        <div class="stat"><b id="stat-artists">0</b><span>Artists</span></div>
+        <div class="stat"><b id="stat-cities">0</b><span>Cities</span></div>
+      </div>
+
+      <div class="live-pill"><span class="live-dot"></span> LIVE · 实时更新</div>
+    </header>
+
+    <div id="src-badge" class="src-badge sample"><span class="material-symbols-outlined">sync</span>正在加载真实场次数据…</div>
+
+    <!-- ============ Main ============ -->
+    <div class="main">
+      <!-- ---------- Sidebar / Filters ---------- -->
+      <aside class="sidebar">
+        <div class="filters">
+          <p class="section-title">🔎 筛选演出</p>
+
+          <div class="field">
+            <label>搜索艺人 / 巡演 / 城市 / 场馆</label>
+            <input id="search" class="control" type="text" placeholder="如：TWICE、BTS、Seoul、Ticketmaster…" />
+          </div>
+
+          <div class="field">
+            <label>地区</label>
+            <div class="chips">
+              <div class="chip active" data-region="all">全部</div>
+              <div class="chip" data-region="Korea">🇰🇷 韩国</div>
+              <div class="chip" data-region="Japan">🇯🇵 日本</div>
+              <div class="chip" data-region="USA">🇺🇸 美国</div>
+              <div class="chip" data-region="Singapore">🇸🇬 新加坡</div>
+              <div class="chip" data-region="HongKong">🇭🇰 香港</div>
+              <div class="chip" data-region="Macau">🇲🇴 澳门</div>
+              <div class="chip" data-region="Taiwan">🇹🇼 台湾</div>
+              <div class="chip" data-region="Thailand">🇹🇭 泰国</div>
+              <div class="chip" data-region="Philippines">🇵🇭 菲律宾</div>
+              <div class="chip" data-region="Malaysia">🇲🇾 马来西亚</div>
+              <div class="chip" data-region="asia_other">🌏 其他亚洲</div>
+            </div>
+          </div>
+
+          <div class="date-row">
+            <div class="field"><label>起始日期</label><input id="from" class="control" type="date" /></div>
+            <div class="field"><label>结束日期</label><input id="to" class="control" type="date" /></div>
+          </div>
+
+          <div class="field">
+            <label>艺人规模（可多选）</label>
+            <div class="chips">
+              <div class="chip" data-tier="major">★ 顶流</div>
+              <div class="chip" data-tier="rising">✦ 新星/小众</div>
+              <div class="chip" data-tier="soloist">♪ 个人</div>
+              <div class="chip" data-tier="festival">❋ 音乐节</div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>演出类型</label>
+            <div class="chips">
+              <div class="chip active" data-type="all">全部</div>
+              <div class="chip" data-type="concert">演唱会</div>
+              <div class="chip" data-type="fanmeeting">见面会</div>
+              <div class="chip" data-type="festival">音乐节</div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>售票状态</label>
+            <select id="status" class="control">
+              <option value="all">全部（在售+预售+待开票）</option>
+              <option value="on_sale">开售中</option>
+              <option value="presale">预售</option>
+              <option value="announced">待开票</option>
+            </select>
+          </div>
+
+          <div class="filter-actions">
+            <button id="fit" class="btn">查看全部标记</button>
+            <button id="reset" class="btn primary">重置筛选</button>
+          </div>
+
+          <!-- ===== 官方购票平台·实时查询入口 ===== -->
+          <div class="platforms-box">
+            <div class="pb-title">🎫 官方购票平台 · 实时查询入口</div>
+            <div class="pb-desc">直达各平台官方查询页，永远最新</div>
+            <div class="pb-grid">
+              <a href="https://www.ticketmaster.com/" target="_blank" rel="noopener">Ticketmaster</a>
+              <a href="https://www.klook.com/en-US/search/?query=kpop%20concert" target="_blank" rel="noopener">Klook · K-pop</a>
+              <a href="https://www.sistic.com.sg/" target="_blank" rel="noopener">SISTIC（新加坡）</a>
+              <a href="https://world.nol.com/en/ticket" target="_blank" rel="noopener">Interpark / NOL World</a>
+              <a href="https://ticket.yes24.com/English" target="_blank" rel="noopener">YES24（韩国）</a>
+              <a href="https://tkglobal.melon.com/" target="_blank" rel="noopener">Melon Ticket Global</a>
+              <a href="https://l-tike.com/" target="_blank" rel="noopener">Lawson Ticket（日本）</a>
+              <a href="https://t.pia.jp/" target="_blank" rel="noopener">Ticket Pia（日本）</a>
+              <a href="https://www.cityline.com/" target="_blank" rel="noopener">Cityline（香港）</a>
+              <a href="https://smtickets.com/" target="_blank" rel="noopener">SM Tickets（菲律宾）</a>
+              <a href="https://tixcraft.com/" target="_blank" rel="noopener">tixCraft（台湾）</a>
+              <a href="https://www.thaiticketmajor.com/" target="_blank" rel="noopener">ThaiTicketMajor（泰国）</a>
+            </div>
+          </div>
+
+          <!-- ===== 数据说明 ===== -->
+          <div class="data-note">
+            <div class="dn-title"><span class="material-symbols-outlined">info</span>数据说明</div>
+            <p>欧美场次由 <b>Ticketmaster</b> 官方接口每日自动更新；亚洲场次为<b>人工核实的真实场次</b>，均附官方购票链接与来源。点击列表 / 弹窗中的「购票」按钮直达官方页面确认；若有更新以官方平台为准。</p>
+            <p class="dn-updated">最后更新：<b id="data-updated">--</b></p>
+          </div>
+        </div>
+
+        <div class="results-head">
+          <div class="count" id="result-count"><b>0</b> 场演出</div>
+          <select id="sort" class="control">
+            <option value="date">按日期</option>
+            <option value="artist">按艺人</option>
+            <option value="capacity">按场馆规模</option>
+          </select>
+        </div>
+
+        <div class="list" id="list"></div>
+      </aside>
+
+      <!-- ---------- Map ---------- -->
+      <div class="map-wrap">
+        <div id="map"></div>
+
+        <div class="map-updated">
+          <span class="material-symbols-outlined">sync</span>
+          数据最近更新：<b id="updated-time">--:--:--</b>
+        </div>
+
+        <div class="map-legend">
+          <h4>图例 · 艺人规模</h4>
+          <div class="row"><span class="sw" style="background:linear-gradient(135deg,#ff3d9a,#8b5cff)"></span>顶流 Major</div>
+          <div class="row"><span class="sw" style="background:linear-gradient(135deg,#22e3d4,#3a8dff)"></span>新星 / 小众 Rising</div>
+          <div class="row"><span class="sw" style="background:linear-gradient(135deg,#ffcf5c,#ff9f45)"></span>个人 Soloist</div>
+          <div class="row"><span class="sw" style="background:linear-gradient(135deg,#8b5cff,#22e3d4)"></span>音乐节 Festival</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ Purchase guide modal ============ -->
+  <div id="modal" class="modal">
+    <div class="modal-card">
+      <button id="modal-close" class="modal-close"><span class="material-symbols-outlined">close</span></button>
+      <div class="modal-title"><span class="material-symbols-outlined">menu_book</span>中文购买教程</div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./tutorials.js"></script>
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
