@@ -23,10 +23,9 @@ const TICKET_PLATFORMS = {
   klook:       { name: "Klook", region: "Asia", url: "https://www.klook.com/", color: "#ff5722" },
   ticketmelon: { name: "ThaiTicketMajor / Ticketmelon", region: "Thailand", url: "https://www.thaiticketmajor.com/", color: "#ffc107" },
   smtickets:   { name: "SM Tickets", region: "Philippines", url: "https://smtickets.com/", color: "#0033a0" },
-  tixcraft:    { name: "拓元 tixCraft", region: "Taiwan", url: "https://tixcraft.com/", color: "#5b2d8e" },
 };
 
-// FALLBACK_CONCERTS：真实人工核实数据（44 场，10 国/地区）
+// FALLBACK_CONCERTS：真实人工核实数据（45 场）
 const FALLBACK_CONCERTS = [
   {
     "id": "bts-foxborough-ma-2026-08-05-gillette-stadium-2d0748",
@@ -58,6 +57,64 @@ const FALLBACK_CONCERTS = [
     "note": "Return world tour following 'ARIRANG' album release."
   },
   {
+    "id": "cortis-new-york-ny-2026-08-06-infosys-theater-at-msg-a8e906",
+    "artist": "CORTIS",
+    "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN NEW YORK",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-08-06",
+    "endDate": "2026-08-06",
+    "time": "20:00",
+    "venue": "Infosys Theater at Madison Square Garden",
+    "city": "New York, NY",
+    "country": "USA",
+    "region": "USA",
+    "lat": 40.7505,
+    "lng": -73.9934,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-new-york-new-york-08-06-2026/event/3B006478BDA64A7D"
+      }
+    ],
+    "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-new-york-new-york-08-06-2026/event/3B006478BDA64A7D",
+    "poster": "#22e3d4",
+    "note": "Official Ticketmaster event page verified."
+  },
+  {
+    "id": "cortis-inglewood-ca-2026-08-13-youtube-theater-3d26df",
+    "artist": "CORTIS",
+    "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN LOS ANGELES",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-08-13",
+    "endDate": "2026-08-13",
+    "time": "",
+    "venue": "YouTube Theater",
+    "city": "Inglewood, CA",
+    "country": "USA",
+    "region": "USA",
+    "lat": 33.9535,
+    "lng": -118.3392,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3"
+      }
+    ],
+    "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3",
+    "poster": "#22e3d4",
+    "note": "Official Ticketmaster event page verified."
+  },
+  {
     "id": "young-k-incheon-2026-08-14-inspire-arena-f3b0de",
     "artist": "Young K",
     "tour": "Young K Solo Tour <YOUNGEST> in INCHEON",
@@ -85,6 +142,35 @@ const FALLBACK_CONCERTS = [
     "source": "https://www.starnewskorea.com/en/music/2026/07/15/2026071508015977031",
     "poster": "#ffcf5c",
     "note": "First solo world tour kickoff."
+  },
+  {
+    "id": "cortis-san-francisco-ca-2026-08-15-bill-graham-civic-auditorium-17f648",
+    "artist": "CORTIS",
+    "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN SAN FRANCISCO",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-08-15",
+    "endDate": "2026-08-15",
+    "time": "20:00",
+    "venue": "The Theater at Bill Graham Civic Auditorium",
+    "city": "San Francisco, CA",
+    "country": "USA",
+    "region": "USA",
+    "lat": 37.7786,
+    "lng": -122.417,
+    "status": "on_sale",
+    "platforms": [
+      {
+        "key": "ticketmaster",
+        "name": "Ticketmaster",
+        "region": "USA",
+        "color": "#026cdf",
+        "url": "https://www.ticketmaster.com/cortis-tickets/artist/4435714"
+      }
+    ],
+    "source": "https://www.ticketmaster.com/cortis-tickets/artist/4435714",
+    "poster": "#22e3d4",
+    "note": "Official Ticketmaster artist page lists the San Francisco show."
   },
   {
     "id": "byeon-woo-seok-bangkok-2026-08-16-uob-live-12937a",
@@ -435,62 +521,62 @@ const FALLBACK_CONCERTS = [
     "note": "North American leg."
   },
   {
-    "id": "lee-youngji-taipei-2026-09-19-taipei-music-center-db9850",
-    "artist": "LEE YOUNGJI",
-    "tour": "2026 LEE YOUNGJI WORLD TOUR <2.0>",
-    "type": "concert",
-    "tier": "soloist",
-    "date": "2026-09-19",
-    "endDate": "2026-09-19",
-    "time": "",
-    "venue": "Taipei Music Center",
-    "city": "Taipei",
-    "country": "Taiwan",
-    "region": "Taiwan",
-    "lat": 25.051,
-    "lng": 121.582,
-    "status": "on_sale",
-    "platforms": [
-      {
-        "key": "tixcraft",
-        "name": "tixCraft",
-        "region": "Taiwan",
-        "color": "#5b2d8e",
-        "url": "https://tixcraft.com/activity/detail/26_leeyoungji"
-      }
-    ],
-    "source": "https://tixcraft.com/activity",
-    "poster": "#ffcf5c",
-    "note": "Taipei show."
-  },
-  {
-    "id": "the-rose-kaohsiung-2026-09-19-kaohsiung-music-center-6cf410",
-    "artist": "The Rose",
-    "tour": "ROSETOPIA ASIA TOUR 2026",
+    "id": "irene-seulgi-fukuoka-2026-09-19-fukuoka-civic-hall-7f259f",
+    "artist": "IRENE & SEULGI",
+    "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
     "type": "concert",
     "tier": "rising",
     "date": "2026-09-19",
     "endDate": "2026-09-19",
-    "time": "",
-    "venue": "Kaohsiung Music Center",
-    "city": "Kaohsiung",
-    "country": "Taiwan",
-    "region": "Taiwan",
-    "lat": 22.619,
-    "lng": 120.302,
-    "status": "on_sale",
+    "time": "18:00",
+    "venue": "Fukuoka Civic Hall Main Hall",
+    "city": "Fukuoka",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 33.5936,
+    "lng": 130.3989,
+    "status": "presale",
     "platforms": [
       {
-        "key": "tixcraft",
-        "name": "tixCraft",
-        "region": "Taiwan",
-        "color": "#5b2d8e",
-        "url": "https://tixcraft.com/activity/detail/26_therose"
+        "key": "eplus",
+        "name": "Red Velvet JP Official",
+        "region": "Japan",
+        "color": "#f5a623",
+        "url": "https://redvelvet-jp.net/en/news/detail.php?id=1134652"
       }
     ],
-    "source": "https://tixcraft.com/activity",
+    "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
     "poster": "#22e3d4",
-    "note": "Mastercard presale."
+    "note": "Red Velvet sub-unit Japan tour; official fanclub presale announcement."
+  },
+  {
+    "id": "irene-seulgi-kobe-2026-09-21-kobe-kokusai-hall-9b8c09",
+    "artist": "IRENE & SEULGI",
+    "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
+    "type": "concert",
+    "tier": "rising",
+    "date": "2026-09-21",
+    "endDate": "2026-09-21",
+    "time": "18:00",
+    "venue": "Kobe International House Kokusai Hall",
+    "city": "Kobe",
+    "country": "Japan",
+    "region": "Japan",
+    "lat": 34.6901,
+    "lng": 135.1956,
+    "status": "presale",
+    "platforms": [
+      {
+        "key": "eplus",
+        "name": "Red Velvet JP Official",
+        "region": "Japan",
+        "color": "#f5a623",
+        "url": "https://redvelvet-jp.net/en/news/detail.php?id=1134652"
+      }
+    ],
+    "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
+    "poster": "#22e3d4",
+    "note": "Red Velvet sub-unit Japan tour; official fanclub presale announcement."
   },
   {
     "id": "aespa-atlanta-ga-2026-09-24-state-farm-arena-b95678",
@@ -1000,17 +1086,17 @@ const FALLBACK_CONCERTS = [
     "region": "Japan",
     "lat": 35.456,
     "lng": 139.638,
-    "status": "on_sale",
+    "status": "presale",
     "platforms": [
       {
         "key": "eplus",
-        "name": "SMTOWN Official JP",
+        "name": "Red Velvet JP Official",
         "region": "Japan",
         "color": "#f5a623",
         "url": "https://redvelvet-jp.net/en/news/detail.php?id=1134652"
       }
     ],
-    "source": "https://smtown-official.jp/news/",
+    "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
     "poster": "#22e3d4",
     "note": "Red Velvet sub-unit Japan tour."
   },
@@ -1071,64 +1157,6 @@ const FALLBACK_CONCERTS = [
     "source": "https://www.billboard.com/culture/product-recommendations/current-k-pop-concerts-1236234463/",
     "poster": "#ffcf5c",
     "note": "Blackpink Lisa solo residency."
-  },
-  {
-    "id": "bts-kaohsiung-2026-11-19-kaohsiung-national-stadium-937542",
-    "artist": "BTS",
-    "tour": "BTS WORLD TOUR 'ARIRANG'",
-    "type": "concert",
-    "tier": "major",
-    "date": "2026-11-19",
-    "endDate": "2026-11-22",
-    "time": "",
-    "venue": "Kaohsiung National Stadium",
-    "city": "Kaohsiung",
-    "country": "Taiwan",
-    "region": "Taiwan",
-    "lat": 22.689,
-    "lng": 120.345,
-    "status": "announced",
-    "platforms": [
-      {
-        "key": "tixcraft",
-        "name": "tixCraft",
-        "region": "Taiwan",
-        "color": "#5b2d8e",
-        "url": "https://tixcraft.com/activity"
-      }
-    ],
-    "source": "https://tixcraft.com/activity",
-    "poster": "#ff3d9a",
-    "note": "Kaohsiung 4 shows."
-  },
-  {
-    "id": "wave-to-earth-taipei-2026-11-24-zepp-new-taipei-a6c122",
-    "artist": "wave to earth",
-    "tour": "the pieces tour",
-    "type": "concert",
-    "tier": "rising",
-    "date": "2026-11-24",
-    "endDate": "2026-11-24",
-    "time": "",
-    "venue": "Zepp New Taipei",
-    "city": "Taipei",
-    "country": "Taiwan",
-    "region": "Taiwan",
-    "lat": 25.012,
-    "lng": 121.459,
-    "status": "on_sale",
-    "platforms": [
-      {
-        "key": "tixcraft",
-        "name": "tixCraft",
-        "region": "Taiwan",
-        "color": "#5b2d8e",
-        "url": "https://tixcraft.com/activity/detail/26_w2e"
-      }
-    ],
-    "source": "https://tixcraft.com/activity",
-    "poster": "#22e3d4",
-    "note": "VIP upgrade packages."
   },
   {
     "id": "triples-los-angeles-ca-2026-11-25-the-wiltern-8ce5db",
@@ -1306,5 +1334,4 @@ const FALLBACK_CONCERTS = [
   }
 ];
 
-// 供 app.js 使用（作为 concerts.json 加载失败时的兜底数据）
 window.KPOP_DATA = { CONCERTS: FALLBACK_CONCERTS, TICKET_PLATFORMS };

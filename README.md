@@ -132,7 +132,7 @@ Bandsintown 的数据主要来自艺人官方在其平台上主动同步的巡�
 
 ## 🎫 官方购票平台一键入口
 
-页面左下方的「官方购票平台 · 实时查询入口」区块里，列出了各地官方票务的搜索/首页链接：Ticketmaster / Klook · K-pop / SISTIC / Interpark & NOL World / YES24 / Melon Ticket Global / Lawson Ticket / Ticket Pia / Cityline / SM Tickets / tixCraft / ThaiTicketMajor。这些页面由平台自己维护，永远最新。
+页面左下方的「官方购票平台 · 实时查询入口」区块里，列出了各地官方票务的搜索/首页链接：Ticketmaster / Klook · K-pop / SISTIC / Interpark & NOL World / YES24 / Melon Ticket Global / Lawson Ticket / Ticket Pia / Cityline / SM Tickets / ThaiTicketMajor。这些页面由平台自己维护，永远最新。
 
 ---
 

@@ -30,16 +30,16 @@ DATA_DIR = os.path.join(ROOT, "data")
 # ---------------- Ticketmaster ----------------
 TM_API_KEY = os.environ.get("TICKETMASTER_API_KEY", "").strip()
 TM_ENDPOINT = "https://app.ticketmaster.com/discovery/v2/events.json"
-TM_COUNTRY_CODES = ["US", "SG", "HK", "PH", "TH", "MY", "ID", "TW", "JP", "AU"]
+TM_COUNTRY_CODES = ["US", "SG", "HK", "PH", "TH", "MY", "ID", "JP", "AU"]
 
 CODE_TO_REGION = {
     "US": "USA", "SG": "Singapore", "HK": "HongKong", "PH": "Philippines",
-    "TH": "Thailand", "MY": "Malaysia", "ID": "Indonesia", "TW": "Taiwan",
+    "TH": "Thailand", "MY": "Malaysia", "ID": "Indonesia",
     "JP": "Japan", "KR": "Korea", "AU": "Other",
 }
 CODE_TO_COUNTRY_NAME = {
     "US": "USA", "SG": "Singapore", "HK": "Hong Kong", "PH": "Philippines",
-    "TH": "Thailand", "MY": "Malaysia", "ID": "Indonesia", "TW": "Taiwan",
+    "TH": "Thailand", "MY": "Malaysia", "ID": "Indonesia",
     "JP": "Japan", "KR": "Korea", "AU": "Australia",
 }
 
@@ -61,14 +61,13 @@ BIT_COUNTRY_TO_REGION = {
     "Macau": "Macau",
     "Macao": "Macau",
     "Philippines": "Philippines",
-    "Taiwan": "Taiwan",
     "Thailand": "Thailand",
     "Malaysia": "Malaysia",
     "Indonesia": "Indonesia",
 }
 # 我们想保留的 region 集合：亚洲 + USA
 KEEP_REGIONS = {"Korea", "Japan", "USA", "Singapore", "HongKong", "Macau",
-                "Philippines", "Taiwan", "Thailand", "Malaysia", "Indonesia"}
+                "Philippines", "Thailand", "Malaysia", "Indonesia"}
 
 # ---------------- Tiers ----------------
 MAJOR = {"BTS", "NCT 127", "aespa", "ITZY", "IVE", "SEVENTEEN", "ENHYPEN",
