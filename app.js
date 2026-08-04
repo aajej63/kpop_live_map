@@ -14,15 +14,9 @@ const STATUS_LABEL = {
   sold_out: '已售罄',
   announced: '待开票',
 };
-const TIER_LABEL = {
-  major: '顶流',
-  rising: '新星 / 小众',
-  soloist: '个人 / 小分队',
-  festival: '音乐节',
-};
 const TYPE_LABEL = {
   concert: '演唱会',
-  fanmeeting: '见面会',
+  fanmeeting: '粉丝见面会',
   festival: '音乐节',
 };
 const REGION_LABEL = {
@@ -67,7 +61,6 @@ let visibleConcerts = [];
 const state = {
   q: '',
   region: 'all',
-  tier: new Set(),
   type: 'all',
   status: 'all',
   from: '',
@@ -116,13 +109,13 @@ esriLayer.addTo(map);
 const markerLayer = L.layerGroup().addTo(map);
 let markerIndex = {};
 
-const TIER_COLOR = {
-  major: 'linear-gradient(135deg,#ff3d9a,#8b5cff)',
-  rising: 'linear-gradient(135deg,#22e3d4,#3a8dff)',
-  soloist: 'linear-gradient(135deg,#ffcf5c,#ff9f45)',
+// 演出类型 → 颜色 / 图标（用于地图标记、缩略图、图例）
+const TYPE_COLOR = {
+  concert: 'linear-gradient(135deg,#ff3d9a,#8b5cff)',
+  fanmeeting: 'linear-gradient(135deg,#22e3d4,#3a8dff)',
   festival: 'linear-gradient(135deg,#8b5cff,#22e3d4)',
 };
-const TIER_ICON = { major: '★', rising: '✦', soloist: '♪', festival: '❋' };
+const TYPE_ICON = { concert: '★', fanmeeting: '✦', festival: '❋' };
 
 // ---------------- Helpers ----------------
 function fmtDate(d, end) {
@@ -140,8 +133,11 @@ function fmtDateTime(c) {
   return c.time ? `${dateLabel} · ${c.time}` : dateLabel;
 }
 
-function getMarkerGradient(tier) {
-  return TIER_COLOR[tier] || 'linear-gradient(135deg,#22e3d4,#8b5cff)';
+function getMarkerGradient(type) {
+  return TYPE_COLOR[type] || TYPE_COLOR.concert;
+}
+function getTypeIcon(type) {
+  return TYPE_ICON[type] || TYPE_ICON.concert;
 }
 
 function esc(s) {
@@ -170,7 +166,6 @@ function matches(c) {
       return false;
     }
   }
-  if (state.tier.size && !state.tier.has(c.tier)) return false;
   if (state.type !== 'all' && type !== state.type) return false;
   if (state.status !== 'all' && c.status !== state.status) return false;
   if (state.from && c.date < state.from) return false;
@@ -208,92 +203,117 @@ function focusConcert(id, { flyTo = true, openPopup = true, scroll = true } = {}
   if (!c) return;
   setActiveConcert(id, { scroll });
   const m = markerIndex[id];
-  if (flyTo) map.flyTo([c.lat, c.lng], 6, { duration: 0.8 });
+  // 使用 marker 的实际显示坐标（含 jitter 偏移），保证 flyTo 后弹窗与标记对齐
+  const target = (m && m._displayLatLng) ? m._displayLatLng : [c.lat, c.lng];
+
   if (m && openPopup) {
-    m._primaryId = id;
-    const openAndScroll = () => {
-      openConcertPopup(m, id);
-    };
-    if (flyTo) setTimeout(openAndScroll, 500);
-    else openAndScroll();
+    if (flyTo) {
+      // 关键：先飞到目标，等地图动画完全结束(moveend)后再打开弹窗，
+      // 这样 Leaflet 的 autoPan 才能把弹窗自动调整到屏幕可见区域，
+      // 表现与直接点击地图图标一致（不会被顶部裁掉或偏出屏幕）。
+      let opened = false;
+      const openIt = () => { if (opened) return; opened = true; openConcertPopup(m); };
+      map.once('moveend', openIt);
+      map.flyTo(target, Math.max(map.getZoom(), 6), { duration: 0.8 });
+      // 兜底：若目标与当前视图相同、flyTo 未触发 moveend，也能保证弹窗打开
+      setTimeout(openIt, 1000);
+    } else {
+      openConcertPopup(m);
+    }
+  } else if (flyTo) {
+    map.flyTo(target, Math.max(map.getZoom(), 6), { duration: 0.8 });
   }
 }
 
-function scrollPopupConcert(id) {
-  if (!id) return;
-  const popupEl = map.getContainer().querySelector(`.pop-section[data-concert-id="${CSS.escape(id)}"]`);
-  if (!popupEl) return;
-  popupEl.classList.add('active');
-  popupEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-}
-
-function openConcertPopup(marker, targetId) {
+function openConcertPopup(marker) {
   if (!marker) return;
+  // 关掉所有已开弹窗，确保同一时间只显示一个
   map.closePopup();
-  marker._primaryId = targetId || marker._primaryId;
-  if (marker._events) marker.setPopupContent(popupHtml(marker._events));
   marker.openPopup();
-  setTimeout(() => scrollPopupConcert(marker._primaryId), 80);
 }
 
 // ---------------- Markers ----------------
+// 对共享坐标的多个 marker，围绕原坐标以小圆均匀散开
+function computeJitterOffsets(count) {
+  if (count <= 1) return [[0, 0]];
+  // 半径 ~ 0.03 度，随数量略增
+  const radius = 0.03 + Math.min(0.02, count * 0.002);
+  const offsets = [];
+  for (let i = 0; i < count; i++) {
+    const angle = (2 * Math.PI * i) / count - Math.PI / 2; // 从正上方开始
+    offsets.push([Math.sin(angle) * radius, Math.cos(angle) * radius]);
+  }
+  return offsets;
+}
+
 function renderMarkers(list) {
   markerLayer.clearLayers();
   markerIndex = {};
 
+  // 按坐标粗分组用于散开偏移；每一场仍然拥有独立 marker
   const groups = {};
   list.forEach(c => {
     const key = c.lat.toFixed(3) + ',' + c.lng.toFixed(3);
     (groups[key] = groups[key] || []).push(c);
   });
 
-  Object.entries(groups).forEach(([key, events]) => {
-    const lead = events[0];
-    const multi = events.length > 1;
-    const html = `<div class="kpin ${multi ? 'multi' : ''}" data-count="${events.length}"
-        style="background:${getMarkerGradient(lead.tier)}">
-        <span>${TIER_ICON[lead.tier] || '♪'}</span></div>`;
-    const icon = L.divIcon({ html, className: '', iconSize: [34, 34], iconAnchor: [17, 34], popupAnchor: [0, -32] });
-    const m = L.marker([lead.lat, lead.lng], { icon }).addTo(markerLayer);
-    m.bindPopup(popupHtml(events), { closeButton: true, autoClose: true, closeOnClick: true, maxWidth: 380, maxHeight: Math.floor(window.innerHeight * 0.6) });
-    m._events = events;
-    m._primaryId = events.some(e => e.id === state.activeId) ? state.activeId : events[0].id;
-    markerIndex[key] = m;
-    events.forEach(e => { markerIndex[e.id] = m; });
+  Object.entries(groups).forEach(([, events]) => {
+    const offsets = computeJitterOffsets(events.length);
+    events.forEach((c, idx) => {
+      const [dLat, dLng] = offsets[idx];
+      const displayLat = c.lat + dLat;
+      const displayLng = c.lng + dLng;
 
-    m.on('click', () => {
-      const targetId = events.some(e => e.id === state.activeId) ? state.activeId : events[0].id;
-      m._primaryId = targetId;
-      setActiveConcert(targetId, { scroll: true });
-      openConcertPopup(m, targetId);
-    });
+      const html = `<div class="kpin" style="background:${getMarkerGradient(c.type)}">
+          <span>${getTypeIcon(c.type)}</span></div>`;
+      const icon = L.divIcon({
+        html, className: '',
+        iconSize: [34, 34], iconAnchor: [17, 34], popupAnchor: [0, -32],
+      });
+      const m = L.marker([displayLat, displayLng], { icon }).addTo(markerLayer);
+      m.bindPopup(popupHtml(c), {
+        closeButton: true,
+        autoClose: true,
+        closeOnClick: true,
+        maxWidth: 360,
+        // 打开弹窗时自动平移地图，确保弹窗完整显示在屏幕内、避开顶部工具条
+        autoPan: true,
+        keepInView: true,
+        autoPanPaddingTopLeft: [24, 90],
+        autoPanPaddingBottomRight: [24, 40],
+      });
+      m._concertId = c.id;
+      m._displayLatLng = [displayLat, displayLng];
+      markerIndex[c.id] = m;
 
-    m.on('popupopen', () => {
-      const targetId = events.some(e => e.id === state.activeId) ? state.activeId : (m._primaryId || events[0].id);
-      if (targetId) {
-        setActiveConcert(targetId, { scroll: false });
-        setTimeout(() => scrollPopupConcert(targetId), 0);
-      }
+      m.on('click', () => {
+        setActiveConcert(c.id, { scroll: true });
+        openConcertPopup(m);
+      });
+
+      m.on('popupopen', () => {
+        setActiveConcert(c.id, { scroll: false });
+      });
     });
   });
 }
 
-function popupHtml(events) {
-  const many = events.length > 1;
-  const lead = events[0];
-  const header = many
-    ? `<div class="pop-artist">${esc(events.length + ' 场演出')}</div><div class="pop-tour">${esc(lead.venue)} · ${esc(lead.city)}</div>`
-    : `<div class="pop-artist">${esc(lead.artist)}</div><div class="pop-tour">${esc(lead.tour)}</div>`;
-
-  const blocks = events.map(c => {
-    const platforms = c.platforms || [];
-    const primary = platforms[0];
-    return `
-      <div class="pop-section${many ? ' multi' : ''}${c.id === state.activeId ? ' active' : ''}" data-concert-id="${esc(c.id)}">
+function popupHtml(c) {
+  const platforms = c.platforms || [];
+  const primary = platforms[0];
+  return `
+    <div class="pop-header" style="background:${getMarkerGradient(c.type)}">
+      <div class="pop-inner">
+        <div class="pop-artist">${esc(c.artist)}</div>
+        <div class="pop-tour">${esc(c.tour)}</div>
+      </div>
+    </div>
+    <div class="pop-body">
+      <div class="pop-section active" data-concert-id="${esc(c.id)}">
         <div class="pop-event-title">
           <div>
             <div class="pop-event-artist">${esc(c.artist)}</div>
-            <div class="pop-event-type">${TYPE_LABEL[c.type] || TYPE_LABEL.concert} · ${TIER_LABEL[c.tier] || '演出'}</div>
+            <div class="pop-event-type">${TYPE_LABEL[c.type] || TYPE_LABEL.concert}</div>
           </div>
           <span class="status-label lbl-${esc(c.status)}">● ${STATUS_LABEL[c.status] || esc(c.status)}</span>
         </div>
@@ -317,11 +337,8 @@ function popupHtml(events) {
           <span class="material-symbols-outlined" style="font-size:14px;color:#9aa6ff">link</span>
           来源：<a href="${esc(c.source)}" target="_blank" rel="noopener">官方公告 / 报道</a>
         </div>` : ''}
-      </div>`;
-  }).join('');
-
-  return `<div class="pop-header" style="background:${getMarkerGradient(lead.tier)}"><div class="pop-inner">${header}</div></div>
-          <div class="pop-body">${blocks}</div>`;
+      </div>
+    </div>`;
 }
 
 // ---------------- List ----------------
@@ -336,10 +353,10 @@ function renderList(list) {
     const primary = (c.platforms || [])[0];
     return `
     <div class="card ${state.activeId === c.id ? 'active' : ''}" data-id="${esc(c.id)}">
-      <div class="thumb" style="background:${getMarkerGradient(c.tier)}">${esc((c.artist || 'K').charAt(0))}</div>
+      <div class="thumb" style="background:${getMarkerGradient(c.type)}">${esc((c.artist || 'K').charAt(0))}</div>
       <div class="info">
         <div class="artist">${esc(c.artist)}
-          <span class="badge tier-${esc(c.tier)}">${TIER_LABEL[c.tier] || ''}</span></div>
+          <span class="badge type-${esc(c.type)}">${TYPE_LABEL[c.type] || TYPE_LABEL.concert}</span></div>
         <div class="tour">${esc(c.tour)}</div>
         <div class="meta">
           <span><span class="material-symbols-outlined">event</span>${fmtDate(c.date, c.endDate)}</span>
@@ -406,20 +423,6 @@ document.querySelectorAll('[data-region]').forEach(chip => {
   });
 });
 
-document.querySelectorAll('[data-tier]').forEach(chip => {
-  chip.addEventListener('click', () => {
-    const t = chip.dataset.tier;
-    if (state.tier.has(t)) {
-      state.tier.delete(t);
-      chip.classList.remove('active');
-    } else {
-      state.tier.add(t);
-      chip.classList.add('active');
-    }
-    refresh();
-  });
-});
-
 document.querySelectorAll('[data-type]').forEach(chip => {
   chip.addEventListener('click', () => {
     document.querySelectorAll('[data-type]').forEach(c => c.classList.remove('active'));
@@ -432,7 +435,6 @@ document.querySelectorAll('[data-type]').forEach(chip => {
 document.getElementById('reset').addEventListener('click', () => {
   state.q = '';
   state.region = 'all';
-  state.tier.clear();
   state.type = 'all';
   state.status = 'all';
   state.from = '';

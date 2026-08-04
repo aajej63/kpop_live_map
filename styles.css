@@ -187,10 +187,9 @@ select.control { appearance: none; cursor: pointer;
   font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px;
   padding: 2px 7px; border-radius: 6px;
 }
-.tier-major { background: rgba(255,61,154,.16); color: #ff7ab8; }
-.tier-rising { background: rgba(34,227,212,.16); color: #5cf0e2; }
-.tier-soloist { background: rgba(255,207,92,.16); color: var(--gold); }
-.tier-festival { background: rgba(139,92,255,.18); color: #b299ff; }
+.type-concert { background: rgba(255,61,154,.16); color: #ff7ab8; }
+.type-fanmeeting { background: rgba(34,227,212,.16); color: #5cf0e2; }
+.type-festival { background: rgba(139,92,255,.18); color: #b299ff; }
 
 .status-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
 .st-on_sale { background: #2ec77a; box-shadow: 0 0 6px #2ecc71; }
