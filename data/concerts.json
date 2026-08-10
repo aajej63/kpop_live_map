@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-08-04T12:00:00Z",
+  "updated_at": "2026-08-10T07:01:29Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 0
+    "ticketmaster": 117
   },
-  "count": 45,
+  "count": 155,
   "concerts": [
     {
-      "id": "bts-foxborough-ma-2026-08-05-gillette-stadium-2d0748",
+      "id": "bts-baltimore-2026-08-10-m-t-bank-stadium-e6ece3",
       "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG'",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN BALTIMORE",
       "type": "concert",
-      "tier": "group",
-      "date": "2026-08-05",
-      "endDate": "2026-08-06",
-      "time": "",
-      "venue": "Gillette Stadium",
-      "city": "Foxborough, MA",
+      "tier": "major",
+      "date": "2026-08-10",
+      "endDate": "2026-08-10",
+      "time": "20:00:00",
+      "venue": "M&T Bank Stadium",
+      "city": "Baltimore",
       "country": "USA",
       "region": "USA",
-      "lat": 42.0909,
-      "lng": -71.2643,
+      "lat": 39.277932,
+      "lng": -76.622653,
       "status": "on_sale",
       "platforms": [
         {
@@ -29,28 +29,28 @@
           "name": "Ticketmaster",
           "region": "USA",
           "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-tickets/artist/2110227"
+          "url": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-10-8-pm/concert/18007131"
         }
       ],
-      "source": "https://www.goal.com/en/news/bts-tickets/blta00e9894a6cecfe1",
-      "poster": "#ff3d9a",
-      "note": "Return world tour following 'ARIRANG' album release."
+      "source": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-10-8-pm/concert/18007131",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
-      "id": "cortis-new-york-ny-2026-08-06-infosys-theater-at-msg-a8e906",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN NEW YORK",
+      "id": "bts-baltimore-2026-08-11-m-t-bank-stadium-e50d75",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN BALTIMORE",
       "type": "concert",
-      "tier": "group",
-      "date": "2026-08-06",
-      "endDate": "2026-08-06",
-      "time": "20:00",
-      "venue": "Infosys Theater at Madison Square Garden",
-      "city": "New York, NY",
+      "tier": "major",
+      "date": "2026-08-11",
+      "endDate": "2026-08-11",
+      "time": "20:00:00",
+      "venue": "M&T Bank Stadium",
+      "city": "Baltimore",
       "country": "USA",
       "region": "USA",
-      "lat": 40.7505,
-      "lng": -73.9934,
+      "lat": 39.277932,
+      "lng": -76.622653,
       "status": "on_sale",
       "platforms": [
         {
@@ -58,12 +58,70 @@
           "name": "Ticketmaster",
           "region": "USA",
           "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-new-york-new-york-08-06-2026/event/3B006478BDA64A7D"
+          "url": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-11-8-pm/concert/18009424"
         }
       ],
-      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-new-york-new-york-08-06-2026/event/3B006478BDA64A7D",
-      "poster": "#22e3d4",
-      "note": "Official Ticketmaster event page verified."
+      "source": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-11-8-pm/concert/18009424",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "cortis-irving-2026-08-11-the-pavilion-at-toyota-music-factory-e11f29",
+      "artist": "CORTIS",
+      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN IRVING",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-11",
+      "endDate": "2026-08-11",
+      "time": "20:00:00",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.872469,
+      "lng": -96.942954,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-irving-texas-08-11-2026/event/0C0064BDEB303991"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-irving-texas-08-11-2026/event/0C0064BDEB303991",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "mamamoo-belmont-park-2026-08-12-ubs-arena-251de4",
+      "artist": "Mamamoo",
+      "tour": "MAMAMOO 2026 US TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-12",
+      "endDate": "2026-08-12",
+      "time": "19:30:00",
+      "venue": "UBS Arena",
+      "city": "Belmont Park",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.71179844,
+      "lng": -73.72602467,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-belmont-park-new-york-08-12-2026/event/3000649A26A4A648"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-belmont-park-new-york-08-12-2026/event/3000649A26A4A648",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "cortis-inglewood-ca-2026-08-13-youtube-theater-3d26df",
@@ -95,6 +153,122 @@
       "note": "Official Ticketmaster event page verified."
     },
     {
+      "id": "cortis-inglewood-2026-08-13-youtube-theater-26f8cc",
+      "artist": "CORTIS",
+      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN LOS ANGELES",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-13",
+      "endDate": "2026-08-13",
+      "time": "20:00:00",
+      "venue": "YouTube Theater",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.94982,
+      "lng": -118.3436,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "evan-los-angeles-2026-08-14-ray-charles-terrace-at-grammy-museum-l-a-live-000801",
+      "artist": "EVAN",
+      "tour": "Spotlight: EVAN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-14",
+      "endDate": "2026-08-14",
+      "time": "19:30:00",
+      "venue": "Ray Charles Terrace at GRAMMY Museum L.A. Live",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.04449869,
+      "lng": -118.2653164,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.universe.com/events/spotlight-evan-tickets-1QDC82?ref=ticketmaster"
+        }
+      ],
+      "source": "https://www.universe.com/events/spotlight-evan-tickets-1QDC82?ref=ticketmaster",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lykn-los-angeles-2026-08-14-orpheum-theatre-370fbe",
+      "artist": "LYKN",
+      "tour": "LYKN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-14",
+      "endDate": "2026-08-14",
+      "time": "19:30:00",
+      "venue": "Orpheum Theatre",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.04263554,
+      "lng": -118.25558624,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/lykn-los-angeles-california-08-14-2026/event/09006472E921D0DC"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/lykn-los-angeles-california-08-14-2026/event/09006472E921D0DC",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "next-level-k-pop-philadelphia-2026-08-14-milkboy-philadelphia-23d371",
+      "artist": "Next Level K-Pop",
+      "tour": "Next Level KPop Rave (21+ Event)",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-14",
+      "endDate": "2026-08-14",
+      "time": "21:30:00",
+      "venue": "MilkBoy Philadelphia",
+      "city": "Philadelphia",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.951599,
+      "lng": -75.158096,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAZJ"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAZJ",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "young-k-incheon-2026-08-14-inspire-arena-f3b0de",
       "artist": "Young K",
       "tour": "Young K Solo Tour <YOUNGEST> in INCHEON",
@@ -122,6 +296,35 @@
       "source": "https://www.starnewskorea.com/en/music/2026/07/15/2026071508015977031",
       "poster": "#ffcf5c",
       "note": "First solo world tour kickoff."
+    },
+    {
+      "id": "bts-arlington-2026-08-15-at-t-stadium-490f24",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-08-15",
+      "endDate": "2026-08-15",
+      "time": "20:00:00",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.7542,
+      "lng": -97.082397,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "cortis-san-francisco-ca-2026-08-15-bill-graham-civic-auditorium-17f648",
@@ -153,6 +356,122 @@
       "note": "Official Ticketmaster artist page lists the San Francisco show."
     },
     {
+      "id": "cortis-san-francisco-2026-08-15-the-theater-at-bill-graham-civic-auditorium-8153",
+      "artist": "CORTIS",
+      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN SAN FRANCISCO",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-15",
+      "endDate": "2026-08-15",
+      "time": "20:00:00",
+      "venue": "The Theater at Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.77833,
+      "lng": -122.41743,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-15-2026/event/1C0064B210E1CC25"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-15-2026/event/1C0064B210E1CC25",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "k-pop-superstars-louisville-2026-08-15-the-louisville-palace-8325f3",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-15",
+      "endDate": "2026-08-15",
+      "time": "19:00:00",
+      "venue": "The Louisville Palace",
+      "city": "Louisville",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.2481389,
+      "lng": -85.7580034,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-louisville-kentucky-08-15-2026/event/160064C5D8DBD43B"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-louisville-kentucky-08-15-2026/event/160064C5D8DBD43B",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "mamamoo-chicago-2026-08-15-wintrust-arena-6990a7",
+      "artist": "Mamamoo",
+      "tour": "MAMAMOO 2026 US TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-15",
+      "endDate": "2026-08-15",
+      "time": "19:30:00",
+      "venue": "Wintrust Arena",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.853079,
+      "lng": -87.62201,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-chicago-illinois-08-15-2026/event/07006498EC2AA360"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-chicago-illinois-08-15-2026/event/07006498EC2AA360",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-arlington-2026-08-16-at-t-stadium-3e2e5d",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-08-16",
+      "endDate": "2026-08-16",
+      "time": "20:00:00",
+      "venue": "AT&T Stadium",
+      "city": "Arlington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.7542,
+      "lng": -97.082397,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "byeon-woo-seok-bangkok-2026-08-16-uob-live-12937a",
       "artist": "Byeon Woo-seok",
       "tour": "2026 Asia Fanmeeting Tour <The Secret Library>",
@@ -180,6 +499,267 @@
       "source": "https://uoblive.asia/event/2026-byeonwooseok-asia-fanmeeting-tour-the-secret-library-in-bangkok",
       "poster": "#ffcf5c",
       "note": "Viu Scream Dates."
+    },
+    {
+      "id": "cortis-san-francisco-2026-08-16-the-theater-at-bill-graham-civic-auditorium-ec0e",
+      "artist": "CORTIS",
+      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN SAN FRANCISCO",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-16",
+      "endDate": "2026-08-16",
+      "time": "20:00:00",
+      "venue": "The Theater at Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.77833,
+      "lng": -122.41743,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-16-2026/event/1C0064B21202CE62"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-16-2026/event/1C0064B21202CE62",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lykn-san-francisco-2026-08-16-palace-of-fine-arts-6e3fe8",
+      "artist": "LYKN",
+      "tour": "LYKN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-16",
+      "endDate": "2026-08-16",
+      "time": "19:30:00",
+      "venue": "Palace of Fine Arts",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.801884,
+      "lng": -122.448249,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/lykn-san-francisco-california-08-16-2026/event/1C0064731A3CB892"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/lykn-san-francisco-california-08-16-2026/event/1C0064731A3CB892",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "dickies-arena-suites-fort-worth-2026-08-18-dickies-arena-1c05bd",
+      "artist": "Dickies Arena Suites",
+      "tour": "Suites: MAMAMOO 2026 US TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-18",
+      "endDate": "2026-08-18",
+      "time": "19:30:00",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.741072,
+      "lng": -97.368507,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/suites-mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C0064AB0020C681"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/suites-mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C0064AB0020C681",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "mamamoo-fort-worth-2026-08-18-dickies-arena-0e8f6e",
+      "artist": "Mamamoo",
+      "tour": "MAMAMOO 2026 US TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-18",
+      "endDate": "2026-08-18",
+      "time": "19:30:00",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.741072,
+      "lng": -97.368507,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C00649CD7A64F19"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C00649CD7A64F19",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lykn-chicago-2026-08-20-copernicus-center-20cb7f",
+      "artist": "LYKN",
+      "tour": "LYKN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-20",
+      "endDate": "2026-08-20",
+      "time": "19:30:00",
+      "venue": "Copernicus Center",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.968303,
+      "lng": -87.75861,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/lykn-chicago-illinois-08-20-2026/event/07006473267FCD9A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/lykn-chicago-illinois-08-20-2026/event/07006473267FCD9A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "mamamoo-cedar-park-2026-08-21-h-e-b-center-at-cedar-park-ee9cb4",
+      "artist": "Mamamoo",
+      "tour": "MAMAMOO 2026 US TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-21",
+      "endDate": "2026-08-21",
+      "time": "19:30:00",
+      "venue": "H-E-B Center at Cedar Park",
+      "city": "Cedar Park",
+      "country": "USA",
+      "region": "USA",
+      "lat": 30.5393195,
+      "lng": -97.82448,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-cedar-park-texas-08-21-2026/event/3A006499E7976674"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-cedar-park-texas-08-21-2026/event/3A006499E7976674",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "baek-z-young-atlanta-2026-08-22-atlanta-symphony-hall-154c25",
+      "artist": "Baek Z Young",
+      "tour": "Baek Ji Young",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-22",
+      "endDate": "2026-08-22",
+      "time": "19:00:00",
+      "venue": "Atlanta Symphony Hall",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.790098,
+      "lng": -84.385493,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/baek-ji-young-atlanta-georgia-08-22-2026/event/0E0064C3CFBAF4D9"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/baek-ji-young-atlanta-georgia-08-22-2026/event/0E0064C3CFBAF4D9",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lykn-new-york-city-2026-08-22-palladium-times-square-48829f",
+      "artist": "LYKN",
+      "tour": "LYKN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-22",
+      "endDate": "2026-08-22",
+      "time": "19:30:00",
+      "venue": "Palladium Times Square ",
+      "city": "New York City",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.757201,
+      "lng": -73.985763,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/lykn-new-york-city-new-york-08-22-2026/event/000064713A6CA4F3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/lykn-new-york-city-new-york-08-22-2026/event/000064713A6CA4F3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "next-level-k-pop-milwaukee-2026-08-22-the-rave-eagles-club-4317cf",
+      "artist": "Next Level K-Pop",
+      "tour": "Next Level KPop Rave (18 and Over)",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-22",
+      "endDate": "2026-08-22",
+      "time": "20:30:00",
+      "venue": "The Rave-Eagles Club",
+      "city": "Milwaukee",
+      "country": "USA",
+      "region": "USA",
+      "lat": 43.037399,
+      "lng": -87.934196,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "tiot-singapore-2026-08-22-sota-concert-hall-61034d",
@@ -211,6 +791,64 @@
       "note": "Rookie boy group first Singapore show."
     },
     {
+      "id": "one-pact-houston-2026-08-24-house-of-blues-houston-668796",
+      "artist": "ONE PACT",
+      "tour": "ONE PACT",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-24",
+      "endDate": "2026-08-24",
+      "time": "18:00:00",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.75377797,
+      "lng": -95.36381697,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/one-pact-houston-texas-08-24-2026/event/3A0064FDFDCD4C85"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/one-pact-houston-texas-08-24-2026/event/3A0064FDFDCD4C85",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "mamamoo-los-angeles-2026-08-25-crypto-com-arena-c32bf8",
+      "artist": "Mamamoo",
+      "tour": "Mamamoo",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-25",
+      "endDate": "2026-08-25",
+      "time": "19:00:00",
+      "venue": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.053101,
+      "lng": -118.2649,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f-7"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70f-7",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "bts-chicago-il-2026-08-27-soldier-field-cacd63",
       "artist": "BTS",
       "tour": "BTS WORLD TOUR 'ARIRANG'",
@@ -237,6 +875,209 @@
       ],
       "source": "https://www.ticketmaster.com/bts-tickets/artist/2110227",
       "poster": "#ff3d9a",
+      "note": ""
+    },
+    {
+      "id": "bts-chicago-2026-08-27-soldier-field-b500ff",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN CHICAGO",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-08-27",
+      "endDate": "2026-08-27",
+      "time": "20:00:00",
+      "venue": "Soldier Field",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.86205404,
+      "lng": -87.61682143,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "kpop-club-night-chicago-2026-08-27-house-of-blues-chicago-160768",
+      "artist": "KPop Club Night",
+      "tour": "KPop Club Night",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-27",
+      "endDate": "2026-08-27",
+      "time": "23:00:00",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.88811537,
+      "lng": -87.62931962,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-27-2026/event/04006468C1E06429"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-27-2026/event/04006468C1E06429",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "mamamoo-san-jose-2026-08-27-sap-center-at-san-jose-e0b6f7",
+      "artist": "Mamamoo",
+      "tour": "MAMAMOO 2026 US TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-27",
+      "endDate": "2026-08-27",
+      "time": "19:30:00",
+      "venue": "SAP Center at San Jose",
+      "city": "San Jose",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.3329688,
+      "lng": -121.9045755,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-san-jose-california-08-27-2026/event/1C006498AE5F3FBC"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-san-jose-california-08-27-2026/event/1C006498AE5F3FBC",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-chicago-2026-08-28-soldier-field-5acc0a",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN CHICAGO",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-08-28",
+      "endDate": "2026-08-28",
+      "time": "20:00:00",
+      "venue": "Soldier Field",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.86205404,
+      "lng": -87.61682143,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "k-pop-superstars-houston-2026-08-28-bayou-music-center-85c00f",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-28",
+      "endDate": "2026-08-28",
+      "time": "20:00:00",
+      "venue": "Bayou Music Center",
+      "city": "Houston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.7628087,
+      "lng": -95.3672891,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-houston-texas-08-28-2026/event/3A0064C8C28DBF9D"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-houston-texas-08-28-2026/event/3A0064C8C28DBF9D",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "kpop-club-night-chicago-2026-08-28-house-of-blues-chicago-a892ed",
+      "artist": "KPop Club Night",
+      "tour": "KPop Club Night",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-28",
+      "endDate": "2026-08-28",
+      "time": "23:00:00",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.88811537,
+      "lng": -87.62931962,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-28-2026/event/04006468C22C649A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-28-2026/event/04006468C22C649A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "leehi-brisbane-2026-08-28-the-fortitude-music-hall-2cf335",
+      "artist": "LeeHi",
+      "tour": "LEEHI 808 HI RECORDINGS WORLD TOUR 2026",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-28",
+      "endDate": "2026-08-28",
+      "time": "19:00:00",
+      "venue": "The Fortitude Music Hall",
+      "city": "Brisbane",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -27.457971,
+      "lng": 153.034553,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/leehi-808-hi-recordings-world-tour-brisbane-28-08-2026/event/1300649E82292FAA"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/leehi-808-hi-recordings-world-tour-brisbane-28-08-2026/event/1300649E82292FAA",
+      "poster": "#026cdf",
       "note": ""
     },
     {
@@ -267,6 +1108,122 @@
       "source": "https://www.japanconcerttickets.com/event/stray-kids-in-tokyo-2026-08-29/",
       "poster": "#ff3d9a",
       "note": "Lottery system applies."
+    },
+    {
+      "id": "mamamoo-kent-2026-08-30-accesso-showare-center-f70588",
+      "artist": "Mamamoo",
+      "tour": "Mamamoo",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-08-30",
+      "endDate": "2026-08-30",
+      "time": "19:30:00",
+      "venue": "accesso ShoWare Center",
+      "city": "Kent",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.390701,
+      "lng": -122.262604,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gaJ"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70gaJ",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-inglewood-2026-09-01-sofi-stadium-56a44f",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-01",
+      "endDate": "2026-09-01",
+      "time": "20:00:00",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.950529,
+      "lng": -118.343767,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-inglewood-2026-09-02-sofi-stadium-206238",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-02",
+      "endDate": "2026-09-02",
+      "time": "20:00:00",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.950529,
+      "lng": -118.343767,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "one-pact-atlanta-2026-09-02-center-stage-theater-6d4a07",
+      "artist": "ONE PACT",
+      "tour": "ONE PACT",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-02",
+      "endDate": "2026-09-02",
+      "time": "19:00:00",
+      "venue": "Center Stage Theater",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.7918926,
+      "lng": -84.3877907,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/one-pact-atlanta-georgia-09-02-2026/event/0E0064FECAD3C969"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/one-pact-atlanta-georgia-09-02-2026/event/0E0064FECAD3C969",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "ive-hong-kong-2026-09-04-asiaworld-arena-6b8591",
@@ -327,6 +1284,35 @@
       "note": "SVIP Soundcheck package."
     },
     {
+      "id": "bts-inglewood-2026-09-05-sofi-stadium-bcc51d",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-05",
+      "endDate": "2026-09-05",
+      "time": "20:00:00",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.950529,
+      "lng": -118.343767,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "seeya-busan-2026-09-05-kbs-busan-hall-182ac7",
       "artist": "SeeYa",
       "tour": "2026 SeeYa 20th Anniversary Tour 'THE FAN'",
@@ -382,6 +1368,151 @@
       ],
       "source": "https://ygex.jp/en/treasure/news/detail.php?id=1134134",
       "poster": "#ff3d9a",
+      "note": ""
+    },
+    {
+      "id": "bts-inglewood-2026-09-06-sofi-stadium-fe3e81",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-06",
+      "endDate": "2026-09-06",
+      "time": "20:00:00",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.950529,
+      "lng": -118.343767,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-park-duluth-2026-09-08-gas-south-arena-b5cad3",
+      "artist": "Jay Park",
+      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "time": "20:00:00",
+      "venue": "Gas South Arena",
+      "city": "Duluth",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.9869191,
+      "lng": -84.0907288,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-duluth-georgia-09-08-2026/event/0E0064C8B8F0BE5C"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-duluth-georgia-09-08-2026/event/0E0064C8B8F0BE5C",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-park-washington-2026-09-10-the-anthem-9029b3",
+      "artist": "Jay Park",
+      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "time": "19:30:00",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.880099,
+      "lng": -77.026165,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-washington-district-of-columbia-09-10-2026/event/150064C8A95191D0"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-washington-district-of-columbia-09-10-2026/event/150064C8A95191D0",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-park-new-york-2026-09-11-infosys-theater-at-madison-square-garden-f82aa1",
+      "artist": "Jay Park",
+      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "time": "21:00:00",
+      "venue": "Infosys Theater at Madison Square Garden",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.7497062,
+      "lng": -73.9916006,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-new-york-new-york-09-11-2026/event/3B0064C57D5F23BB"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-new-york-new-york-09-11-2026/event/3B0064C57D5F23BB",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "k-pop-superstars-philadelphia-2026-09-11-the-met-presented-by-highmark-7b0ce6",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "time": "20:00:00",
+      "venue": "The Met Presented by Highmark",
+      "city": "Philadelphia",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.969938,
+      "lng": -75.160278,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-philadelphia-pennsylvania-09-11-2026/event/020064D2B3A80855"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-philadelphia-pennsylvania-09-11-2026/event/020064D2B3A80855",
+      "poster": "#026cdf",
       "note": ""
     },
     {
@@ -443,6 +1574,151 @@
       "note": "First Macau show."
     },
     {
+      "id": "jay-b-los-angeles-2026-09-13-wilshire-ebell-theatre-c7b146",
+      "artist": "JAY B",
+      "tour": "2026 JAY B tape: roots",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-13",
+      "endDate": "2026-09-13",
+      "time": "19:30:00",
+      "venue": "Wilshire Ebell Theatre",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.0603369,
+      "lng": -118.3248553,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-los-angeles-california-09-13-2026/event/09006503EE02D71D"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-los-angeles-california-09-13-2026/event/09006503EE02D71D",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-park-chicago-2026-09-15-aragon-ballroom-c6ba6b",
+      "artist": "Jay Park",
+      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-09-15",
+      "endDate": "2026-09-15",
+      "time": "20:00:00",
+      "venue": "Aragon Ballroom",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.96941873,
+      "lng": -87.65797212,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-chicago-illinois-09-15-2026/event/040064C34EF8A284"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-chicago-illinois-09-15-2026/event/040064C34EF8A284",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-b-san-francisco-2026-09-16-palace-of-fine-arts-09ae2d",
+      "artist": "JAY B",
+      "tour": "2026 JAY B tape: roots",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "time": "19:30:00",
+      "venue": "Palace of Fine Arts",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.801884,
+      "lng": -122.448249,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-san-francisco-california-09-16-2026/event/1C006503E7A2A806"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-san-francisco-california-09-16-2026/event/1C006503E7A2A806",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-los-angeles-2026-09-16-crypto-com-arena-22ee74",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "time": "19:30:00",
+      "venue": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.053101,
+      "lng": -118.2649,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OvA"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70OvA",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-b-tacoma-2026-09-18-pantages-theater-0c6695",
+      "artist": "JAY B",
+      "tour": "2026 JAY B tape: roots",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "time": "19:30:00",
+      "venue": "Pantages Theater",
+      "city": "Tacoma",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.2549285,
+      "lng": -122.4405673,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-tacoma-washington-09-18-2026/event/0F0064FEA7039EB7"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-tacoma-washington-09-18-2026/event/0F0064FEA7039EB7",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "nct-127-seoul-2026-09-18-kspo-dome-632bfd",
       "artist": "NCT 127",
       "tour": "NCT 127 5TH TOUR 'NEO CITY : SEOUL - THE REDLINE'",
@@ -501,6 +1777,64 @@
       "note": "North American leg."
     },
     {
+      "id": "aespa-belmont-park-2026-09-18-ubs-arena-1c1171",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in BELMONT PARK",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "time": "20:00:00",
+      "venue": "UBS Arena",
+      "city": "Belmont Park",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.71179844,
+      "lng": -73.72602467,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-belmont-park-new-york-09-18-2026/event/30006495A5694367"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-belmont-park-new-york-09-18-2026/event/30006495A5694367",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "fivealive-santa-ana-2026-09-18-constellation-room-f7c8de",
+      "artist": "fiveAlive",
+      "tour": "Sean Healy Presents - fiveALIVE",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "time": "19:00:00",
+      "venue": "Constellation Room",
+      "city": "Santa Ana",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.699879,
+      "lng": -117.917493,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/sean-healy-presents-fivealive-santa-ana-california-09-18-2026/event/090064FDFBADE855"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/sean-healy-presents-fivealive-santa-ana-california-09-18-2026/event/090064FDFBADE855",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "irene-seulgi-fukuoka-2026-09-19-fukuoka-civic-hall-7f259f",
       "artist": "IRENE & SEULGI",
       "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
@@ -528,6 +1862,122 @@
       "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
       "poster": "#22e3d4",
       "note": "Red Velvet sub-unit Japan tour; official fanclub presale announcement."
+    },
+    {
+      "id": "the-moonlight-princesses-tribute-to-demon-hunters-davenport-2026-09-19-adler-the",
+      "artist": "The Moonlight Princesses:Tribute to Demon Hunters",
+      "tour": "The Moonlight Princesses:Tribute to Demon Hunters",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "time": "18:00:00",
+      "venue": "Adler Theatre",
+      "city": "Davenport",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.5224552,
+      "lng": -90.5734902,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/the-moonlight-princessestribute-to-demon-hunters-davenport-iowa-09-19-2026/event/060064D099877B60"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/the-moonlight-princessestribute-to-demon-hunters-davenport-iowa-09-19-2026/event/060064D099877B60",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-park-phoenix-2026-09-20-arizona-financial-theatre-fecdff",
+      "artist": "Jay Park",
+      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-09-20",
+      "endDate": "2026-09-20",
+      "time": "20:00:00",
+      "venue": "Arizona Financial Theatre",
+      "city": "Phoenix",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.448775,
+      "lng": -112.079564,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-phoenix-arizona-09-20-2026/event/190064C5DDDEA331"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-phoenix-arizona-09-20-2026/event/190064C5DDDEA331",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-tacoma-2026-09-20-tacoma-dome-9b734e",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN TACOMA",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-20",
+      "endDate": "2026-09-20",
+      "time": "19:30:00",
+      "venue": "Tacoma Dome",
+      "city": "Tacoma",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.23634,
+      "lng": -122.426834,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-tacoma-washington-09-20-2026/event/0F0064ABBB25AF33"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-tacoma-washington-09-20-2026/event/0F0064ABBB25AF33",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "moonlight-princesses-tribute-to-demon-hunters-la-vista-2026-09-20-the-astro-thea",
+      "artist": "Moonlight Princesses - Tribute to Demon Hunters",
+      "tour": "Moonlight Princesses - Tribute to Demon Hunters",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-20",
+      "endDate": "2026-09-20",
+      "time": "16:00:00",
+      "venue": "The Astro Theater",
+      "city": "La Vista",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.18287,
+      "lng": -96.04084,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/moonlight-princesses-tribute-to-demon-hunters-la-vista-nebraska-09-20-2026/event/200064FE88D218BC"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/moonlight-princesses-tribute-to-demon-hunters-la-vista-nebraska-09-20-2026/event/200064FE88D218BC",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "irene-seulgi-kobe-2026-09-21-kobe-kokusai-hall-9b8c09",
@@ -559,6 +2009,122 @@
       "note": "Red Velvet sub-unit Japan tour; official fanclub presale announcement."
     },
     {
+      "id": "jay-park-san-francisco-2026-09-22-bill-graham-civic-auditorium-ef84be",
+      "artist": "Jay Park",
+      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "time": "20:00:00",
+      "venue": "Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.778479,
+      "lng": -122.417473,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-san-francisco-california-09-22-2026/event/1C0064C71309D7A2"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-san-francisco-california-09-22-2026/event/1C0064C71309D7A2",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "aespa-washington-2026-09-22-capital-one-arena-4e71ea",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in WASHINGTON",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "time": "20:00:00",
+      "venue": "Capital One Arena",
+      "city": "Washington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.897412,
+      "lng": -77.020029,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-washington-district-of-columbia-09-22-2026/event/150064929E006DC6"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-washington-district-of-columbia-09-22-2026/event/150064929E006DC6",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-b-new-york-city-2026-09-23-palladium-times-square-7249dd",
+      "artist": "JAY B",
+      "tour": "2026 JAY B tape: roots",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-23",
+      "endDate": "2026-09-23",
+      "time": "19:30:00",
+      "venue": "Palladium Times Square ",
+      "city": "New York City",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.757201,
+      "lng": -73.985763,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-new-york-city-new-york-09-23-2026/event/000064FD05B65EAE"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-new-york-city-new-york-09-23-2026/event/000064FD05B65EAE",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-san-jose-2026-09-23-sap-center-at-san-jose-2bf398",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN SAN JOSE",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-23",
+      "endDate": "2026-09-23",
+      "time": "19:30:00",
+      "venue": "SAP Center at San Jose",
+      "city": "San Jose",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.3329688,
+      "lng": -121.9045755,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-san-jose-california-09-23-2026/event/1C0064ABBD023E72"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-san-jose-california-09-23-2026/event/1C0064ABBD023E72",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "aespa-atlanta-ga-2026-09-24-state-farm-arena-b95678",
       "artist": "aespa",
       "tour": "aespa LIVE TOUR - SYNK : COMPLAEXITY",
@@ -585,6 +2151,180 @@
       ],
       "source": "https://www.ticketmaster.com/search?q=aespa",
       "poster": "#ff3d9a",
+      "note": ""
+    },
+    {
+      "id": "aespa-atlanta-2026-09-24-state-farm-arena-b4b100",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLÆXITY - in ATLANTA",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "time": "20:00:00",
+      "venue": "State Farm Arena",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.757796,
+      "lng": -84.394569,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-atlanta-georgia-09-24-2026/event/0E006495C5F0419C"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-atlanta-georgia-09-24-2026/event/0E006495C5F0419C",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-phoenix-2026-09-25-mortgage-matchup-center-3ca55c",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN PHOENIX",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "time": "19:30:00",
+      "venue": "Mortgage Matchup Center",
+      "city": "Phoenix",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.445899,
+      "lng": -112.071313,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-phoenix-arizona-09-25-2026/event/190064ABBB0E68A9"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-phoenix-arizona-09-25-2026/event/190064ABBB0E68A9",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "next-level-k-pop-richmond-2026-09-25-ember-music-hall-ee2d06",
+      "artist": "Next Level K-Pop",
+      "tour": "Next Level KPop Rave",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "time": "21:30:00",
+      "venue": "Ember Music Hall",
+      "city": "Richmond",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.5411,
+      "lng": -77.434601,
+      "status": "announced",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JkPE"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JkPE",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "aespa-miami-2026-09-26-kaseya-center-fcae16",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in MIAMI",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "time": "20:00:00",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "country": "USA",
+      "region": "USA",
+      "lat": 25.781232,
+      "lng": -80.187805,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-miami-florida-09-26-2026/event/0D0064940F3C61C3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-miami-florida-09-26-2026/event/0D0064940F3C61C3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "dickies-arena-suites-fort-worth-2026-09-27-dickies-arena-65bc94",
+      "artist": "Dickies Arena Suites",
+      "tour": "Suites: LE SSERAFIM - 2026 LE SSERAFIM PUREFLOW TOUR IN FORT WORTH",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-27",
+      "endDate": "2026-09-27",
+      "time": "19:30:00",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.741072,
+      "lng": -97.368507,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/suites-le-sserafim-2026-le-sserafim-fort-worth-texas-09-27-2026/event/0C0064B51C6DA273"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/suites-le-sserafim-2026-le-sserafim-fort-worth-texas-09-27-2026/event/0C0064B51C6DA273",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "jay-b-chicago-2026-09-27-copernicus-center-02195b",
+      "artist": "JAY B",
+      "tour": "2026 JAY B tape: roots",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-27",
+      "endDate": "2026-09-27",
+      "time": "19:30:00",
+      "venue": "Copernicus Center",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.968303,
+      "lng": -87.75861,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-chicago-illinois-09-27-2026/event/070065031A4E92FF"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-chicago-illinois-09-27-2026/event/070065031A4E92FF",
+      "poster": "#026cdf",
       "note": ""
     },
     {
@@ -617,6 +2357,35 @@
       "note": ""
     },
     {
+      "id": "le-sserafim-fort-worth-2026-09-27-dickies-arena-44b383",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN FORT WORTH",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-27",
+      "endDate": "2026-09-27",
+      "time": "19:30:00",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.741072,
+      "lng": -97.368507,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-fort-worth-texas-09-27-2026/event/0C0064ABEA1EB386"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-fort-worth-texas-09-27-2026/event/0C0064ABEA1EB386",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "t-o-p-kuala-lumpur-2026-09-27-unifi-arena-7d63df",
       "artist": "T.O.P",
       "tour": "PRE-STUDIO 2026 ASIA FAN MEETING TOUR",
@@ -644,6 +2413,93 @@
       "source": "https://www.sarawaktribune.com/t-o-p-finally-returns-to-malaysia-with-first-solo-asia-fan-meeting-tour/",
       "poster": "#ffcf5c",
       "note": "First solo Asia fan meeting."
+    },
+    {
+      "id": "aespa-dallas-2026-09-29-american-airlines-center-bf579f",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in DALLAS",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-29",
+      "endDate": "2026-09-29",
+      "time": "20:00:00",
+      "venue": "American Airlines Center",
+      "city": "Dallas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.79067196,
+      "lng": -96.81081803,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-dallas-texas-09-29-2026/event/0C006495CCC8D600"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-dallas-texas-09-29-2026/event/0C006495CCC8D600",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-orlando-2026-09-30-kia-center-35e73c",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN ORLANDO",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "time": "19:30:00",
+      "venue": "Kia Center",
+      "city": "Orlando",
+      "country": "USA",
+      "region": "USA",
+      "lat": 28.539293,
+      "lng": -81.383957,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-orlando-florida-09-30-2026/event/220064ABE228874B"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-orlando-florida-09-30-2026/event/220064ABE228874B",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-chicago-2026-10-02-united-center-d70a68",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN CHICAGO",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "time": "19:30:00",
+      "venue": "United Center",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.88124412,
+      "lng": -87.67427375,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-chicago-illinois-10-02-2026/event/040064ABDA78BB96"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-chicago-illinois-10-02-2026/event/040064ABDA78BB96",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "team-seoul-2026-10-03-kspo-dome-76e2be",
@@ -704,6 +2560,64 @@
       "note": "Asia tour final stop."
     },
     {
+      "id": "kraze-kpop-18-wilmington-2026-10-03-the-queen-62f40d",
+      "artist": "Kraze KPOP (18+)",
+      "tour": "Kraze KPOP (18+)",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "time": "20:00:00",
+      "venue": "The Queen",
+      "city": "Wilmington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.741126,
+      "lng": -75.550253,
+      "status": "announced",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kraze-kpop-18-wilmington-delaware-10-03-2026/event/02006389858056E0"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kraze-kpop-18-wilmington-delaware-10-03-2026/event/02006389858056E0",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-fairfax-2026-10-03-eaglebank-arena-47de2a",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN FAIRFAX",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "time": "20:00:00",
+      "venue": "EagleBank Arena",
+      "city": "Fairfax",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.8330513,
+      "lng": -77.3098503,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-fairfax-virginia-10-03-2026/event/15006482B90BDA55"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-fairfax-virginia-10-03-2026/event/15006482B90BDA55",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "monsta-x-fairfax-va-2026-10-03-eaglebank-arena-7696f2",
       "artist": "Monsta X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS]",
@@ -762,6 +2676,122 @@
       "note": "Featuring Chanyeol and other K-pop acts."
     },
     {
+      "id": "aespa-inglewood-2026-10-03-intuit-dome-35bbeb",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in LOS ANGELES",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "time": "20:00:00",
+      "venue": "Intuit Dome",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.94432,
+      "lng": -118.34285,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-inglewood-california-10-03-2026/event/09006495E8BC30ED"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-inglewood-california-10-03-2026/event/09006495E8BC30ED",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-washington-2026-10-05-capital-one-arena-6a8162",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN WASHINGTON",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-05",
+      "endDate": "2026-10-05",
+      "time": "19:30:00",
+      "venue": "Capital One Arena",
+      "city": "Washington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.897412,
+      "lng": -77.020029,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-washington-district-of-columbia-10-05-2026/event/150064ABEA85C9A3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-washington-district-of-columbia-10-05-2026/event/150064ABEA85C9A3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-new-york-2026-10-06-infosys-theater-at-madison-square-garden-e562eb",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN NEW YORK",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-06",
+      "endDate": "2026-10-06",
+      "time": "20:00:00",
+      "venue": "Infosys Theater at Madison Square Garden",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.7497062,
+      "lng": -73.9916006,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-new-york-new-york-10-06-2026/event/3B00647BF0495307"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-new-york-new-york-10-06-2026/event/3B00647BF0495307",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "aespa-oakland-2026-10-06-oakland-arena-850570",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in OAKLAND",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-06",
+      "endDate": "2026-10-06",
+      "time": "20:00:00",
+      "venue": "Oakland Arena",
+      "city": "Oakland",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.7515541,
+      "lng": -122.2015715,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-oakland-california-10-06-2026/event/1C0064959674C747"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-oakland-california-10-06-2026/event/1C0064959674C747",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "le-sserafim-newark-nj-2026-10-08-prudential-center-26c1f1",
       "artist": "LE SSERAFIM",
       "tour": "2026 LE SSERAFIM TOUR 'PUREFLOW'",
@@ -788,6 +2818,64 @@
       ],
       "source": "https://kpopofficial.com/event/le-sserafim-concert-newark-2026/",
       "poster": "#ff3d9a",
+      "note": ""
+    },
+    {
+      "id": "le-sserafim-newark-2026-10-08-prudential-center-3737f4",
+      "artist": "LE SSERAFIM",
+      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN NEWARK",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-08",
+      "endDate": "2026-10-08",
+      "time": "19:30:00",
+      "venue": "Prudential Center",
+      "city": "Newark",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.73340555,
+      "lng": -74.17121214,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-newark-new-jersey-10-08-2026/event/020064ABF7904B12"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-newark-new-jersey-10-08-2026/event/020064ABF7904B12",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-boston-2026-10-08-mgm-music-hall-at-fenway-d32fca",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN BOSTON",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-08",
+      "endDate": "2026-10-08",
+      "time": "20:00:00",
+      "venue": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 42.346806,
+      "lng": -71.097272,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-boston-massachusetts-10-08-2026/event/0100647BAD4DF692"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-boston-massachusetts-10-08-2026/event/0100647BAD4DF692",
+      "poster": "#026cdf",
       "note": ""
     },
     {
@@ -818,6 +2906,35 @@
       "source": "https://best.blue4sky.com/2026/07/",
       "poster": "#22e3d4",
       "note": "Fanclub presale 08-05, General 08-07."
+    },
+    {
+      "id": "aespa-seattle-2026-10-09-climate-pledge-arena-03ade6",
+      "artist": "aespa",
+      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in SEATTLE",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-09",
+      "endDate": "2026-10-09",
+      "time": "20:00:00",
+      "venue": "Climate Pledge Arena",
+      "city": "Seattle",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.6221261,
+      "lng": -122.35401604,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-seattle-washington-10-09-2026/event/0F006495AC598426"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-seattle-washington-10-09-2026/event/0F006495AC598426",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "boynextdoor-chiba-2026-10-10-makuhari-messe-0b6cb3",
@@ -907,6 +3024,35 @@
       "note": ""
     },
     {
+      "id": "monsta-x-rosemont-2026-10-13-rosemont-theatre-2f7ba1",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN ROSEMONT",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-13",
+      "endDate": "2026-10-13",
+      "time": "20:00:00",
+      "venue": "Rosemont Theatre",
+      "city": "Rosemont",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.976641,
+      "lng": -87.86369,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-rosemont-illinois-10-13-2026/event/0400647E8C903FD3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-rosemont-illinois-10-13-2026/event/0400647E8C903FD3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "chanyeol-yokohama-2026-10-14-kt-zepp-yokohama-3dcfc8",
       "artist": "CHANYEOL",
       "tour": "CHANYEOL JAPAN TOUR 2026 -The Route-",
@@ -934,6 +3080,122 @@
       "source": "https://www.exo-jp.net/news/detail.php?id=1134946",
       "poster": "#ffcf5c",
       "note": "Fanclub lottery first."
+    },
+    {
+      "id": "artms-denver-2026-10-15-summit-music-hall-70927a",
+      "artist": "ARTMS",
+      "tour": "ARTMS",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-15",
+      "endDate": "2026-10-15",
+      "time": "18:00:00",
+      "venue": "Summit Music Hall",
+      "city": "Denver",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.75333786,
+      "lng": -104.99507141,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/artms-denver-colorado-10-15-2026/event/1E0064EDB6C08E9B"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/artms-denver-colorado-10-15-2026/event/1E0064EDB6C08E9B",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-irving-2026-10-15-the-pavilion-at-toyota-music-factory-109691",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN IRVING",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-15",
+      "endDate": "2026-10-15",
+      "time": "20:00:00",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.872469,
+      "lng": -96.942954,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-irving-texas-10-15-2026/event/0C00648398F88E02"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-irving-texas-10-15-2026/event/0C00648398F88E02",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "stayc-west-melbourne-2026-10-16-festival-hall-melbourne-83ecff",
+      "artist": "STAYC",
+      "tour": "2026 STAYC FAN CONCERT TOUR [STAY CLOSER] in Australia - Melbourne",
+      "type": "fanmeeting",
+      "tier": "rising",
+      "date": "2026-10-16",
+      "endDate": "2026-10-16",
+      "time": "19:30:00",
+      "venue": "Festival Hall Melbourne",
+      "city": "West Melbourne",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -37.81126,
+      "lng": 144.946442,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/2026-stayc-fan-concert-tour-stay-west-melbourne-16-10-2026/event/130064E6DB685DC2"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/2026-stayc-fan-concert-tour-stay-west-melbourne-16-10-2026/event/130064E6DB685DC2",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-phoenix-2026-10-17-arizona-financial-theatre-1bdda5",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN PHOENIX",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-17",
+      "endDate": "2026-10-17",
+      "time": "20:00:00",
+      "venue": "Arizona Financial Theatre",
+      "city": "Phoenix",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.448775,
+      "lng": -112.079564,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-phoenix-arizona-10-17-2026/event/19006483BC7DB50C"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-phoenix-arizona-10-17-2026/event/19006483BC7DB50C",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "monsta-x-phoenix-az-2026-10-17-arizona-financial-theatre-855af5",
@@ -1052,6 +3314,354 @@
       "note": "Announced Asia tour date."
     },
     {
+      "id": "monsta-x-inglewood-2026-10-20-kia-forum-b3bc4a",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN LOS ANGELES",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-20",
+      "endDate": "2026-10-20",
+      "time": "20:00:00",
+      "venue": "Kia Forum",
+      "city": "Inglewood",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.9583,
+      "lng": -118.341868,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-inglewood-california-10-20-2026/event/09006481D49ADEBB"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-inglewood-california-10-20-2026/event/09006481D49ADEBB",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-san-francisco-2026-10-22-the-theater-at-bill-graham-civic-auditorium-fa",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN SAN FRANCISCO",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-22",
+      "endDate": "2026-10-22",
+      "time": "20:00:00",
+      "venue": "The Theater at Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.77833,
+      "lng": -122.41743,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-san-francisco-california-10-22-2026/event/1C006483CF0D29E6"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-san-francisco-california-10-22-2026/event/1C006483CF0D29E6",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "artms-las-vegas-2026-10-23-house-of-blues-las-vegas-6700bf",
+      "artist": "ARTMS",
+      "tour": "ARTMS",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-23",
+      "endDate": "2026-10-23",
+      "time": "18:00:00",
+      "venue": "House of Blues Las Vegas ",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.087535,
+      "lng": -115.174742,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/artms-las-vegas-nevada-10-23-2026/event/170064EA394F184A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/artms-las-vegas-nevada-10-23-2026/event/170064EA394F184A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "be-first-new-york-2026-10-23-gramercy-theatre-1f0eb4",
+      "artist": "BE:FIRST",
+      "tour": "BE:FIRST",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-23",
+      "endDate": "2026-10-23",
+      "time": "19:00:00",
+      "venue": "Gramercy Theatre",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.73975368,
+      "lng": -73.98501292,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/befirst-new-york-new-york-10-23-2026/event/000064AEC75955A5"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/befirst-new-york-new-york-10-23-2026/event/000064AEC75955A5",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "monsta-x-seattle-2026-10-24-wamu-theater-9b5753",
+      "artist": "MONSTA X",
+      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN SEATTLE",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-10-24",
+      "endDate": "2026-10-24",
+      "time": "20:00:00",
+      "venue": "WAMU Theater",
+      "city": "Seattle",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.596704,
+      "lng": -122.332085,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-seattle-washington-10-24-2026/event/0F006482D94050A3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-seattle-washington-10-24-2026/event/0F006482D94050A3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "planet-kpop-peoria-2026-10-27-prairie-home-alliance-theater-4506b8",
+      "artist": "Planet KPOP",
+      "tour": "Planet KPOP: The Ultimate KPOP Tribute Concert",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-27",
+      "endDate": "2026-10-27",
+      "time": "19:00:00",
+      "venue": "Prairie Home Alliance Theater",
+      "city": "Peoria",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.69186,
+      "lng": -89.59397,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-peoria-illinois-10-27-2026/event/070064A69DA75A98"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-peoria-illinois-10-27-2026/event/070064A69DA75A98",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "planet-kpop-grand-rapids-2026-10-28-devos-performance-hall-1f5583",
+      "artist": "Planet KPOP",
+      "tour": "Planet Kpop: The Ultimate Kpop Tribute",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-28",
+      "endDate": "2026-10-28",
+      "time": "19:00:00",
+      "venue": "DeVos Performance Hall",
+      "city": "Grand Rapids",
+      "country": "USA",
+      "region": "USA",
+      "lat": 42.969376,
+      "lng": -85.673835,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-grand-rapids-michigan-10-28-2026/event/080064A6B6C2A4DE"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-grand-rapids-michigan-10-28-2026/event/080064A6B6C2A4DE",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "kpopworld-san-antonio-2026-10-30-alamodome-d9698b",
+      "artist": "KPOPWORLD",
+      "tour": "KPOPWORLD 2026 Festival - Friday Only",
+      "type": "festival",
+      "tier": "festival",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "time": "17:00:00",
+      "venue": "Alamodome",
+      "city": "San Antonio",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.41705466,
+      "lng": -98.4791514,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpopworld-2026-festival-friday-only-san-antonio-texas-10-30-2026/event/3A0064F5979E75C7"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpopworld-2026-festival-friday-only-san-antonio-texas-10-30-2026/event/3A0064F5979E75C7",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "kpopworld-san-antonio-2026-10-31-alamodome-028e4a",
+      "artist": "KPOPWORLD",
+      "tour": "KPOPWORLD 2026 Festival - Saturday Only",
+      "type": "festival",
+      "tier": "festival",
+      "date": "2026-10-31",
+      "endDate": "2026-10-31",
+      "time": "17:00:00",
+      "venue": "Alamodome",
+      "city": "San Antonio",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.41705466,
+      "lng": -98.4791514,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpopworld-2026-festival-saturday-only-san-antonio-texas-10-31-2026/event/3A0064F597A875E1"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpopworld-2026-festival-saturday-only-san-antonio-texas-10-31-2026/event/3A0064F597A875E1",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "boynextdoor-pompano-beach-2026-11-01-pompano-beach-amphitheatre-43c0e0",
+      "artist": "BOYNEXTDOOR",
+      "tour": "BOYNEXTDOOR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-01",
+      "endDate": "2026-11-01",
+      "time": "20:00:00",
+      "venue": "Pompano Beach Amphitheatre",
+      "city": "Pompano Beach",
+      "country": "USA",
+      "region": "USA",
+      "lat": 26.2349,
+      "lng": -80.120102,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIj_"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIj_",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "xg-oakland-2026-11-03-oakland-arena-ef6395",
+      "artist": "XG",
+      "tour": "XG",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-03",
+      "endDate": "2026-11-03",
+      "time": "20:00:00",
+      "venue": "Oakland Arena",
+      "city": "Oakland",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.737099,
+      "lng": -122.206497,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70wFs"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70wFs",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "boynextdoor-chicago-2026-11-04-the-salt-shed-indoors-shed-f83f49",
+      "artist": "BOYNEXTDOOR",
+      "tour": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN NORTH AMERICA",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-04",
+      "endDate": "2026-11-04",
+      "time": "19:30:00",
+      "venue": "The Salt Shed Indoors (Shed)",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.9063,
+      "lng": -87.659,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/boynextdoor-tour-knock-on-vol2-in-chicago-illinois-11-04-2026/event/040064D0B6018B2C"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/boynextdoor-tour-knock-on-vol2-in-chicago-illinois-11-04-2026/event/040064D0B6018B2C",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "irene-seulgi-yokohama-2026-11-04-pacifico-yokohama-f56d22",
       "artist": "IRENE & SEULGI",
       "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
@@ -1079,6 +3689,35 @@
       "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
       "poster": "#22e3d4",
       "note": "Red Velvet sub-unit Japan tour."
+    },
+    {
+      "id": "xg-los-angeles-2026-11-05-crypto-com-arena-ae6e97",
+      "artist": "XG",
+      "tour": "XG",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-05",
+      "endDate": "2026-11-05",
+      "time": "20:00:00",
+      "venue": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.053101,
+      "lng": -118.2649,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70w18"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70w18",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "bigbang-bangkok-2026-11-07-rajamangala-national-stadium-13a59b",
@@ -1110,6 +3749,93 @@
       "note": "20th anniversary tour."
     },
     {
+      "id": "boynextdoor-new-york-2026-11-07-infosys-theater-at-madison-square-garden-b79a56",
+      "artist": "BOYNEXTDOOR",
+      "tour": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN NORTH AMERICA",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "time": "20:00:00",
+      "venue": "Infosys Theater at Madison Square Garden",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.7497062,
+      "lng": -73.9916006,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/boynextdoor-tour-knock-on-vol2-in-new-york-new-york-11-07-2026/event/3B0064CA94C8393A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/boynextdoor-tour-knock-on-vol2-in-new-york-new-york-11-07-2026/event/3B0064CA94C8393A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "xg-chicago-2026-11-09-united-center-6383f6",
+      "artist": "XG",
+      "tour": "XG WORLD TOUR: THE CORE IN CHICAGO",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-09",
+      "endDate": "2026-11-09",
+      "time": "20:00:00",
+      "venue": "United Center",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.88124412,
+      "lng": -87.67427375,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/xg-world-tour-the-core-in-chicago-illinois-11-09-2026/event/040064AFC948FDC2"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/xg-world-tour-the-core-in-chicago-illinois-11-09-2026/event/040064AFC948FDC2",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "henry-lau-seattle-2026-11-12-mccaw-hall-3c6344",
+      "artist": "Henry Lau",
+      "tour": "Henry Lau",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-12",
+      "endDate": "2026-11-12",
+      "time": "19:00:00",
+      "venue": "McCaw Hall",
+      "city": "Seattle",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.6244731,
+      "lng": -122.3506401,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/henry-lau-seattle-washington-11-12-2026/event/0F0064D0CC52D1EF"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/henry-lau-seattle-washington-11-12-2026/event/0F0064D0CC52D1EF",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "lisa-las-vegas-nv-2026-11-13-the-colosseum-at-caesars-palace-6d68fb",
       "artist": "LISA",
       "tour": "VIVA LA LISA (Las Vegas Residency)",
@@ -1137,6 +3863,180 @@
       "source": "https://www.billboard.com/culture/product-recommendations/current-k-pop-concerts-1236234463/",
       "poster": "#ffcf5c",
       "note": "Blackpink Lisa solo residency."
+    },
+    {
+      "id": "lisa-las-vegas-2026-11-13-the-colosseum-at-caesars-palace-dd4bbb",
+      "artist": "LISA",
+      "tour": "VIVA LA LISA",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-11-13",
+      "endDate": "2026-11-13",
+      "time": "20:00:00",
+      "venue": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.116156,
+      "lng": -115.175058,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-13-2026/event/3900647BA22F2CD0"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-13-2026/event/3900647BA22F2CD0",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lisa-las-vegas-2026-11-14-the-colosseum-at-caesars-palace-e83010",
+      "artist": "LISA",
+      "tour": "VIVA LA LISA",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "time": "20:00:00",
+      "venue": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.116156,
+      "lng": -115.175058,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-14-2026/event/3900647BA22A2CC9"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-14-2026/event/3900647BA22A2CC9",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "xg-newark-2026-11-14-prudential-center-502357",
+      "artist": "XG",
+      "tour": "XG WORLD TOUR: THE CORE IN NEWARK",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "time": "20:00:00",
+      "venue": "Prudential Center",
+      "city": "Newark",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.73340555,
+      "lng": -74.17121214,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/xg-world-tour-the-core-in-newark-new-jersey-11-14-2026/event/020064B4BAB2C00A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/xg-world-tour-the-core-in-newark-new-jersey-11-14-2026/event/020064B4BAB2C00A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "moonlight-princesses-tribute-to-demon-hunters-tacoma-2026-11-15-pantages-theater",
+      "artist": "Moonlight Princesses - Tribute to Demon Hunters",
+      "tour": "Moonlight Princesses - Tribute to Demon Hunters",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "time": "16:00:00",
+      "venue": "Pantages Theater",
+      "city": "Tacoma",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.2549285,
+      "lng": -122.4405673,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/moonlight-princesses-tribute-to-demon-hunters-tacoma-washington-11-15-2026/event/0F0064FFB1E7C348"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/moonlight-princesses-tribute-to-demon-hunters-tacoma-washington-11-15-2026/event/0F0064FFB1E7C348",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "xg-dallas-2026-11-17-american-airlines-center-9db763",
+      "artist": "XG",
+      "tour": "XG WORLD TOUR: THE CORE IN DALLAS",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-17",
+      "endDate": "2026-11-17",
+      "time": "20:00:00",
+      "venue": "American Airlines Center",
+      "city": "Dallas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.79067196,
+      "lng": -96.81081803,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/xg-world-tour-the-core-in-dallas-texas-11-17-2026/event/0C0064AD2B31587E"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/xg-world-tour-the-core-in-dallas-texas-11-17-2026/event/0C0064AD2B31587E",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "boynextdoor-los-angeles-2026-11-20-peacock-theater-la-4b7fd2",
+      "artist": "BOYNEXTDOOR",
+      "tour": "BOYNEXTDOOR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-20",
+      "endDate": "2026-11-20",
+      "time": "19:30:00",
+      "venue": "Peacock Theater - LA",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.0397,
+      "lng": -118.266403,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz4o"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pz4o",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "triples-los-angeles-ca-2026-11-25-the-wiltern-8ce5db",
@@ -1168,6 +4068,64 @@
       "note": ""
     },
     {
+      "id": "lisa-las-vegas-2026-11-27-the-colosseum-at-caesars-palace-37e9b1",
+      "artist": "LISA",
+      "tour": "VIVA LA LISA",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "time": "20:00:00",
+      "venue": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.116156,
+      "lng": -115.175058,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-27-2026/event/3900647BA2252CC4"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-27-2026/event/3900647BA2252CC4",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lisa-las-vegas-2026-11-28-the-colosseum-at-caesars-palace-31cd42",
+      "artist": "LISA",
+      "tour": "VIVA LA LISA",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-11-28",
+      "endDate": "2026-11-28",
+      "time": "20:00:00",
+      "venue": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.116156,
+      "lng": -115.175058,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-28-2026/event/3900647BA21F2CC1"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-28-2026/event/3900647BA21F2CC1",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "seventeen-bangkok-2026-12-03-rajamangala-national-stadium-f51f7c",
       "artist": "SEVENTEEN",
       "tour": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -1195,6 +4153,35 @@
       "source": "https://kpopofficial.com/event/seventeen-concert-singapore-2026/",
       "poster": "#ff3d9a",
       "note": "Bangkok dates released."
+    },
+    {
+      "id": "k-pop-superstars-wallingford-2026-12-06-toyota-oakdale-theatre-d6c022",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars Live!",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-06",
+      "endDate": "2026-12-06",
+      "time": "17:00:00",
+      "venue": "Toyota Oakdale Theatre",
+      "city": "Wallingford",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.4486599,
+      "lng": -72.846188,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-live-wallingford-connecticut-12-06-2026/event/1D0064F5CBE7F59D"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-live-wallingford-connecticut-12-06-2026/event/1D0064F5CBE7F59D",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "bigbang-tokyo-2026-12-13-tokyo-dome-c79ff5",
@@ -1284,6 +4271,180 @@
       "note": ""
     },
     {
+      "id": "k-pop-superstars-nashville-2026-12-27-the-truth-c635a9",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-27",
+      "endDate": "2026-12-27",
+      "time": "19:00:00",
+      "venue": "The Truth",
+      "city": "Nashville",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.14397875,
+      "lng": -86.77037483,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-nashville-tennessee-12-27-2026/event/1B0064DE91216605"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-nashville-tennessee-12-27-2026/event/1B0064DE91216605",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-docklands-2027-02-10-marvel-stadium-708446",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+      "type": "concert",
+      "tier": "major",
+      "date": "2027-02-10",
+      "endDate": "2027-02-10",
+      "time": "17:00:00",
+      "venue": "Marvel Stadium",
+      "city": "Docklands",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -37.816518,
+      "lng": 144.94554,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-docklands-2027-02-12-marvel-stadium-866779",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+      "type": "concert",
+      "tier": "major",
+      "date": "2027-02-12",
+      "endDate": "2027-02-12",
+      "time": "17:00:00",
+      "venue": "Marvel Stadium",
+      "city": "Docklands",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -37.816518,
+      "lng": 144.94554,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-docklands-2027-02-13-marvel-stadium-6f8789",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+      "type": "concert",
+      "tier": "major",
+      "date": "2027-02-13",
+      "endDate": "2027-02-13",
+      "time": "17:00:00",
+      "venue": "Marvel Stadium",
+      "city": "Docklands",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -37.816518,
+      "lng": 144.94554,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-sydney-olympic-park-2027-02-20-accor-stadium-45f54c",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN SYDNEY",
+      "type": "concert",
+      "tier": "major",
+      "date": "2027-02-20",
+      "endDate": "2027-02-20",
+      "time": "17:00:00",
+      "venue": "Accor Stadium",
+      "city": "Sydney Olympic Park",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -33.848603,
+      "lng": 151.061717,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bts-sydney-olympic-park-2027-02-21-accor-stadium-9bee25",
+      "artist": "BTS",
+      "tour": "BTS WORLD TOUR 'ARIRANG' IN SYDNEY",
+      "type": "concert",
+      "tier": "major",
+      "date": "2027-02-21",
+      "endDate": "2027-02-21",
+      "time": "17:00:00",
+      "venue": "Accor Stadium",
+      "city": "Sydney Olympic Park",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -33.848603,
+      "lng": 151.061717,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871"
+        }
+      ],
+      "source": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "enhypen-singapore-2027-03-14-singapore-indoor-stadium-0772c6",
       "artist": "ENHYPEN",
       "tour": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
@@ -1311,6 +4472,35 @@
       "source": "https://ticketmaster.sg/activity/latest",
       "poster": "#ff3d9a",
       "note": "2027 preview date."
+    },
+    {
+      "id": "2026-whib-1st-u-s-tour-go-up-our-era-in-tempe-tempe-2028-04-06-marquee-theatre-7",
+      "artist": "2026 WHIB 1ST U.S. TOUR [GO UP:OUR ERA] in Tempe",
+      "tour": "2026 WHIB 1ST U.S. TOUR [GO UP:OUR ERA] in Tempe",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2028-04-06",
+      "endDate": "2028-04-06",
+      "time": "19:30:00",
+      "venue": "Marquee Theatre",
+      "city": "Tempe",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.43699137,
+      "lng": -111.94398356,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-whib-1st-us-tour-go-tempe-arizona-04-06-2028/event/1900646A79D034E9"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-whib-1st-us-tour-go-tempe-arizona-04-06-2028/event/1900646A79D034E9",
+      "poster": "#026cdf",
+      "note": ""
     }
   ]
 }
