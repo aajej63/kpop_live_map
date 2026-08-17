@@ -1,563 +1,12 @@
 {
-  "updated_at": "2026-08-10T07:01:29Z",
+  "updated_at": "2026-08-17T03:40:30Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 117
+    "ticketmaster": 102
   },
-  "count": 155,
+  "count": 138,
   "concerts": [
-    {
-      "id": "bts-baltimore-2026-08-10-m-t-bank-stadium-e6ece3",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN BALTIMORE",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-08-10",
-      "endDate": "2026-08-10",
-      "time": "20:00:00",
-      "venue": "M&T Bank Stadium",
-      "city": "Baltimore",
-      "country": "USA",
-      "region": "USA",
-      "lat": 39.277932,
-      "lng": -76.622653,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-10-8-pm/concert/18007131"
-        }
-      ],
-      "source": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-10-8-pm/concert/18007131",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bts-baltimore-2026-08-11-m-t-bank-stadium-e50d75",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN BALTIMORE",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-08-11",
-      "endDate": "2026-08-11",
-      "time": "20:00:00",
-      "venue": "M&T Bank Stadium",
-      "city": "Baltimore",
-      "country": "USA",
-      "region": "USA",
-      "lat": 39.277932,
-      "lng": -76.622653,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-11-8-pm/concert/18009424"
-        }
-      ],
-      "source": "https://seatgeek.com/bts-tickets/baltimore-maryland-m-t-bank-stadium-2026-08-11-8-pm/concert/18009424",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "cortis-irving-2026-08-11-the-pavilion-at-toyota-music-factory-e11f29",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN IRVING",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-11",
-      "endDate": "2026-08-11",
-      "time": "20:00:00",
-      "venue": "The Pavilion at Toyota Music Factory",
-      "city": "Irving",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.872469,
-      "lng": -96.942954,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-irving-texas-08-11-2026/event/0C0064BDEB303991"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-irving-texas-08-11-2026/event/0C0064BDEB303991",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "mamamoo-belmont-park-2026-08-12-ubs-arena-251de4",
-      "artist": "Mamamoo",
-      "tour": "MAMAMOO 2026 US TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-12",
-      "endDate": "2026-08-12",
-      "time": "19:30:00",
-      "venue": "UBS Arena",
-      "city": "Belmont Park",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.71179844,
-      "lng": -73.72602467,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-belmont-park-new-york-08-12-2026/event/3000649A26A4A648"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-belmont-park-new-york-08-12-2026/event/3000649A26A4A648",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "cortis-inglewood-ca-2026-08-13-youtube-theater-3d26df",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN LOS ANGELES",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-08-13",
-      "endDate": "2026-08-13",
-      "time": "",
-      "venue": "YouTube Theater",
-      "city": "Inglewood, CA",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.9535,
-      "lng": -118.3392,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3",
-      "poster": "#22e3d4",
-      "note": "Official Ticketmaster event page verified."
-    },
-    {
-      "id": "cortis-inglewood-2026-08-13-youtube-theater-26f8cc",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN LOS ANGELES",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-13",
-      "endDate": "2026-08-13",
-      "time": "20:00:00",
-      "venue": "YouTube Theater",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.94982,
-      "lng": -118.3436,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-inglewood-california-08-13-2026/event/0A0064B49F1C6DB3",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "evan-los-angeles-2026-08-14-ray-charles-terrace-at-grammy-museum-l-a-live-000801",
-      "artist": "EVAN",
-      "tour": "Spotlight: EVAN",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-14",
-      "endDate": "2026-08-14",
-      "time": "19:30:00",
-      "venue": "Ray Charles Terrace at GRAMMY Museum L.A. Live",
-      "city": "Los Angeles",
-      "country": "USA",
-      "region": "USA",
-      "lat": 34.04449869,
-      "lng": -118.2653164,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.universe.com/events/spotlight-evan-tickets-1QDC82?ref=ticketmaster"
-        }
-      ],
-      "source": "https://www.universe.com/events/spotlight-evan-tickets-1QDC82?ref=ticketmaster",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "lykn-los-angeles-2026-08-14-orpheum-theatre-370fbe",
-      "artist": "LYKN",
-      "tour": "LYKN",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-14",
-      "endDate": "2026-08-14",
-      "time": "19:30:00",
-      "venue": "Orpheum Theatre",
-      "city": "Los Angeles",
-      "country": "USA",
-      "region": "USA",
-      "lat": 34.04263554,
-      "lng": -118.25558624,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/lykn-los-angeles-california-08-14-2026/event/09006472E921D0DC"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/lykn-los-angeles-california-08-14-2026/event/09006472E921D0DC",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "next-level-k-pop-philadelphia-2026-08-14-milkboy-philadelphia-23d371",
-      "artist": "Next Level K-Pop",
-      "tour": "Next Level KPop Rave (21+ Event)",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-14",
-      "endDate": "2026-08-14",
-      "time": "21:30:00",
-      "venue": "MilkBoy Philadelphia",
-      "city": "Philadelphia",
-      "country": "USA",
-      "region": "USA",
-      "lat": 39.951599,
-      "lng": -75.158096,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAZJ"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAZJ",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "young-k-incheon-2026-08-14-inspire-arena-f3b0de",
-      "artist": "Young K",
-      "tour": "Young K Solo Tour <YOUNGEST> in INCHEON",
-      "type": "concert",
-      "tier": "solo",
-      "date": "2026-08-14",
-      "endDate": "2026-08-16",
-      "time": "",
-      "venue": "INSPIRE ARENA",
-      "city": "Incheon",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 37.446,
-      "lng": 126.373,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "nol",
-          "name": "NOL World",
-          "region": "Korea",
-          "color": "#e6007e",
-          "url": "https://world.nol.com/en/ticket/places/26000804/products/26009887"
-        }
-      ],
-      "source": "https://www.starnewskorea.com/en/music/2026/07/15/2026071508015977031",
-      "poster": "#ffcf5c",
-      "note": "First solo world tour kickoff."
-    },
-    {
-      "id": "bts-arlington-2026-08-15-at-t-stadium-490f24",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-08-15",
-      "endDate": "2026-08-15",
-      "time": "20:00:00",
-      "venue": "AT&T Stadium",
-      "city": "Arlington",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.7542,
-      "lng": -97.082397,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "cortis-san-francisco-ca-2026-08-15-bill-graham-civic-auditorium-17f648",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN SAN FRANCISCO",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-08-15",
-      "endDate": "2026-08-15",
-      "time": "20:00",
-      "venue": "The Theater at Bill Graham Civic Auditorium",
-      "city": "San Francisco, CA",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.7786,
-      "lng": -122.417,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/cortis-tickets/artist/4435714"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/cortis-tickets/artist/4435714",
-      "poster": "#22e3d4",
-      "note": "Official Ticketmaster artist page lists the San Francisco show."
-    },
-    {
-      "id": "cortis-san-francisco-2026-08-15-the-theater-at-bill-graham-civic-auditorium-8153",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN SAN FRANCISCO",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-15",
-      "endDate": "2026-08-15",
-      "time": "20:00:00",
-      "venue": "The Theater at Bill Graham Civic Auditorium",
-      "city": "San Francisco",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.77833,
-      "lng": -122.41743,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-15-2026/event/1C0064B210E1CC25"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-15-2026/event/1C0064B210E1CC25",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "k-pop-superstars-louisville-2026-08-15-the-louisville-palace-8325f3",
-      "artist": "K-POP Superstars",
-      "tour": "K-POP Superstars",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-15",
-      "endDate": "2026-08-15",
-      "time": "19:00:00",
-      "venue": "The Louisville Palace",
-      "city": "Louisville",
-      "country": "USA",
-      "region": "USA",
-      "lat": 38.2481389,
-      "lng": -85.7580034,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpop-superstars-louisville-kentucky-08-15-2026/event/160064C5D8DBD43B"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpop-superstars-louisville-kentucky-08-15-2026/event/160064C5D8DBD43B",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "mamamoo-chicago-2026-08-15-wintrust-arena-6990a7",
-      "artist": "Mamamoo",
-      "tour": "MAMAMOO 2026 US TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-15",
-      "endDate": "2026-08-15",
-      "time": "19:30:00",
-      "venue": "Wintrust Arena",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.853079,
-      "lng": -87.62201,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-chicago-illinois-08-15-2026/event/07006498EC2AA360"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-chicago-illinois-08-15-2026/event/07006498EC2AA360",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bts-arlington-2026-08-16-at-t-stadium-3e2e5d",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-08-16",
-      "endDate": "2026-08-16",
-      "time": "20:00:00",
-      "venue": "AT&T Stadium",
-      "city": "Arlington",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.7542,
-      "lng": -97.082397,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "byeon-woo-seok-bangkok-2026-08-16-uob-live-12937a",
-      "artist": "Byeon Woo-seok",
-      "tour": "2026 Asia Fanmeeting Tour <The Secret Library>",
-      "type": "fanmeeting",
-      "tier": "solo",
-      "date": "2026-08-16",
-      "endDate": "2026-08-16",
-      "time": "",
-      "venue": "UOB LIVE",
-      "city": "Bangkok",
-      "country": "Thailand",
-      "region": "Thailand",
-      "lat": 13.75,
-      "lng": 100.534,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmelon",
-          "name": "ThaiTicketMajor",
-          "region": "Thailand",
-          "color": "#e91e63",
-          "url": "https://www.thaiticketmajor.com/performance/2026-byeonwooseok-asia-fanmeeting-tour-the-secret-library-in-bangkok.html"
-        }
-      ],
-      "source": "https://uoblive.asia/event/2026-byeonwooseok-asia-fanmeeting-tour-the-secret-library-in-bangkok",
-      "poster": "#ffcf5c",
-      "note": "Viu Scream Dates."
-    },
-    {
-      "id": "cortis-san-francisco-2026-08-16-the-theater-at-bill-graham-civic-auditorium-ec0e",
-      "artist": "CORTIS",
-      "tour": "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN SAN FRANCISCO",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-16",
-      "endDate": "2026-08-16",
-      "time": "20:00:00",
-      "venue": "The Theater at Bill Graham Civic Auditorium",
-      "city": "San Francisco",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.77833,
-      "lng": -122.41743,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-16-2026/event/1C0064B21202CE62"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-cortis-tour-put-your-phone-san-francisco-california-08-16-2026/event/1C0064B21202CE62",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "lykn-san-francisco-2026-08-16-palace-of-fine-arts-6e3fe8",
-      "artist": "LYKN",
-      "tour": "LYKN",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-16",
-      "endDate": "2026-08-16",
-      "time": "19:30:00",
-      "venue": "Palace of Fine Arts",
-      "city": "San Francisco",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.801884,
-      "lng": -122.448249,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/lykn-san-francisco-california-08-16-2026/event/1C0064731A3CB892"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/lykn-san-francisco-california-08-16-2026/event/1C0064731A3CB892",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "dickies-arena-suites-fort-worth-2026-08-18-dickies-arena-1c05bd",
       "artist": "Dickies Arena Suites",
@@ -1893,6 +1342,35 @@
       "note": ""
     },
     {
+      "id": "chikaatl-atlanta-2026-09-20-vinyl-c86d9c",
+      "artist": "ChikaATL",
+      "tour": "ChikaATL",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-09-20",
+      "endDate": "2026-09-20",
+      "time": "12:00:00",
+      "venue": "Vinyl",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.7918926,
+      "lng": -84.3877907,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/chikaatl-atlanta-georgia-09-20-2026/event/0E00650BCD9CEEE4"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/chikaatl-atlanta-georgia-09-20-2026/event/0E00650BCD9CEEE4",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "jay-park-phoenix-2026-09-20-arizona-financial-theatre-fecdff",
       "artist": "Jay Park",
       "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
@@ -1965,7 +1443,7 @@
       "region": "USA",
       "lat": 41.18287,
       "lng": -96.04084,
-      "status": "on_sale",
+      "status": "sold_out",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2237,6 +1715,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JkPE",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "global-citizen-festival-new-york-2026-09-26-great-lawn-at-central-park-4b4ec7",
+      "artist": "Global Citizen Festival",
+      "tour": "Global Citizen Festival",
+      "type": "festival",
+      "tier": "festival",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "time": "16:00:00",
+      "venue": "Great Lawn at Central Park",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.781362,
+      "lng": -73.966587,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/global-citizen-festival-new-york-new-york-09-26-2026/event/000065052543BBF1"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/global-citizen-festival-new-york-new-york-09-26-2026/event/000065052543BBF1",
       "poster": "#026cdf",
       "note": ""
     },
@@ -3966,7 +3473,7 @@
       "region": "USA",
       "lat": 47.2549285,
       "lng": -122.4405673,
-      "status": "on_sale",
+      "status": "sold_out",
       "platforms": [
         {
           "key": "ticketmaster",
