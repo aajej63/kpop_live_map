@@ -1,244 +1,12 @@
 {
-  "updated_at": "2026-08-17T03:40:30Z",
+  "updated_at": "2026-08-24T03:44:34Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 102
+    "ticketmaster": 98
   },
-  "count": 138,
+  "count": 135,
   "concerts": [
-    {
-      "id": "dickies-arena-suites-fort-worth-2026-08-18-dickies-arena-1c05bd",
-      "artist": "Dickies Arena Suites",
-      "tour": "Suites: MAMAMOO 2026 US TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-18",
-      "endDate": "2026-08-18",
-      "time": "19:30:00",
-      "venue": "Dickies Arena",
-      "city": "Fort Worth",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.741072,
-      "lng": -97.368507,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/suites-mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C0064AB0020C681"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/suites-mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C0064AB0020C681",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "mamamoo-fort-worth-2026-08-18-dickies-arena-0e8f6e",
-      "artist": "Mamamoo",
-      "tour": "MAMAMOO 2026 US TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-18",
-      "endDate": "2026-08-18",
-      "time": "19:30:00",
-      "venue": "Dickies Arena",
-      "city": "Fort Worth",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.741072,
-      "lng": -97.368507,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C00649CD7A64F19"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-fort-worth-texas-08-18-2026/event/0C00649CD7A64F19",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "lykn-chicago-2026-08-20-copernicus-center-20cb7f",
-      "artist": "LYKN",
-      "tour": "LYKN",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-20",
-      "endDate": "2026-08-20",
-      "time": "19:30:00",
-      "venue": "Copernicus Center",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.968303,
-      "lng": -87.75861,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/lykn-chicago-illinois-08-20-2026/event/07006473267FCD9A"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/lykn-chicago-illinois-08-20-2026/event/07006473267FCD9A",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "mamamoo-cedar-park-2026-08-21-h-e-b-center-at-cedar-park-ee9cb4",
-      "artist": "Mamamoo",
-      "tour": "MAMAMOO 2026 US TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-21",
-      "endDate": "2026-08-21",
-      "time": "19:30:00",
-      "venue": "H-E-B Center at Cedar Park",
-      "city": "Cedar Park",
-      "country": "USA",
-      "region": "USA",
-      "lat": 30.5393195,
-      "lng": -97.82448,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-cedar-park-texas-08-21-2026/event/3A006499E7976674"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-cedar-park-texas-08-21-2026/event/3A006499E7976674",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "baek-z-young-atlanta-2026-08-22-atlanta-symphony-hall-154c25",
-      "artist": "Baek Z Young",
-      "tour": "Baek Ji Young",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-22",
-      "endDate": "2026-08-22",
-      "time": "19:00:00",
-      "venue": "Atlanta Symphony Hall",
-      "city": "Atlanta",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.790098,
-      "lng": -84.385493,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/baek-ji-young-atlanta-georgia-08-22-2026/event/0E0064C3CFBAF4D9"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/baek-ji-young-atlanta-georgia-08-22-2026/event/0E0064C3CFBAF4D9",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "lykn-new-york-city-2026-08-22-palladium-times-square-48829f",
-      "artist": "LYKN",
-      "tour": "LYKN",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-22",
-      "endDate": "2026-08-22",
-      "time": "19:30:00",
-      "venue": "Palladium Times Square ",
-      "city": "New York City",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.757201,
-      "lng": -73.985763,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/lykn-new-york-city-new-york-08-22-2026/event/000064713A6CA4F3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/lykn-new-york-city-new-york-08-22-2026/event/000064713A6CA4F3",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "next-level-k-pop-milwaukee-2026-08-22-the-rave-eagles-club-4317cf",
-      "artist": "Next Level K-Pop",
-      "tour": "Next Level KPop Rave (18 and Over)",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-22",
-      "endDate": "2026-08-22",
-      "time": "20:30:00",
-      "venue": "The Rave-Eagles Club",
-      "city": "Milwaukee",
-      "country": "USA",
-      "region": "USA",
-      "lat": 43.037399,
-      "lng": -87.934196,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFAw",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "tiot-singapore-2026-08-22-sota-concert-hall-61034d",
-      "artist": "TIOT",
-      "tour": "TIOT SPECIAL FAN EVENT AND CONCERT IN SINGAPORE",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-08-22",
-      "endDate": "2026-08-22",
-      "time": "",
-      "venue": "SOTA Concert Hall",
-      "city": "Singapore",
-      "country": "Singapore",
-      "region": "Singapore",
-      "lat": 1.2966,
-      "lng": 103.846,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "sistic",
-          "name": "SISTIC",
-          "region": "Singapore",
-          "color": "#c41230",
-          "url": "https://www.sistic.com.sg/events/tiot0826"
-        }
-      ],
-      "source": "https://www.sistic.com.sg/events/tiot0826",
-      "poster": "#22e3d4",
-      "note": "Rookie boy group first Singapore show."
-    },
     {
       "id": "one-pact-houston-2026-08-24-house-of-blues-houston-668796",
       "artist": "ONE PACT",
@@ -675,6 +443,35 @@
       "note": ""
     },
     {
+      "id": "bigbang-oakland-2026-09-04-oakland-coliseum-2e5071",
+      "artist": "BIGBANG",
+      "tour": "BIGBANG",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-04",
+      "endDate": "2026-09-04",
+      "time": "20:00:00",
+      "venue": "Oakland Coliseum",
+      "city": "Oakland",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.737099,
+      "lng": -122.206497,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSqb"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSqb",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "ive-hong-kong-2026-09-04-asiaworld-arena-6b8591",
       "artist": "IVE",
       "tour": "IVE WORLD TOUR <SHOW WHAT I AM>",
@@ -731,6 +528,35 @@
       "source": "https://www.smtickets.com/events/view/17757",
       "poster": "#ff3d9a",
       "note": "SVIP Soundcheck package."
+    },
+    {
+      "id": "bigbang-oakland-2026-09-05-oakland-coliseum-8b8e1f",
+      "artist": "BIGBANG",
+      "tour": "BIGBANG",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-05",
+      "endDate": "2026-09-05",
+      "time": "20:00:00",
+      "venue": "Oakland Coliseum",
+      "city": "Oakland",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.737099,
+      "lng": -122.206497,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P984"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7P984",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "bts-inglewood-2026-09-05-sofi-stadium-bcc51d",
@@ -903,6 +729,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-washington-district-of-columbia-09-10-2026/event/150064C8A95191D0",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "bigbang-east-rutherford-2026-09-11-metlife-stadium-4c3541",
+      "artist": "BIGBANG",
+      "tour": "BIGBANG 2026 WORLD TOUR-Individual Suite Tickets",
+      "type": "concert",
+      "tier": "major",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "time": "20:00:00",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.81359,
+      "lng": -74.074493,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/bigbang-2026-world-tourindividual-suite-tickets-east-rutherford-new-jersey-09-11-2026/event/0000650EA7990DF5"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/bigbang-2026-world-tourindividual-suite-tickets-east-rutherford-new-jersey-09-11-2026/event/0000650EA7990DF5",
       "poster": "#026cdf",
       "note": ""
     },
@@ -3488,6 +3343,35 @@
       "note": ""
     },
     {
+      "id": "yves-melbourne-2026-11-15-170-russell-e73ab4",
+      "artist": "YVES",
+      "tour": "YVES. Australian Tour 2026",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "time": "19:00:00",
+      "venue": "170 Russell",
+      "city": "Melbourne",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -37.81456375,
+      "lng": 144.97026062,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.moshtix.com.au/v2/event/yves-australian-tour-2026/199202"
+        }
+      ],
+      "source": "https://www.moshtix.com.au/v2/event/yves-australian-tour-2026/199202",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "xg-dallas-2026-11-17-american-airlines-center-9db763",
       "artist": "XG",
       "tour": "XG WORLD TOUR: THE CORE IN DALLAS",
@@ -3513,6 +3397,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/xg-world-tour-the-core-in-dallas-texas-11-17-2026/event/0C0064AD2B31587E",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "yves-moore-park-2026-11-17-liberty-hall-e76246",
+      "artist": "YVES",
+      "tour": "YVES. Australian Tour 2026.",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-17",
+      "endDate": "2026-11-17",
+      "time": "19:00:00",
+      "venue": "Liberty Hall",
+      "city": "Moore Park",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -33.894103,
+      "lng": 151.225267,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.moshtix.com.au/v2/event/yves-australian-tour-2026-/199175"
+        }
+      ],
+      "source": "https://www.moshtix.com.au/v2/event/yves-australian-tour-2026-/199175",
       "poster": "#026cdf",
       "note": ""
     },
