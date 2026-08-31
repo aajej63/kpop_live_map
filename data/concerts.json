@@ -1,360 +1,12 @@
 {
-  "updated_at": "2026-08-24T03:44:34Z",
+  "updated_at": "2026-08-31T09:01:47Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 98
+    "ticketmaster": 99
   },
-  "count": 135,
+  "count": 134,
   "concerts": [
-    {
-      "id": "one-pact-houston-2026-08-24-house-of-blues-houston-668796",
-      "artist": "ONE PACT",
-      "tour": "ONE PACT",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-24",
-      "endDate": "2026-08-24",
-      "time": "18:00:00",
-      "venue": "House of Blues Houston",
-      "city": "Houston",
-      "country": "USA",
-      "region": "USA",
-      "lat": 29.75377797,
-      "lng": -95.36381697,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/one-pact-houston-texas-08-24-2026/event/3A0064FDFDCD4C85"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/one-pact-houston-texas-08-24-2026/event/3A0064FDFDCD4C85",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "mamamoo-los-angeles-2026-08-25-crypto-com-arena-c32bf8",
-      "artist": "Mamamoo",
-      "tour": "Mamamoo",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-25",
-      "endDate": "2026-08-25",
-      "time": "19:00:00",
-      "venue": "Crypto.com Arena",
-      "city": "Los Angeles",
-      "country": "USA",
-      "region": "USA",
-      "lat": 34.053101,
-      "lng": -118.2649,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f-7"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70f-7",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bts-chicago-il-2026-08-27-soldier-field-cacd63",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG'",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-08-27",
-      "endDate": "2026-08-27",
-      "time": "",
-      "venue": "Soldier Field",
-      "city": "Chicago, IL",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.8623,
-      "lng": -87.6167,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/04006429EEB8CDE1"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-tickets/artist/2110227",
-      "poster": "#ff3d9a",
-      "note": ""
-    },
-    {
-      "id": "bts-chicago-2026-08-27-soldier-field-b500ff",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN CHICAGO",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-08-27",
-      "endDate": "2026-08-27",
-      "time": "20:00:00",
-      "venue": "Soldier Field",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.86205404,
-      "lng": -87.61682143,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "kpop-club-night-chicago-2026-08-27-house-of-blues-chicago-160768",
-      "artist": "KPop Club Night",
-      "tour": "KPop Club Night",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-27",
-      "endDate": "2026-08-27",
-      "time": "23:00:00",
-      "venue": "House of Blues Chicago",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.88811537,
-      "lng": -87.62931962,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-27-2026/event/04006468C1E06429"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-27-2026/event/04006468C1E06429",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "mamamoo-san-jose-2026-08-27-sap-center-at-san-jose-e0b6f7",
-      "artist": "Mamamoo",
-      "tour": "MAMAMOO 2026 US TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-27",
-      "endDate": "2026-08-27",
-      "time": "19:30:00",
-      "venue": "SAP Center at San Jose",
-      "city": "San Jose",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.3329688,
-      "lng": -121.9045755,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-san-jose-california-08-27-2026/event/1C006498AE5F3FBC"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/mamamoo-2026-us-tour-san-jose-california-08-27-2026/event/1C006498AE5F3FBC",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bts-chicago-2026-08-28-soldier-field-5acc0a",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN CHICAGO",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-08-28",
-      "endDate": "2026-08-28",
-      "time": "20:00:00",
-      "venue": "Soldier Field",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.86205404,
-      "lng": -87.61682143,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "k-pop-superstars-houston-2026-08-28-bayou-music-center-85c00f",
-      "artist": "K-POP Superstars",
-      "tour": "K-POP Superstars",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-28",
-      "endDate": "2026-08-28",
-      "time": "20:00:00",
-      "venue": "Bayou Music Center",
-      "city": "Houston",
-      "country": "USA",
-      "region": "USA",
-      "lat": 29.7628087,
-      "lng": -95.3672891,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpop-superstars-houston-texas-08-28-2026/event/3A0064C8C28DBF9D"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpop-superstars-houston-texas-08-28-2026/event/3A0064C8C28DBF9D",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "kpop-club-night-chicago-2026-08-28-house-of-blues-chicago-a892ed",
-      "artist": "KPop Club Night",
-      "tour": "KPop Club Night",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-28",
-      "endDate": "2026-08-28",
-      "time": "23:00:00",
-      "venue": "House of Blues Chicago",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.88811537,
-      "lng": -87.62931962,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-28-2026/event/04006468C22C649A"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-28-2026/event/04006468C22C649A",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "leehi-brisbane-2026-08-28-the-fortitude-music-hall-2cf335",
-      "artist": "LeeHi",
-      "tour": "LEEHI 808 HI RECORDINGS WORLD TOUR 2026",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-28",
-      "endDate": "2026-08-28",
-      "time": "19:00:00",
-      "venue": "The Fortitude Music Hall",
-      "city": "Brisbane",
-      "country": "Australia",
-      "region": "Other",
-      "lat": -27.457971,
-      "lng": 153.034553,
-      "status": "sold_out",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "Other",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com.au/leehi-808-hi-recordings-world-tour-brisbane-28-08-2026/event/1300649E82292FAA"
-        }
-      ],
-      "source": "https://www.ticketmaster.com.au/leehi-808-hi-recordings-world-tour-brisbane-28-08-2026/event/1300649E82292FAA",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "stray-kids-tokyo-2026-08-29-japan-national-stadium-38c56d",
-      "artist": "Stray Kids",
-      "tour": "Stray Kids World Tour <RUN IT> in JAPAN",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-08-29",
-      "endDate": "2026-08-30",
-      "time": "",
-      "venue": "Japan National Stadium",
-      "city": "Tokyo",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 35.6779,
-      "lng": 139.7146,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "lawson",
-          "name": "Lawson Ticket",
-          "region": "Japan",
-          "color": "#0068b7",
-          "url": "https://l-tike.com/straykids/"
-        }
-      ],
-      "source": "https://www.japanconcerttickets.com/event/stray-kids-in-tokyo-2026-08-29/",
-      "poster": "#ff3d9a",
-      "note": "Lottery system applies."
-    },
-    {
-      "id": "mamamoo-kent-2026-08-30-accesso-showare-center-f70588",
-      "artist": "Mamamoo",
-      "tour": "Mamamoo",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-08-30",
-      "endDate": "2026-08-30",
-      "time": "19:30:00",
-      "venue": "accesso ShoWare Center",
-      "city": "Kent",
-      "country": "USA",
-      "region": "USA",
-      "lat": 47.390701,
-      "lng": -122.262604,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gaJ"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70gaJ",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "bts-inglewood-2026-09-01-sofi-stadium-56a44f",
       "artist": "BTS",
@@ -1112,7 +764,7 @@
     {
       "id": "fivealive-santa-ana-2026-09-18-constellation-room-f7c8de",
       "artist": "fiveAlive",
-      "tour": "Sean Healy Presents - fiveALIVE",
+      "tour": "Sean Healy Presents - fiveALIVE & Full Circle Boys",
       "type": "concert",
       "tier": "rising",
       "date": "2026-09-18",
@@ -1131,10 +783,10 @@
           "name": "Ticketmaster",
           "region": "USA",
           "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/sean-healy-presents-fivealive-santa-ana-california-09-18-2026/event/090064FDFBADE855"
+          "url": "https://www.ticketmaster.com/sean-healy-presents-fivealive-full-circle-santa-ana-california-09-18-2026/event/090064FDFBADE855"
         }
       ],
-      "source": "https://www.ticketmaster.com/sean-healy-presents-fivealive-santa-ana-california-09-18-2026/event/090064FDFBADE855",
+      "source": "https://www.ticketmaster.com/sean-healy-presents-fivealive-full-circle-santa-ana-california-09-18-2026/event/090064FDFBADE855",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2386,6 +2038,35 @@
       "note": ""
     },
     {
+      "id": "taemin-san-jose-2026-10-12-sap-center-at-san-jose-453c86",
+      "artist": "Taemin",
+      "tour": "2026-27 TAEMIN WORLD TOUR <LiMiNaL> IN SAN JOSE",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-12",
+      "endDate": "2026-10-12",
+      "time": "20:00:00",
+      "venue": "SAP Center at San Jose",
+      "city": "San Jose",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.3329688,
+      "lng": -121.9045755,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-san-jose-california-10-12-2026/event/1C0065149A5C1108"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-san-jose-california-10-12-2026/event/1C0065149A5C1108",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "monsta-x-rosemont-2026-10-13-rosemont-theatre-2f7ba1",
       "artist": "MONSTA X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN ROSEMONT",
@@ -2618,6 +2299,35 @@
       "note": "Virtual group first offline world tour."
     },
     {
+      "id": "ten-seattle-2026-10-17-moore-theatre-9ae212",
+      "artist": "TEN",
+      "tour": "TEN - US Showcase Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-17",
+      "endDate": "2026-10-17",
+      "time": "20:00:00",
+      "venue": "Moore Theatre",
+      "city": "Seattle",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.61196,
+      "lng": -122.34142,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-seattle-washington-10-17-2026/event/0F006514E6739086"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-seattle-washington-10-17-2026/event/0F006514E6739086",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "various-artists-seoul-2026-10-17-nanji-hangang-park-8e5b4f",
       "artist": "Various Artists",
       "tour": "2026 Asia Top Artist Festival",
@@ -2701,6 +2411,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-inglewood-california-10-20-2026/event/09006481D49ADEBB",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "taemin-chicago-2026-10-21-wintrust-arena-d1f4b3",
+      "artist": "Taemin",
+      "tour": "2026-27 TAEMIN WORLD TOUR <LiMiNaL> in Chicago",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-21",
+      "endDate": "2026-10-21",
+      "time": "19:30:00",
+      "venue": "Wintrust Arena",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.853079,
+      "lng": -87.62201,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-chicago-illinois-10-21-2026/event/0700651587B4462D"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-chicago-illinois-10-21-2026/event/0700651587B4462D",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2792,6 +2531,64 @@
       "note": ""
     },
     {
+      "id": "ten-san-diego-2026-10-23-humphreys-concerts-by-the-bay-5e98ca",
+      "artist": "TEN",
+      "tour": "TEN - US Showcase Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-23",
+      "endDate": "2026-10-23",
+      "time": "20:00:00",
+      "venue": "Humphreys Concerts By the Bay",
+      "city": "San Diego",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.7169815,
+      "lng": -117.22362958,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-san-diego-california-10-23-2026/event/0A0065139AD2B2C3"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-san-diego-california-10-23-2026/event/0A0065139AD2B2C3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "taemin-newark-2026-10-23-prudential-center-b1e963",
+      "artist": "Taemin",
+      "tour": "2026-27 TAEMIN WORLD TOUR <LiMiNaL> In NEWARK",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-23",
+      "endDate": "2026-10-23",
+      "time": "20:00:00",
+      "venue": "Prudential Center",
+      "city": "Newark",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.73340555,
+      "lng": -74.17121214,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-newark-new-jersey-10-23-2026/event/02006515AB91F226"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-newark-new-jersey-10-23-2026/event/02006515AB91F226",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "monsta-x-seattle-2026-10-24-wamu-theater-9b5753",
       "artist": "MONSTA X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN SEATTLE",
@@ -2817,6 +2614,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-seattle-washington-10-24-2026/event/0F006482D94050A3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "ten-phoenix-2026-10-26-the-van-buren-65f912",
+      "artist": "TEN",
+      "tour": "TEN - US Showcase Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-26",
+      "endDate": "2026-10-26",
+      "time": "20:00:00",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.451085,
+      "lng": -112.079228,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-phoenix-arizona-10-26-2026/event/19006511EE23C55B"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-phoenix-arizona-10-26-2026/event/19006511EE23C55B",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2879,6 +2705,35 @@
       "note": ""
     },
     {
+      "id": "ten-houston-2026-10-28-white-oak-music-hall-downstairs-b3b5fa",
+      "artist": "TEN",
+      "tour": "TEN: US SHOWCASE TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-28",
+      "endDate": "2026-10-28",
+      "time": "19:00:00",
+      "venue": "White Oak Music Hall - Downstairs",
+      "city": "Houston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.78627,
+      "lng": -95.36562,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-houston-texas-10-28-2026/event/3A006513E6A942C5"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-houston-texas-10-28-2026/event/3A006513E6A942C5",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "kpopworld-san-antonio-2026-10-30-alamodome-d9698b",
       "artist": "KPOPWORLD",
       "tour": "KPOPWORLD 2026 Festival - Friday Only",
@@ -2937,6 +2792,35 @@
       "note": ""
     },
     {
+      "id": "ten-minneapolis-2026-10-31-uptown-theater-minneapolis-4b5c18",
+      "artist": "TEN",
+      "tour": "TEN: US SHOWCASE TOUR",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-31",
+      "endDate": "2026-10-31",
+      "time": "19:00:00",
+      "venue": "Uptown Theater Minneapolis",
+      "city": "Minneapolis",
+      "country": "USA",
+      "region": "USA",
+      "lat": 44.94922,
+      "lng": -93.29845,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-minneapolis-minnesota-10-31-2026/event/06006511E53DFD04"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-minneapolis-minnesota-10-31-2026/event/06006511E53DFD04",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "boynextdoor-pompano-beach-2026-11-01-pompano-beach-amphitheatre-43c0e0",
       "artist": "BOYNEXTDOOR",
       "tour": "BOYNEXTDOOR",
@@ -2962,6 +2846,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIj_",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "ten-atlanta-2026-11-03-buckhead-theatre-20ef22",
+      "artist": "TEN",
+      "tour": "TEN - US Showcase Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-03",
+      "endDate": "2026-11-03",
+      "time": "20:00:00",
+      "venue": "Buckhead Theatre",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.8402272,
+      "lng": -84.3795437,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-atlanta-georgia-11-03-2026/event/0E00651301874E3F"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-atlanta-georgia-11-03-2026/event/0E00651301874E3F",
       "poster": "#026cdf",
       "note": ""
     },
@@ -3082,6 +2995,35 @@
       "note": ""
     },
     {
+      "id": "ten-baltimore-2026-11-06-nevermore-hall-43ad50",
+      "artist": "TEN",
+      "tour": "TEN - US Showcase Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-06",
+      "endDate": "2026-11-06",
+      "time": "20:00:00",
+      "venue": "Nevermore Hall",
+      "city": "Baltimore",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.290443,
+      "lng": -76.612333,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-baltimore-maryland-11-06-2026/event/15006516C7C2E3AB"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-baltimore-maryland-11-06-2026/event/15006516C7C2E3AB",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "bigbang-bangkok-2026-11-07-rajamangala-national-stadium-13a59b",
       "artist": "BIGBANG",
       "tour": "BIGBANG 2026-2027 WORLD TOUR <XX : COSMOS>",
@@ -3136,6 +3078,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/boynextdoor-tour-knock-on-vol2-in-new-york-new-york-11-07-2026/event/3B0064CA94C8393A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "ten-boston-2026-11-08-big-night-live-037c6b",
+      "artist": "TEN",
+      "tour": "TEN - US Showcase Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-08",
+      "endDate": "2026-11-08",
+      "time": "19:00:00",
+      "venue": "Big Night Live",
+      "city": "Boston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 42.365977,
+      "lng": -71.0617,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-boston-massachusetts-11-08-2026/event/0100651387BD71EB"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-boston-massachusetts-11-08-2026/event/0100651387BD71EB",
       "poster": "#026cdf",
       "note": ""
     },
