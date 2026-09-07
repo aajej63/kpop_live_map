@@ -1,331 +1,12 @@
 {
-  "updated_at": "2026-08-31T09:01:47Z",
+  "updated_at": "2026-09-07T07:39:40Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 99
+    "ticketmaster": 104
   },
   "count": 134,
   "concerts": [
-    {
-      "id": "bts-inglewood-2026-09-01-sofi-stadium-56a44f",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-01",
-      "endDate": "2026-09-01",
-      "time": "20:00:00",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.950529,
-      "lng": -118.343767,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bts-inglewood-2026-09-02-sofi-stadium-206238",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-02",
-      "endDate": "2026-09-02",
-      "time": "20:00:00",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.950529,
-      "lng": -118.343767,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "one-pact-atlanta-2026-09-02-center-stage-theater-6d4a07",
-      "artist": "ONE PACT",
-      "tour": "ONE PACT",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-02",
-      "endDate": "2026-09-02",
-      "time": "19:00:00",
-      "venue": "Center Stage Theater",
-      "city": "Atlanta",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.7918926,
-      "lng": -84.3877907,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/one-pact-atlanta-georgia-09-02-2026/event/0E0064FECAD3C969"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/one-pact-atlanta-georgia-09-02-2026/event/0E0064FECAD3C969",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bigbang-oakland-2026-09-04-oakland-coliseum-2e5071",
-      "artist": "BIGBANG",
-      "tour": "BIGBANG",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-04",
-      "endDate": "2026-09-04",
-      "time": "20:00:00",
-      "venue": "Oakland Coliseum",
-      "city": "Oakland",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.737099,
-      "lng": -122.206497,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSqb"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7PSqb",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "ive-hong-kong-2026-09-04-asiaworld-arena-6b8591",
-      "artist": "IVE",
-      "tour": "IVE WORLD TOUR <SHOW WHAT I AM>",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-04",
-      "endDate": "2026-09-06",
-      "time": "",
-      "venue": "AsiaWorld-Arena",
-      "city": "Hong Kong",
-      "country": "HongKong",
-      "region": "HongKong",
-      "lat": 22.321,
-      "lng": 113.941,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "cityline",
-          "name": "Cityline",
-          "region": "HongKong",
-          "color": "#ff6600",
-          "url": "https://shows.cityline.com/en/2026/iveshowwhatiamhk.html"
-        }
-      ],
-      "source": "https://www.livenation.hk/en/event/ive-world-tour-show-what-i-am-in-hong-kong-hong-kong-tickets-edp1662577",
-      "poster": "#ff3d9a",
-      "note": "Three shows."
-    },
-    {
-      "id": "babymonster-manila-2026-09-05-sm-mall-of-asia-arena-74d80d",
-      "artist": "BABYMONSTER",
-      "tour": "BABYMONSTER <CHOOM> WORLD TOUR",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-05",
-      "endDate": "2026-09-05",
-      "time": "",
-      "venue": "SM Mall of Asia Arena",
-      "city": "Manila",
-      "country": "Philippines",
-      "region": "Philippines",
-      "lat": 14.535,
-      "lng": 120.982,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "smtickets",
-          "name": "SM Tickets",
-          "region": "Philippines",
-          "color": "#0033a0",
-          "url": "https://www.smtickets.com/events/view/17757"
-        }
-      ],
-      "source": "https://www.smtickets.com/events/view/17757",
-      "poster": "#ff3d9a",
-      "note": "SVIP Soundcheck package."
-    },
-    {
-      "id": "bigbang-oakland-2026-09-05-oakland-coliseum-8b8e1f",
-      "artist": "BIGBANG",
-      "tour": "BIGBANG",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-05",
-      "endDate": "2026-09-05",
-      "time": "20:00:00",
-      "venue": "Oakland Coliseum",
-      "city": "Oakland",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.737099,
-      "lng": -122.206497,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P984"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7P984",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bts-inglewood-2026-09-05-sofi-stadium-bcc51d",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-05",
-      "endDate": "2026-09-05",
-      "time": "20:00:00",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.950529,
-      "lng": -118.343767,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "seeya-busan-2026-09-05-kbs-busan-hall-182ac7",
-      "artist": "SeeYa",
-      "tour": "2026 SeeYa 20th Anniversary Tour 'THE FAN'",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-05",
-      "endDate": "2026-09-05",
-      "time": "",
-      "venue": "KBS Busan Hall",
-      "city": "Busan",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 35.1683,
-      "lng": 129.133,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "yes24",
-          "name": "YES24",
-          "region": "Korea",
-          "color": "#00539f",
-          "url": "https://ticket.yes24.com/Genre/Concert?Gcode=009_202_001"
-        }
-      ],
-      "source": "https://www.allkpop.com/article/2026/06/",
-      "poster": "#22e3d4",
-      "note": "20th Anniversary reunion tour."
-    },
-    {
-      "id": "treasure-tokyo-2026-09-05-ariake-arena-918268",
-      "artist": "TREASURE",
-      "tour": "TREASURE THE STAGE 2026 NEW WAV: LIVE IN JAPAN",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-05",
-      "endDate": "2026-09-06",
-      "time": "",
-      "venue": "Ariake Arena",
-      "city": "Tokyo",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 35.636,
-      "lng": 139.791,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "lawson",
-          "name": "Lawson/Pia/eplus",
-          "region": "Japan",
-          "color": "#0068b7",
-          "url": "https://l-tike.com/treasure/"
-        }
-      ],
-      "source": "https://ygex.jp/en/treasure/news/detail.php?id=1134134",
-      "poster": "#ff3d9a",
-      "note": ""
-    },
-    {
-      "id": "bts-inglewood-2026-09-06-sofi-stadium-fe3e81",
-      "artist": "BTS",
-      "tour": "BTS WORLD TOUR 'ARIRANG' IN LOS ANGELES",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-06",
-      "endDate": "2026-09-06",
-      "time": "20:00:00",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.950529,
-      "lng": -118.343767,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "jay-park-duluth-2026-09-08-gas-south-arena-b5cad3",
       "artist": "Jay Park",
@@ -764,7 +445,7 @@
     {
       "id": "fivealive-santa-ana-2026-09-18-constellation-room-f7c8de",
       "artist": "fiveAlive",
-      "tour": "Sean Healy Presents - fiveALIVE & Full Circle Boys",
+      "tour": "Sean Healy Presents - fiveALIVE with Special Guest Full Circle Boys",
       "type": "concert",
       "tier": "rising",
       "date": "2026-09-18",
@@ -783,10 +464,10 @@
           "name": "Ticketmaster",
           "region": "USA",
           "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/sean-healy-presents-fivealive-full-circle-santa-ana-california-09-18-2026/event/090064FDFBADE855"
+          "url": "https://www.ticketmaster.com/sean-healy-presents-fivealive-with-special-santa-ana-california-09-18-2026/event/090064FDFBADE855"
         }
       ],
-      "source": "https://www.ticketmaster.com/sean-healy-presents-fivealive-full-circle-santa-ana-california-09-18-2026/event/090064FDFBADE855",
+      "source": "https://www.ticketmaster.com/sean-healy-presents-fivealive-with-special-santa-ana-california-09-18-2026/event/090064FDFBADE855",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2052,7 +1733,7 @@
       "region": "USA",
       "lat": 37.3329688,
       "lng": -121.9045755,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2179,6 +1860,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-irving-texas-10-15-2026/event/0C00648398F88E02",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "taemin-los-angeles-2026-10-15-crypto-com-arena-9b1c41",
+      "artist": "Taemin",
+      "tour": "Taemin",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-15",
+      "endDate": "2026-10-15",
+      "time": "20:00:00",
+      "venue": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.053101,
+      "lng": -118.2649,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZbI"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZbI",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2386,6 +2096,35 @@
       "note": "Announced Asia tour date."
     },
     {
+      "id": "taemin-grand-prairie-2026-10-19-texas-trust-cu-theatre-a18544",
+      "artist": "Taemin",
+      "tour": "Taemin",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-19",
+      "endDate": "2026-10-19",
+      "time": "20:00:00",
+      "venue": "Texas Trust CU Theatre",
+      "city": "Grand Prairie",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.773998,
+      "lng": -97.005203,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_Q6"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_Q6",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "monsta-x-inglewood-2026-10-20-kia-forum-b3bc4a",
       "artist": "MONSTA X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN LOS ANGELES",
@@ -2422,14 +2161,14 @@
       "tier": "rising",
       "date": "2026-10-21",
       "endDate": "2026-10-21",
-      "time": "19:30:00",
+      "time": "20:00:00",
       "venue": "Wintrust Arena",
       "city": "Chicago",
       "country": "USA",
       "region": "USA",
       "lat": 41.853079,
       "lng": -87.62201,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2574,7 +2313,7 @@
       "region": "USA",
       "lat": 40.73340555,
       "lng": -74.17121214,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -3140,6 +2879,64 @@
       "note": ""
     },
     {
+      "id": "eldon-new-york-2026-11-10-mercury-lounge-f4f3b1",
+      "artist": "eldon",
+      "tour": "eldon",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-10",
+      "endDate": "2026-11-10",
+      "time": "18:00:00",
+      "venue": "Mercury Lounge",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.722036,
+      "lng": -73.986806,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/eldon-new-york-new-york-11-10-2026/event/0000651BD370C1BC"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/eldon-new-york-new-york-11-10-2026/event/0000651BD370C1BC",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "hohyun-houston-2026-11-12-white-oak-music-hall-upstairs-243947",
+      "artist": "HOHYUN",
+      "tour": "HOHYUN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-12",
+      "endDate": "2026-11-12",
+      "time": "19:00:00",
+      "venue": "White Oak Music Hall - Upstairs ",
+      "city": "Houston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.78627,
+      "lng": -95.36562,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/hohyun-houston-texas-11-12-2026/event/3A00650CF5EAF43A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/hohyun-houston-texas-11-12-2026/event/3A00650CF5EAF43A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "henry-lau-seattle-2026-11-12-mccaw-hall-3c6344",
       "artist": "Henry Lau",
       "tour": "Henry Lau",
@@ -3223,6 +3020,64 @@
         }
       ],
       "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-13-2026/event/3900647BA22F2CD0",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "k-pop-superstars-virginia-beach-2026-11-14-the-dome-by-rutter-mills-4b33d9",
+      "artist": "K-POP Superstars",
+      "tour": "K·POP SUPERSTARS LIVE",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "time": "17:00:00",
+      "venue": "The Dome by Rutter Mills",
+      "city": "Virginia Beach",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.84749,
+      "lng": -75.97898,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-live-virginia-beach-virginia-11-14-2026/event/0100651FCB314311"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-live-virginia-beach-virginia-11-14-2026/event/0100651FCB314311",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "koyote-north-america-tour-tacoma-2026-11-14-pantages-theater-b3247c",
+      "artist": "KOYOTE North America Tour",
+      "tour": "KOYOTE North America Tour",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "time": "19:00:00",
+      "venue": "Pantages Theater",
+      "city": "Tacoma",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.2549285,
+      "lng": -122.4405673,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/koyote-north-america-tour-tacoma-washington-11-14-2026/event/0F00651EA1199AA2"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/koyote-north-america-tour-tacoma-washington-11-14-2026/event/0F00651EA1199AA2",
       "poster": "#026cdf",
       "note": ""
     },
@@ -3546,6 +3401,35 @@
       "note": "Bangkok dates released."
     },
     {
+      "id": "oneus-glendale-2026-12-04-alex-theatre-a23932",
+      "artist": "ONEUS",
+      "tour": "2026 ONEUS World Tour: Full Moon",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-04",
+      "endDate": "2026-12-04",
+      "time": "19:30:00",
+      "venue": "Alex Theatre",
+      "city": "Glendale",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.14879227,
+      "lng": -118.25456238,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-glendale-california-12-04-2026/event/0B00651CD20276D5"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-glendale-california-12-04-2026/event/0B00651CD20276D5",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "k-pop-superstars-wallingford-2026-12-06-toyota-oakdale-theatre-d6c022",
       "artist": "K-POP Superstars",
       "tour": "K-POP Superstars Live!",
@@ -3571,6 +3455,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/kpop-superstars-live-wallingford-connecticut-12-06-2026/event/1D0064F5CBE7F59D",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "oneus-san-francisco-2026-12-09-palace-of-fine-arts-faa130",
+      "artist": "ONEUS",
+      "tour": "2026 ONEUS World Tour: Full Moon",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-09",
+      "endDate": "2026-12-09",
+      "time": "19:30:00",
+      "venue": "Palace of Fine Arts",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.801884,
+      "lng": -122.448249,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-san-francisco-california-12-09-2026/event/1C00651CE00DE78F"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-san-francisco-california-12-09-2026/event/1C00651CE00DE78F",
       "poster": "#026cdf",
       "note": ""
     },
@@ -3604,6 +3517,35 @@
       "note": "3 nights at Tokyo Dome."
     },
     {
+      "id": "oneus-new-york-city-2026-12-16-palladium-times-square-ab3351",
+      "artist": "ONEUS",
+      "tour": "2026 ONEUS World Tour: Full Moon",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-16",
+      "endDate": "2026-12-16",
+      "time": "19:30:00",
+      "venue": "Palladium Times Square ",
+      "city": "New York City",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.757201,
+      "lng": -73.985763,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-new-york-city-new-york-12-16-2026/event/0000651CB9C33ADB"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-new-york-city-new-york-12-16-2026/event/0000651CB9C33ADB",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "bts-singapore-2026-12-17-singapore-national-stadium-b4f17b",
       "artist": "BTS",
       "tour": "BTS WORLD TOUR 'ARIRANG'",
@@ -3631,6 +3573,64 @@
       "source": "https://www.klook.com/blog/bts-world-tour-arirang-singapore/",
       "poster": "#ff3d9a",
       "note": "Klook official experience partner."
+    },
+    {
+      "id": "oneus-atlanta-2026-12-18-center-stage-theater-85118e",
+      "artist": "ONEUS",
+      "tour": "2026 ONEUS World Tour: Full Moon",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-18",
+      "endDate": "2026-12-18",
+      "time": "19:30:00",
+      "venue": "Center Stage Theater",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.7918926,
+      "lng": -84.3877907,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-atlanta-georgia-12-18-2026/event/0E00651CE229BA47"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-atlanta-georgia-12-18-2026/event/0E00651CE229BA47",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "oneus-chicago-2026-12-20-copernicus-center-b87d15",
+      "artist": "ONEUS",
+      "tour": "2026 ONEUS World Tour: Full Moon",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-20",
+      "endDate": "2026-12-20",
+      "time": "19:30:00",
+      "venue": "Copernicus Center",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.968303,
+      "lng": -87.75861,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-chicago-illinois-12-20-2026/event/0700651C1925ABE7"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-chicago-illinois-12-20-2026/event/0700651C1925ABE7",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "enhypen-nagoya-2026-12-26-vantelin-dome-nagoya-568531",
