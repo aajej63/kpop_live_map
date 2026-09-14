@@ -1,244 +1,12 @@
 {
-  "updated_at": "2026-09-07T07:39:40Z",
+  "updated_at": "2026-09-14T08:15:12Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 104
+    "ticketmaster": 98
   },
-  "count": 134,
+  "count": 127,
   "concerts": [
-    {
-      "id": "jay-park-duluth-2026-09-08-gas-south-arena-b5cad3",
-      "artist": "Jay Park",
-      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
-      "type": "concert",
-      "tier": "soloist",
-      "date": "2026-09-08",
-      "endDate": "2026-09-08",
-      "time": "20:00:00",
-      "venue": "Gas South Arena",
-      "city": "Duluth",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.9869191,
-      "lng": -84.0907288,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-duluth-georgia-09-08-2026/event/0E0064C8B8F0BE5C"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-duluth-georgia-09-08-2026/event/0E0064C8B8F0BE5C",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-park-washington-2026-09-10-the-anthem-9029b3",
-      "artist": "Jay Park",
-      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
-      "type": "concert",
-      "tier": "soloist",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "time": "19:30:00",
-      "venue": "The Anthem",
-      "city": "Washington",
-      "country": "USA",
-      "region": "USA",
-      "lat": 38.880099,
-      "lng": -77.026165,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-washington-district-of-columbia-09-10-2026/event/150064C8A95191D0"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-washington-district-of-columbia-09-10-2026/event/150064C8A95191D0",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "bigbang-east-rutherford-2026-09-11-metlife-stadium-4c3541",
-      "artist": "BIGBANG",
-      "tour": "BIGBANG 2026 WORLD TOUR-Individual Suite Tickets",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "time": "20:00:00",
-      "venue": "MetLife Stadium",
-      "city": "East Rutherford",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.81359,
-      "lng": -74.074493,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/bigbang-2026-world-tourindividual-suite-tickets-east-rutherford-new-jersey-09-11-2026/event/0000650EA7990DF5"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/bigbang-2026-world-tourindividual-suite-tickets-east-rutherford-new-jersey-09-11-2026/event/0000650EA7990DF5",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-park-new-york-2026-09-11-infosys-theater-at-madison-square-garden-f82aa1",
-      "artist": "Jay Park",
-      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
-      "type": "concert",
-      "tier": "soloist",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "time": "21:00:00",
-      "venue": "Infosys Theater at Madison Square Garden",
-      "city": "New York",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.7497062,
-      "lng": -73.9916006,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-new-york-new-york-09-11-2026/event/3B0064C57D5F23BB"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-new-york-new-york-09-11-2026/event/3B0064C57D5F23BB",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "k-pop-superstars-philadelphia-2026-09-11-the-met-presented-by-highmark-7b0ce6",
-      "artist": "K-POP Superstars",
-      "tour": "K-POP Superstars",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "time": "20:00:00",
-      "venue": "The Met Presented by Highmark",
-      "city": "Philadelphia",
-      "country": "USA",
-      "region": "USA",
-      "lat": 39.969938,
-      "lng": -75.160278,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpop-superstars-philadelphia-pennsylvania-09-11-2026/event/020064D2B3A80855"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpop-superstars-philadelphia-pennsylvania-09-11-2026/event/020064D2B3A80855",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "plave-incheon-2026-09-12-incheon-munhak-main-stadium-1358c0",
-      "artist": "PLAVE",
-      "tour": "2026 PLAVE World Tour [KEEP IT MANIC] in Incheon",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-12",
-      "endDate": "2026-09-13",
-      "time": "",
-      "venue": "Incheon Munhak Main Stadium",
-      "city": "Incheon",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 37.4351,
-      "lng": 126.6931,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "nol",
-          "name": "Weverse/NOL",
-          "region": "Korea",
-          "color": "#e6007e",
-          "url": "https://world.nol.com/en/ticket"
-        }
-      ],
-      "source": "https://weverse.io/plave/notice/36575?hl=zh-cn",
-      "poster": "#22e3d4",
-      "note": "Stadium shows for virtual idol group."
-    },
-    {
-      "id": "idntt-macau-2026-09-12-the-londoner-theatre-12d57d",
-      "artist": "idntt",
-      "tour": "2026 idntt FAN-CON TOUR <20>",
-      "type": "fanmeeting",
-      "tier": "group",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "time": "",
-      "venue": "The Londoner Theatre",
-      "city": "Macau",
-      "country": "Macau",
-      "region": "Macau",
-      "lat": 22.144,
-      "lng": 113.559,
-      "status": "announced",
-      "platforms": [
-        {
-          "key": "klook",
-          "name": "Cotai Ticketing",
-          "region": "Macau",
-          "color": "#8e44ad",
-          "url": "https://cn.cotaiticketing.com/"
-        }
-      ],
-      "source": "https://m.weibo.cn/detail/5327798568485517",
-      "poster": "#22e3d4",
-      "note": "First Macau show."
-    },
-    {
-      "id": "jay-b-los-angeles-2026-09-13-wilshire-ebell-theatre-c7b146",
-      "artist": "JAY B",
-      "tour": "2026 JAY B tape: roots",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-13",
-      "endDate": "2026-09-13",
-      "time": "19:30:00",
-      "venue": "Wilshire Ebell Theatre",
-      "city": "Los Angeles",
-      "country": "USA",
-      "region": "USA",
-      "lat": 34.0603369,
-      "lng": -118.3248553,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-los-angeles-california-09-13-2026/event/09006503EE02D71D"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-los-angeles-california-09-13-2026/event/09006503EE02D71D",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "jay-park-chicago-2026-09-15-aragon-ballroom-c6ba6b",
       "artist": "Jay Park",
@@ -2502,6 +2270,35 @@
       "note": ""
     },
     {
+      "id": "kpop-club-night-minneapolis-2026-10-30-varsity-theater-4cc637",
+      "artist": "KPop Club Night",
+      "tour": "KPop Club Night",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "time": "21:00:00",
+      "venue": "Varsity Theater",
+      "city": "Minneapolis",
+      "country": "USA",
+      "region": "USA",
+      "lat": 44.980837,
+      "lng": -93.237034,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-club-night-minneapolis-minnesota-10-30-2026/event/06006522CFBED430"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-club-night-minneapolis-minnesota-10-30-2026/event/06006522CFBED430",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "kpopworld-san-antonio-2026-10-31-alamodome-028e4a",
       "artist": "KPOPWORLD",
       "tour": "KPOPWORLD 2026 Festival - Saturday Only",
@@ -3415,7 +3212,7 @@
       "region": "USA",
       "lat": 34.14879227,
       "lng": -118.25456238,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -3473,7 +3270,7 @@
       "region": "USA",
       "lat": 37.801884,
       "lng": -122.448249,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -3531,7 +3328,7 @@
       "region": "USA",
       "lat": 40.757201,
       "lng": -73.985763,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -3589,7 +3386,7 @@
       "region": "USA",
       "lat": 33.7918926,
       "lng": -84.3877907,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -3618,7 +3415,7 @@
       "region": "USA",
       "lat": 41.968303,
       "lng": -87.75861,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
