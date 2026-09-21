@@ -1,418 +1,12 @@
 {
-  "updated_at": "2026-09-14T08:15:12Z",
+  "updated_at": "2026-09-21T08:20:20Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 98
+    "ticketmaster": 88
   },
-  "count": 127,
+  "count": 113,
   "concerts": [
-    {
-      "id": "jay-park-chicago-2026-09-15-aragon-ballroom-c6ba6b",
-      "artist": "Jay Park",
-      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
-      "type": "concert",
-      "tier": "soloist",
-      "date": "2026-09-15",
-      "endDate": "2026-09-15",
-      "time": "20:00:00",
-      "venue": "Aragon Ballroom",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.96941873,
-      "lng": -87.65797212,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-chicago-illinois-09-15-2026/event/040064C34EF8A284"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-chicago-illinois-09-15-2026/event/040064C34EF8A284",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-b-san-francisco-2026-09-16-palace-of-fine-arts-09ae2d",
-      "artist": "JAY B",
-      "tour": "2026 JAY B tape: roots",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "time": "19:30:00",
-      "venue": "Palace of Fine Arts",
-      "city": "San Francisco",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.801884,
-      "lng": -122.448249,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-san-francisco-california-09-16-2026/event/1C006503E7A2A806"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-san-francisco-california-09-16-2026/event/1C006503E7A2A806",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-los-angeles-2026-09-16-crypto-com-arena-22ee74",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "time": "19:30:00",
-      "venue": "Crypto.com Arena",
-      "city": "Los Angeles",
-      "country": "USA",
-      "region": "USA",
-      "lat": 34.053101,
-      "lng": -118.2649,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OvA"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A70OvA",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-b-tacoma-2026-09-18-pantages-theater-0c6695",
-      "artist": "JAY B",
-      "tour": "2026 JAY B tape: roots",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "time": "19:30:00",
-      "venue": "Pantages Theater",
-      "city": "Tacoma",
-      "country": "USA",
-      "region": "USA",
-      "lat": 47.2549285,
-      "lng": -122.4405673,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-tacoma-washington-09-18-2026/event/0F0064FEA7039EB7"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-tacoma-washington-09-18-2026/event/0F0064FEA7039EB7",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "nct-127-seoul-2026-09-18-kspo-dome-632bfd",
-      "artist": "NCT 127",
-      "tour": "NCT 127 5TH TOUR 'NEO CITY : SEOUL - THE REDLINE'",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-18",
-      "endDate": "2026-09-20",
-      "time": "",
-      "venue": "KSPO DOME",
-      "city": "Seoul",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 37.5209,
-      "lng": 127.123,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "melon",
-          "name": "Melon Ticket Global",
-          "region": "Korea",
-          "color": "#00cd3c",
-          "url": "https://tkglobal.melon.com/performance/index.htm?langCd=EN&prodId=213585"
-        }
-      ],
-      "source": "https://weverse.io/nct127/notice/37555",
-      "poster": "#ff3d9a",
-      "note": "10th Anniversary tour; Mark, Doyoung, Jungwoo absent."
-    },
-    {
-      "id": "aespa-elmont-ny-2026-09-18-ubs-arena-a384d3",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLAEXITY",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "time": "",
-      "venue": "UBS Arena",
-      "city": "Elmont, NY",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.716,
-      "lng": -73.722,
-      "status": "presale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-tickets/artist/2887549"
-        }
-      ],
-      "source": "https://presalepasswordinfo.com/presales/664743",
-      "poster": "#ff3d9a",
-      "note": "North American leg."
-    },
-    {
-      "id": "aespa-belmont-park-2026-09-18-ubs-arena-1c1171",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in BELMONT PARK",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "time": "20:00:00",
-      "venue": "UBS Arena",
-      "city": "Belmont Park",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.71179844,
-      "lng": -73.72602467,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-belmont-park-new-york-09-18-2026/event/30006495A5694367"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-belmont-park-new-york-09-18-2026/event/30006495A5694367",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "fivealive-santa-ana-2026-09-18-constellation-room-f7c8de",
-      "artist": "fiveAlive",
-      "tour": "Sean Healy Presents - fiveALIVE with Special Guest Full Circle Boys",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "time": "19:00:00",
-      "venue": "Constellation Room",
-      "city": "Santa Ana",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.699879,
-      "lng": -117.917493,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/sean-healy-presents-fivealive-with-special-santa-ana-california-09-18-2026/event/090064FDFBADE855"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/sean-healy-presents-fivealive-with-special-santa-ana-california-09-18-2026/event/090064FDFBADE855",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "irene-seulgi-fukuoka-2026-09-19-fukuoka-civic-hall-7f259f",
-      "artist": "IRENE & SEULGI",
-      "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "time": "18:00",
-      "venue": "Fukuoka Civic Hall Main Hall",
-      "city": "Fukuoka",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 33.5936,
-      "lng": 130.3989,
-      "status": "presale",
-      "platforms": [
-        {
-          "key": "eplus",
-          "name": "Red Velvet JP Official",
-          "region": "Japan",
-          "color": "#f5a623",
-          "url": "https://redvelvet-jp.net/en/news/detail.php?id=1134652"
-        }
-      ],
-      "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
-      "poster": "#22e3d4",
-      "note": "Red Velvet sub-unit Japan tour; official fanclub presale announcement."
-    },
-    {
-      "id": "the-moonlight-princesses-tribute-to-demon-hunters-davenport-2026-09-19-adler-the",
-      "artist": "The Moonlight Princesses:Tribute to Demon Hunters",
-      "tour": "The Moonlight Princesses:Tribute to Demon Hunters",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "time": "18:00:00",
-      "venue": "Adler Theatre",
-      "city": "Davenport",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.5224552,
-      "lng": -90.5734902,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/the-moonlight-princessestribute-to-demon-hunters-davenport-iowa-09-19-2026/event/060064D099877B60"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/the-moonlight-princessestribute-to-demon-hunters-davenport-iowa-09-19-2026/event/060064D099877B60",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "chikaatl-atlanta-2026-09-20-vinyl-c86d9c",
-      "artist": "ChikaATL",
-      "tour": "ChikaATL",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-20",
-      "endDate": "2026-09-20",
-      "time": "12:00:00",
-      "venue": "Vinyl",
-      "city": "Atlanta",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.7918926,
-      "lng": -84.3877907,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/chikaatl-atlanta-georgia-09-20-2026/event/0E00650BCD9CEEE4"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/chikaatl-atlanta-georgia-09-20-2026/event/0E00650BCD9CEEE4",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-park-phoenix-2026-09-20-arizona-financial-theatre-fecdff",
-      "artist": "Jay Park",
-      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
-      "type": "concert",
-      "tier": "soloist",
-      "date": "2026-09-20",
-      "endDate": "2026-09-20",
-      "time": "20:00:00",
-      "venue": "Arizona Financial Theatre",
-      "city": "Phoenix",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.448775,
-      "lng": -112.079564,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-phoenix-arizona-09-20-2026/event/190064C5DDDEA331"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-phoenix-arizona-09-20-2026/event/190064C5DDDEA331",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-tacoma-2026-09-20-tacoma-dome-9b734e",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN TACOMA",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-20",
-      "endDate": "2026-09-20",
-      "time": "19:30:00",
-      "venue": "Tacoma Dome",
-      "city": "Tacoma",
-      "country": "USA",
-      "region": "USA",
-      "lat": 47.23634,
-      "lng": -122.426834,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-tacoma-washington-09-20-2026/event/0F0064ABBB25AF33"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-tacoma-washington-09-20-2026/event/0F0064ABBB25AF33",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "moonlight-princesses-tribute-to-demon-hunters-la-vista-2026-09-20-the-astro-thea",
-      "artist": "Moonlight Princesses - Tribute to Demon Hunters",
-      "tour": "Moonlight Princesses - Tribute to Demon Hunters",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-20",
-      "endDate": "2026-09-20",
-      "time": "16:00:00",
-      "venue": "The Astro Theater",
-      "city": "La Vista",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.18287,
-      "lng": -96.04084,
-      "status": "sold_out",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/moonlight-princesses-tribute-to-demon-hunters-la-vista-nebraska-09-20-2026/event/200064FE88D218BC"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/moonlight-princesses-tribute-to-demon-hunters-la-vista-nebraska-09-20-2026/event/200064FE88D218BC",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "irene-seulgi-kobe-2026-09-21-kobe-kokusai-hall-9b8c09",
       "artist": "IRENE & SEULGI",
@@ -1255,6 +849,35 @@
       "note": ""
     },
     {
+      "id": "f5ve-newstead-2026-10-07-the-triffid-e16bde",
+      "artist": "f5ve",
+      "tour": "f5ve + THE DEEP: f4n m33t australia",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-07",
+      "endDate": "2026-10-07",
+      "time": "19:30:00",
+      "venue": "The Triffid",
+      "city": "Newstead",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -27.452287,
+      "lng": 153.041969,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.moshtix.com.au/v2/event/f5ve-the-deep-f4n-m33t-australia/200200"
+        }
+      ],
+      "source": "https://www.moshtix.com.au/v2/event/f5ve-the-deep-f4n-m33t-australia/200200",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "le-sserafim-newark-nj-2026-10-08-prudential-center-26c1f1",
       "artist": "LE SSERAFIM",
       "tour": "2026 LE SSERAFIM TOUR 'PUREFLOW'",
@@ -1686,6 +1309,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com.au/2026-stayc-fan-concert-tour-stay-west-melbourne-16-10-2026/event/130064E6DB685DC2",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "taemin-las-vegas-2026-10-16-t-mobile-arena-d50f76",
+      "artist": "Taemin",
+      "tour": "Taemin",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-16",
+      "endDate": "2026-10-16",
+      "time": "20:00:00",
+      "venue": "T-Mobile Arena",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.124401,
+      "lng": -115.145103,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkrA"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkrA",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2154,35 +1806,6 @@
       "note": ""
     },
     {
-      "id": "planet-kpop-peoria-2026-10-27-prairie-home-alliance-theater-4506b8",
-      "artist": "Planet KPOP",
-      "tour": "Planet KPOP: The Ultimate KPOP Tribute Concert",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-27",
-      "endDate": "2026-10-27",
-      "time": "19:00:00",
-      "venue": "Prairie Home Alliance Theater",
-      "city": "Peoria",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.69186,
-      "lng": -89.59397,
-      "status": "sold_out",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-peoria-illinois-10-27-2026/event/070064A69DA75A98"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-peoria-illinois-10-27-2026/event/070064A69DA75A98",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
       "id": "planet-kpop-grand-rapids-2026-10-28-devos-performance-hall-1f5583",
       "artist": "Planet KPOP",
       "tour": "Planet Kpop: The Ultimate Kpop Tribute",
@@ -2241,20 +1864,20 @@
       "note": ""
     },
     {
-      "id": "kpopworld-san-antonio-2026-10-30-alamodome-d9698b",
-      "artist": "KPOPWORLD",
-      "tour": "KPOPWORLD 2026 Festival - Friday Only",
-      "type": "festival",
-      "tier": "festival",
+      "id": "boynextdoor-dallas-2026-10-30-the-bomb-factory-6ced68",
+      "artist": "BOYNEXTDOOR",
+      "tour": "BOYNEXTDOOR",
+      "type": "concert",
+      "tier": "rising",
       "date": "2026-10-30",
       "endDate": "2026-10-30",
-      "time": "17:00:00",
-      "venue": "Alamodome",
-      "city": "San Antonio",
+      "time": "19:30:00",
+      "venue": "The Bomb Factory",
+      "city": "Dallas",
       "country": "USA",
       "region": "USA",
-      "lat": 29.41705466,
-      "lng": -98.4791514,
+      "lat": 32.7827,
+      "lng": -96.775803,
       "status": "on_sale",
       "platforms": [
         {
@@ -2262,10 +1885,10 @@
           "name": "Ticketmaster",
           "region": "USA",
           "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpopworld-2026-festival-friday-only-san-antonio-texas-10-30-2026/event/3A0064F5979E75C7"
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_I"
         }
       ],
-      "source": "https://www.ticketmaster.com/kpopworld-2026-festival-friday-only-san-antonio-texas-10-30-2026/event/3A0064F5979E75C7",
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_I",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2295,35 +1918,6 @@
         }
       ],
       "source": "https://www.ticketmaster.com/kpop-club-night-minneapolis-minnesota-10-30-2026/event/06006522CFBED430",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "kpopworld-san-antonio-2026-10-31-alamodome-028e4a",
-      "artist": "KPOPWORLD",
-      "tour": "KPOPWORLD 2026 Festival - Saturday Only",
-      "type": "festival",
-      "tier": "festival",
-      "date": "2026-10-31",
-      "endDate": "2026-10-31",
-      "time": "17:00:00",
-      "venue": "Alamodome",
-      "city": "San Antonio",
-      "country": "USA",
-      "region": "USA",
-      "lat": 29.41705466,
-      "lng": -98.4791514,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpopworld-2026-festival-saturday-only-san-antonio-texas-10-31-2026/event/3A0064F597A875E1"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpopworld-2026-festival-saturday-only-san-antonio-texas-10-31-2026/event/3A0064F597A875E1",
       "poster": "#026cdf",
       "note": ""
     },
