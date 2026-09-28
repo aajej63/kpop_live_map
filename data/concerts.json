@@ -1,476 +1,12 @@
 {
-  "updated_at": "2026-09-21T08:20:20Z",
+  "updated_at": "2026-09-28T09:05:23Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 88
+    "ticketmaster": 80
   },
-  "count": 113,
+  "count": 103,
   "concerts": [
-    {
-      "id": "irene-seulgi-kobe-2026-09-21-kobe-kokusai-hall-9b8c09",
-      "artist": "IRENE & SEULGI",
-      "tour": "IRENE & SEULGI JAPAN TOUR 2026 -blank-",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-21",
-      "endDate": "2026-09-21",
-      "time": "18:00",
-      "venue": "Kobe International House Kokusai Hall",
-      "city": "Kobe",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 34.6901,
-      "lng": 135.1956,
-      "status": "presale",
-      "platforms": [
-        {
-          "key": "eplus",
-          "name": "Red Velvet JP Official",
-          "region": "Japan",
-          "color": "#f5a623",
-          "url": "https://redvelvet-jp.net/en/news/detail.php?id=1134652"
-        }
-      ],
-      "source": "https://redvelvet-jp.net/en/news/detail.php?id=1134652",
-      "poster": "#22e3d4",
-      "note": "Red Velvet sub-unit Japan tour; official fanclub presale announcement."
-    },
-    {
-      "id": "jay-park-san-francisco-2026-09-22-bill-graham-civic-auditorium-ef84be",
-      "artist": "Jay Park",
-      "tour": "Jay Park with special guest LNGSHOT: Serenades & Body Rolls",
-      "type": "concert",
-      "tier": "soloist",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "time": "20:00:00",
-      "venue": "Bill Graham Civic Auditorium",
-      "city": "San Francisco",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.778479,
-      "lng": -122.417473,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-san-francisco-california-09-22-2026/event/1C0064C71309D7A2"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-san-francisco-california-09-22-2026/event/1C0064C71309D7A2",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "aespa-washington-2026-09-22-capital-one-arena-4e71ea",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in WASHINGTON",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "time": "20:00:00",
-      "venue": "Capital One Arena",
-      "city": "Washington",
-      "country": "USA",
-      "region": "USA",
-      "lat": 38.897412,
-      "lng": -77.020029,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-washington-district-of-columbia-09-22-2026/event/150064929E006DC6"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-washington-district-of-columbia-09-22-2026/event/150064929E006DC6",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-b-new-york-city-2026-09-23-palladium-times-square-7249dd",
-      "artist": "JAY B",
-      "tour": "2026 JAY B tape: roots",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-23",
-      "endDate": "2026-09-23",
-      "time": "19:30:00",
-      "venue": "Palladium Times Square ",
-      "city": "New York City",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.757201,
-      "lng": -73.985763,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-new-york-city-new-york-09-23-2026/event/000064FD05B65EAE"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-new-york-city-new-york-09-23-2026/event/000064FD05B65EAE",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-san-jose-2026-09-23-sap-center-at-san-jose-2bf398",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN SAN JOSE",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-23",
-      "endDate": "2026-09-23",
-      "time": "19:30:00",
-      "venue": "SAP Center at San Jose",
-      "city": "San Jose",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.3329688,
-      "lng": -121.9045755,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-san-jose-california-09-23-2026/event/1C0064ABBD023E72"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-san-jose-california-09-23-2026/event/1C0064ABBD023E72",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "aespa-atlanta-ga-2026-09-24-state-farm-arena-b95678",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLAEXITY",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "time": "",
-      "venue": "State Farm Arena",
-      "city": "Atlanta, GA",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.7573,
-      "lng": -84.3963,
-      "status": "presale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complaexity-in-atlanta-atlanta-georgia-09-24-2026/event/0E00648AD9A54122"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/search?q=aespa",
-      "poster": "#ff3d9a",
-      "note": ""
-    },
-    {
-      "id": "aespa-atlanta-2026-09-24-state-farm-arena-b4b100",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLÆXITY - in ATLANTA",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "time": "20:00:00",
-      "venue": "State Farm Arena",
-      "city": "Atlanta",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.757796,
-      "lng": -84.394569,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-atlanta-georgia-09-24-2026/event/0E006495C5F0419C"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-atlanta-georgia-09-24-2026/event/0E006495C5F0419C",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-phoenix-2026-09-25-mortgage-matchup-center-3ca55c",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN PHOENIX",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "time": "19:30:00",
-      "venue": "Mortgage Matchup Center",
-      "city": "Phoenix",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.445899,
-      "lng": -112.071313,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-phoenix-arizona-09-25-2026/event/190064ABBB0E68A9"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-phoenix-arizona-09-25-2026/event/190064ABBB0E68A9",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "next-level-k-pop-richmond-2026-09-25-ember-music-hall-ee2d06",
-      "artist": "Next Level K-Pop",
-      "tour": "Next Level KPop Rave",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "time": "21:30:00",
-      "venue": "Ember Music Hall",
-      "city": "Richmond",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.5411,
-      "lng": -77.434601,
-      "status": "announced",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JkPE"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7JkPE",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "global-citizen-festival-new-york-2026-09-26-great-lawn-at-central-park-4b4ec7",
-      "artist": "Global Citizen Festival",
-      "tour": "Global Citizen Festival",
-      "type": "festival",
-      "tier": "festival",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "time": "16:00:00",
-      "venue": "Great Lawn at Central Park",
-      "city": "New York",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.781362,
-      "lng": -73.966587,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/global-citizen-festival-new-york-new-york-09-26-2026/event/000065052543BBF1"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/global-citizen-festival-new-york-new-york-09-26-2026/event/000065052543BBF1",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "aespa-miami-2026-09-26-kaseya-center-fcae16",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in MIAMI",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "time": "20:00:00",
-      "venue": "Kaseya Center",
-      "city": "Miami",
-      "country": "USA",
-      "region": "USA",
-      "lat": 25.781232,
-      "lng": -80.187805,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-miami-florida-09-26-2026/event/0D0064940F3C61C3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-miami-florida-09-26-2026/event/0D0064940F3C61C3",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "dickies-arena-suites-fort-worth-2026-09-27-dickies-arena-65bc94",
-      "artist": "Dickies Arena Suites",
-      "tour": "Suites: LE SSERAFIM - 2026 LE SSERAFIM PUREFLOW TOUR IN FORT WORTH",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-27",
-      "endDate": "2026-09-27",
-      "time": "19:30:00",
-      "venue": "Dickies Arena",
-      "city": "Fort Worth",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.741072,
-      "lng": -97.368507,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/suites-le-sserafim-2026-le-sserafim-fort-worth-texas-09-27-2026/event/0C0064B51C6DA273"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/suites-le-sserafim-2026-le-sserafim-fort-worth-texas-09-27-2026/event/0C0064B51C6DA273",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "jay-b-chicago-2026-09-27-copernicus-center-02195b",
-      "artist": "JAY B",
-      "tour": "2026 JAY B tape: roots",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-09-27",
-      "endDate": "2026-09-27",
-      "time": "19:30:00",
-      "venue": "Copernicus Center",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.968303,
-      "lng": -87.75861,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-jay-b-tape-roots-chicago-illinois-09-27-2026/event/070065031A4E92FF"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-jay-b-tape-roots-chicago-illinois-09-27-2026/event/070065031A4E92FF",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "kard-singapore-2026-09-27-sands-theatre-mbs-65e82b",
-      "artist": "KARD",
-      "tour": "2026 WORLD TOUR 'NOW HERE'",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-09-27",
-      "endDate": "2026-09-27",
-      "time": "",
-      "venue": "Sands Theatre, MBS",
-      "city": "Singapore",
-      "country": "Singapore",
-      "region": "Singapore",
-      "lat": 1.2847,
-      "lng": 103.859,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "sistic",
-          "name": "SISTIC",
-          "region": "Singapore",
-          "color": "#c41230",
-          "url": "https://www.sistic.com.sg/events/kard0926"
-        }
-      ],
-      "source": "https://www.sistic.com.sg/events/kard0926",
-      "poster": "#22e3d4",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-fort-worth-2026-09-27-dickies-arena-44b383",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN FORT WORTH",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-27",
-      "endDate": "2026-09-27",
-      "time": "19:30:00",
-      "venue": "Dickies Arena",
-      "city": "Fort Worth",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.741072,
-      "lng": -97.368507,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-fort-worth-texas-09-27-2026/event/0C0064ABEA1EB386"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-fort-worth-texas-09-27-2026/event/0C0064ABEA1EB386",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "t-o-p-kuala-lumpur-2026-09-27-unifi-arena-7d63df",
-      "artist": "T.O.P",
-      "tour": "PRE-STUDIO 2026 ASIA FAN MEETING TOUR",
-      "type": "fanmeeting",
-      "tier": "solo",
-      "date": "2026-09-27",
-      "endDate": "2026-09-27",
-      "time": "",
-      "venue": "Unifi Arena",
-      "city": "Kuala Lumpur",
-      "country": "Malaysia",
-      "region": "Malaysia",
-      "lat": 3.057,
-      "lng": 101.691,
-      "status": "announced",
-      "platforms": [
-        {
-          "key": "klook",
-          "name": "GoLive Asia",
-          "region": "Malaysia",
-          "color": "#009688",
-          "url": "https://klconcert.com/concert/top-pre-studio-2026-asia-fan-meeting"
-        }
-      ],
-      "source": "https://www.sarawaktribune.com/t-o-p-finally-returns-to-malaysia-with-first-solo-asia-fan-meeting-tour/",
-      "poster": "#ffcf5c",
-      "note": "First solo Asia fan meeting."
-    },
     {
       "id": "aespa-dallas-2026-09-29-american-airlines-center-bf579f",
       "artist": "aespa",
@@ -798,7 +334,7 @@
       "tier": "major",
       "date": "2026-10-06",
       "endDate": "2026-10-06",
-      "time": "20:00:00",
+      "time": "20:30:00",
       "venue": "Infosys Theater at Madison Square Garden",
       "city": "New York",
       "country": "USA",
@@ -1777,6 +1313,35 @@
       "note": ""
     },
     {
+      "id": "taemin-seattle-2026-10-25-climate-pledge-arena-9210cc",
+      "artist": "Taemin",
+      "tour": "K-ERA Fest 2026: TAEMIN",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-25",
+      "endDate": "2026-10-25",
+      "time": "19:00:00",
+      "venue": "Climate Pledge Arena",
+      "city": "Seattle",
+      "country": "USA",
+      "region": "USA",
+      "lat": 47.6221261,
+      "lng": -122.35401604,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kera-fest-2026-taemin-seattle-washington-10-25-2026/event/0F006531EC753547"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kera-fest-2026-taemin-seattle-washington-10-25-2026/event/0F006531EC753547",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "ten-phoenix-2026-10-26-the-van-buren-65f912",
       "artist": "TEN",
       "tour": "TEN - US Showcase Tour",
@@ -2676,6 +2241,64 @@
       "note": ""
     },
     {
+      "id": "triples-fort-worth-2026-11-21-will-rogers-auditorium-1533f2",
+      "artist": "tripleS",
+      "tour": "2026 tripleS World Tour [ANDLESS] in Fort Worth",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-21",
+      "endDate": "2026-11-21",
+      "time": "19:30:00",
+      "venue": "Will Rogers Auditorium",
+      "city": "Fort Worth",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.74571287,
+      "lng": -97.36582138,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-fort-worth-texas-11-21-2026/event/0C0064F0C183A168"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-fort-worth-texas-11-21-2026/event/0C0064F0C183A168",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "triples-los-angeles-2026-11-24-the-wiltern-9ba4d6",
+      "artist": "tripleS",
+      "tour": "2026 tripleS world tour [ANDLESS] in NA",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-24",
+      "endDate": "2026-11-24",
+      "time": "18:00:00",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "USA",
+      "lat": 34.06141494,
+      "lng": -118.30879207,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-los-angeles-california-11-24-2026/event/09006523EB64E79F"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-los-angeles-california-11-24-2026/event/09006523EB64E79F",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "triples-los-angeles-ca-2026-11-25-the-wiltern-8ce5db",
       "artist": "tripleS",
       "tour": "tripleS 2026 World Tour <ANDLESS>",
@@ -2879,6 +2502,35 @@
       "note": ""
     },
     {
+      "id": "z100-s-jingle-ball-new-york-2026-12-11-madison-square-garden-6c7b23",
+      "artist": "Z100's Jingle Ball",
+      "tour": "Z100's Jingle Ball Presented by Capital One",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-11",
+      "endDate": "2026-12-11",
+      "time": "19:00:00",
+      "venue": "Madison Square Garden",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.7497062,
+      "lng": -73.9916006,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/z100s-jingle-ball-presented-by-capital-new-york-new-york-12-11-2026/event/3B0065321EE4C4C1"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/z100s-jingle-ball-presented-by-capital-new-york-new-york-12-11-2026/event/3B0065321EE4C4C1",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "bigbang-tokyo-2026-12-13-tokyo-dome-c79ff5",
       "artist": "BIGBANG",
       "tour": "BIGBANG 2026 WORLD TOUR",
@@ -2906,6 +2558,64 @@
       "source": "https://travelodgehotels.asia/travel-guide/kpop-concert-calendar-japan/",
       "poster": "#ff3d9a",
       "note": "3 nights at Tokyo Dome."
+    },
+    {
+      "id": "kiss-108-s-jingle-ball-boston-2026-12-13-td-garden-83ea2f",
+      "artist": "Kiss 108's Jingle Ball",
+      "tour": "Kiss 108's Jingle Ball Presented By Capital One",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-13",
+      "endDate": "2026-12-13",
+      "time": "18:00:00",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 42.365841,
+      "lng": -71.060724,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kiss-108s-jingle-ball-presented-by-boston-massachusetts-12-13-2026/event/01006514E073E53F"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kiss-108s-jingle-ball-presented-by-boston-massachusetts-12-13-2026/event/01006514E073E53F",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "hot-99-5-s-jingle-ball-washington-2026-12-14-capital-one-arena-93a49c",
+      "artist": "Hot 99.5's Jingle Ball",
+      "tour": "Hot 99.5's Jingle Ball Presented By Capital One",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-14",
+      "endDate": "2026-12-14",
+      "time": "19:30:00",
+      "venue": "Capital One Arena",
+      "city": "Washington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.897412,
+      "lng": -77.020029,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/hot-995s-jingle-ball-presented-by-washington-district-of-columbia-12-14-2026/event/150065148F1E5A24"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/hot-995s-jingle-ball-presented-by-washington-district-of-columbia-12-14-2026/event/150065148F1E5A24",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "oneus-new-york-city-2026-12-16-palladium-times-square-ab3351",
