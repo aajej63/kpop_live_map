@@ -1,302 +1,12 @@
 {
-  "updated_at": "2026-09-28T09:05:23Z",
+  "updated_at": "2026-10-05T09:46:56Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 80
+    "ticketmaster": 91
   },
-  "count": 103,
+  "count": 110,
   "concerts": [
-    {
-      "id": "aespa-dallas-2026-09-29-american-airlines-center-bf579f",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in DALLAS",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-29",
-      "endDate": "2026-09-29",
-      "time": "20:00:00",
-      "venue": "American Airlines Center",
-      "city": "Dallas",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.79067196,
-      "lng": -96.81081803,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-dallas-texas-09-29-2026/event/0C006495CCC8D600"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-dallas-texas-09-29-2026/event/0C006495CCC8D600",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-orlando-2026-09-30-kia-center-35e73c",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN ORLANDO",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-09-30",
-      "endDate": "2026-09-30",
-      "time": "19:30:00",
-      "venue": "Kia Center",
-      "city": "Orlando",
-      "country": "USA",
-      "region": "USA",
-      "lat": 28.539293,
-      "lng": -81.383957,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-orlando-florida-09-30-2026/event/220064ABE228874B"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-orlando-florida-09-30-2026/event/220064ABE228874B",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-chicago-2026-10-02-united-center-d70a68",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN CHICAGO",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-02",
-      "endDate": "2026-10-02",
-      "time": "19:30:00",
-      "venue": "United Center",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.88124412,
-      "lng": -87.67427375,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-chicago-illinois-10-02-2026/event/040064ABDA78BB96"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-chicago-illinois-10-02-2026/event/040064ABDA78BB96",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "team-seoul-2026-10-03-kspo-dome-76e2be",
-      "artist": "&TEAM",
-      "tour": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' ENCORE",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-03",
-      "endDate": "2026-10-04",
-      "time": "",
-      "venue": "KSPO DOME",
-      "city": "Seoul",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 37.5209,
-      "lng": 127.123,
-      "status": "presale",
-      "platforms": [
-        {
-          "key": "nol",
-          "name": "Interpark/NOL",
-          "region": "Korea",
-          "color": "#e6007e",
-          "url": "https://world.nol.com/en/articles/5c238bea-c186-41ae-843d-bafde5727cd1"
-        }
-      ],
-      "source": "https://tickets.interpark.com/contents/notice/detail/13669",
-      "poster": "#22e3d4",
-      "note": "Fanclub presale starts 2026-08-10."
-    },
-    {
-      "id": "itzy-singapore-2026-10-03-singapore-indoor-stadium-b860a5",
-      "artist": "ITZY",
-      "tour": "ITZY 3RD WORLD TOUR <TUNNEL VISION>",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-03",
-      "endDate": "2026-10-03",
-      "time": "",
-      "venue": "Singapore Indoor Stadium",
-      "city": "Singapore",
-      "country": "Singapore",
-      "region": "Singapore",
-      "lat": 1.3018,
-      "lng": 103.874,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster SG",
-          "region": "Singapore",
-          "color": "#026cdf",
-          "url": "https://ticketmaster.sg/activity/detail/26sg_itzy"
-        }
-      ],
-      "source": "https://www.livenation.sg/event/itzy-3rd-world-tour-tunnel-vision-in-singapore-singapore-tickets-edp1682922",
-      "poster": "#ff3d9a",
-      "note": "Asia tour final stop."
-    },
-    {
-      "id": "kraze-kpop-18-wilmington-2026-10-03-the-queen-62f40d",
-      "artist": "Kraze KPOP (18+)",
-      "tour": "Kraze KPOP (18+)",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-03",
-      "endDate": "2026-10-03",
-      "time": "20:00:00",
-      "venue": "The Queen",
-      "city": "Wilmington",
-      "country": "USA",
-      "region": "USA",
-      "lat": 39.741126,
-      "lng": -75.550253,
-      "status": "announced",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kraze-kpop-18-wilmington-delaware-10-03-2026/event/02006389858056E0"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kraze-kpop-18-wilmington-delaware-10-03-2026/event/02006389858056E0",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "monsta-x-fairfax-2026-10-03-eaglebank-arena-47de2a",
-      "artist": "MONSTA X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN FAIRFAX",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-03",
-      "endDate": "2026-10-03",
-      "time": "20:00:00",
-      "venue": "EagleBank Arena",
-      "city": "Fairfax",
-      "country": "USA",
-      "region": "USA",
-      "lat": 38.8330513,
-      "lng": -77.3098503,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-fairfax-virginia-10-03-2026/event/15006482B90BDA55"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-fairfax-virginia-10-03-2026/event/15006482B90BDA55",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "monsta-x-fairfax-va-2026-10-03-eaglebank-arena-7696f2",
-      "artist": "Monsta X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS]",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-03",
-      "endDate": "2026-10-03",
-      "time": "",
-      "venue": "EagleBank Arena",
-      "city": "Fairfax, VA",
-      "country": "USA",
-      "region": "USA",
-      "lat": 38.829,
-      "lng": -77.308,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-fairfax-virginia-10-03-2026/event/15006482B90BDA55"
-        }
-      ],
-      "source": "https://help.ticketmaster.com/hc/en-us/articles/45468830055441",
-      "poster": "#ff3d9a",
-      "note": ""
-    },
-    {
-      "id": "various-artists-tokyo-2026-10-03-ajinomoto-stadium-c5cb52",
-      "artist": "Various Artists",
-      "tour": "a-nation 2026",
-      "type": "festival",
-      "tier": "festival",
-      "date": "2026-10-03",
-      "endDate": "2026-10-04",
-      "time": "",
-      "venue": "Ajinomoto Stadium",
-      "city": "Tokyo",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 35.6642,
-      "lng": 139.527,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "lawson",
-          "name": "Lawson Ticket",
-          "region": "Japan",
-          "color": "#0068b7",
-          "url": "https://l-tike.com/anation2026/"
-        }
-      ],
-      "source": "https://exo-jp.net/en/news/detail.php?id=1135159",
-      "poster": "#8b5cff",
-      "note": "Featuring Chanyeol and other K-pop acts."
-    },
-    {
-      "id": "aespa-inglewood-2026-10-03-intuit-dome-35bbeb",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in LOS ANGELES",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-03",
-      "endDate": "2026-10-03",
-      "time": "20:00:00",
-      "venue": "Intuit Dome",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.94432,
-      "lng": -118.34285,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-inglewood-california-10-03-2026/event/09006495E8BC30ED"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-inglewood-california-10-03-2026/event/09006495E8BC30ED",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "le-sserafim-washington-2026-10-05-capital-one-arena-6a8162",
       "artist": "LE SSERAFIM",
@@ -646,35 +356,6 @@
       "note": ""
     },
     {
-      "id": "taemin-san-jose-2026-10-12-sap-center-at-san-jose-453c86",
-      "artist": "Taemin",
-      "tour": "2026-27 TAEMIN WORLD TOUR <LiMiNaL> IN SAN JOSE",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-12",
-      "endDate": "2026-10-12",
-      "time": "20:00:00",
-      "venue": "SAP Center at San Jose",
-      "city": "San Jose",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.3329688,
-      "lng": -121.9045755,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-san-jose-california-10-12-2026/event/1C0065149A5C1108"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-san-jose-california-10-12-2026/event/1C0065149A5C1108",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
       "id": "monsta-x-rosemont-2026-10-13-rosemont-theatre-2f7ba1",
       "artist": "MONSTA X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN ROSEMONT",
@@ -791,35 +472,6 @@
       "note": ""
     },
     {
-      "id": "taemin-los-angeles-2026-10-15-crypto-com-arena-9b1c41",
-      "artist": "Taemin",
-      "tour": "Taemin",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-15",
-      "endDate": "2026-10-15",
-      "time": "20:00:00",
-      "venue": "Crypto.com Arena",
-      "city": "Los Angeles",
-      "country": "USA",
-      "region": "USA",
-      "lat": 34.053101,
-      "lng": -118.2649,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZbI"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZbI",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
       "id": "stayc-west-melbourne-2026-10-16-festival-hall-melbourne-83ecff",
       "artist": "STAYC",
       "tour": "2026 STAYC FAN CONCERT TOUR [STAY CLOSER] in Australia - Melbourne",
@@ -845,35 +497,6 @@
         }
       ],
       "source": "https://www.ticketmaster.com.au/2026-stayc-fan-concert-tour-stay-west-melbourne-16-10-2026/event/130064E6DB685DC2",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "taemin-las-vegas-2026-10-16-t-mobile-arena-d50f76",
-      "artist": "Taemin",
-      "tour": "Taemin",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-16",
-      "endDate": "2026-10-16",
-      "time": "20:00:00",
-      "venue": "T-Mobile Arena",
-      "city": "Las Vegas",
-      "country": "USA",
-      "region": "USA",
-      "lat": 36.124401,
-      "lng": -115.145103,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkrA"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkrA",
       "poster": "#026cdf",
       "note": ""
     },
@@ -1052,35 +675,6 @@
       "note": "Announced Asia tour date."
     },
     {
-      "id": "taemin-grand-prairie-2026-10-19-texas-trust-cu-theatre-a18544",
-      "artist": "Taemin",
-      "tour": "Taemin",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-19",
-      "endDate": "2026-10-19",
-      "time": "20:00:00",
-      "venue": "Texas Trust CU Theatre",
-      "city": "Grand Prairie",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.773998,
-      "lng": -97.005203,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_Q6"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_Q6",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
       "id": "monsta-x-inglewood-2026-10-20-kia-forum-b3bc4a",
       "artist": "MONSTA X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN LOS ANGELES",
@@ -1106,35 +700,6 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-inglewood-california-10-20-2026/event/09006481D49ADEBB",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "taemin-chicago-2026-10-21-wintrust-arena-d1f4b3",
-      "artist": "Taemin",
-      "tour": "2026-27 TAEMIN WORLD TOUR <LiMiNaL> in Chicago",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-21",
-      "endDate": "2026-10-21",
-      "time": "20:00:00",
-      "venue": "Wintrust Arena",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.853079,
-      "lng": -87.62201,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-chicago-illinois-10-21-2026/event/0700651587B4462D"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-chicago-illinois-10-21-2026/event/0700651587B4462D",
       "poster": "#026cdf",
       "note": ""
     },
@@ -1255,35 +820,6 @@
       "note": ""
     },
     {
-      "id": "taemin-newark-2026-10-23-prudential-center-b1e963",
-      "artist": "Taemin",
-      "tour": "2026-27 TAEMIN WORLD TOUR <LiMiNaL> In NEWARK",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-23",
-      "endDate": "2026-10-23",
-      "time": "20:00:00",
-      "venue": "Prudential Center",
-      "city": "Newark",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.73340555,
-      "lng": -74.17121214,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-newark-new-jersey-10-23-2026/event/02006515AB91F226"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/202627-taemin-world-tour-liminal-in-newark-new-jersey-10-23-2026/event/02006515AB91F226",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
       "id": "monsta-x-seattle-2026-10-24-wamu-theater-9b5753",
       "artist": "MONSTA X",
       "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN SEATTLE",
@@ -1309,6 +845,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-seattle-washington-10-24-2026/event/0F006482D94050A3",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "next-level-k-pop-chicago-2026-10-24-subterranean-f1631c",
+      "artist": "Next Level K-Pop",
+      "tour": "NEXT LEVEL KPOP RAVE - Ages 17+",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-10-24",
+      "endDate": "2026-10-24",
+      "time": "22:30:00",
+      "venue": "Subterranean",
+      "city": "Chicago",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.920898,
+      "lng": -87.702003,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgFV"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgFV",
       "poster": "#026cdf",
       "note": ""
     },
@@ -1755,7 +1320,7 @@
       "tier": "rising",
       "date": "2026-11-07",
       "endDate": "2026-11-07",
-      "time": "20:00:00",
+      "time": "20:30:00",
       "venue": "Infosys Theater at Madison Square Garden",
       "city": "New York",
       "country": "USA",
@@ -1907,7 +1472,7 @@
       "region": "USA",
       "lat": 47.6244731,
       "lng": -122.3506401,
-      "status": "on_sale",
+      "status": "sold_out",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -1918,6 +1483,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/henry-lau-seattle-washington-11-12-2026/event/0F0064D0CC52D1EF",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lisa-las-vegas-2026-11-12-the-colosseum-at-caesars-palace-55f1d5",
+      "artist": "LISA",
+      "tour": "VIVA LA LISA",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-11-12",
+      "endDate": "2026-11-12",
+      "time": "20:00:00",
+      "venue": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.116156,
+      "lng": -115.175058,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-12-2026/event/39006496CA3EE335"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-12-2026/event/39006496CA3EE335",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2154,6 +1748,64 @@
       "note": ""
     },
     {
+      "id": "triples-brooklyn-2026-11-15-kings-theatre-d082ca",
+      "artist": "tripleS",
+      "tour": "tripleS",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "time": "19:30:00",
+      "venue": "Kings Theatre",
+      "city": "Brooklyn",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.646301,
+      "lng": -73.956398,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8A"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8A",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-orlando-2026-11-17-the-abbey-8c06a5",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Orlando",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-17",
+      "endDate": "2026-11-17",
+      "time": "19:00:00",
+      "venue": "The Abbey",
+      "city": "Orlando",
+      "country": "USA",
+      "region": "USA",
+      "lat": 28.541017,
+      "lng": -81.3723874,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-the-abbey-tickets/14354744"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-the-abbey-tickets/14354744",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "xg-dallas-2026-11-17-american-airlines-center-9db763",
       "artist": "XG",
       "tour": "XG WORLD TOUR: THE CORE IN DALLAS",
@@ -2212,6 +1864,35 @@
       "note": ""
     },
     {
+      "id": "82major-atlanta-2026-11-19-ray-charles-performing-arts-center-e6a38f",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Atlanta",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-19",
+      "endDate": "2026-11-19",
+      "time": "19:00:00",
+      "venue": "Ray Charles Performing Arts Center",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.74416,
+      "lng": -84.417107,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-ray-charles-performing-arts-center-tickets/14355584"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-ray-charles-performing-arts-center-tickets/14355584",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "boynextdoor-los-angeles-2026-11-20-peacock-theater-la-4b7fd2",
       "artist": "BOYNEXTDOOR",
       "tour": "BOYNEXTDOOR",
@@ -2241,6 +1922,35 @@
       "note": ""
     },
     {
+      "id": "82major-richmond-2026-11-21-hippodrome-theater-0a088e",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Richmond",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-21",
+      "endDate": "2026-11-21",
+      "time": "19:00:00",
+      "venue": "Hippodrome Theater",
+      "city": "Richmond",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.547266,
+      "lng": -77.438049,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-hippodrome-theater-tickets/14355594"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-hippodrome-theater-tickets/14355594",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "triples-fort-worth-2026-11-21-will-rogers-auditorium-1533f2",
       "artist": "tripleS",
       "tour": "2026 tripleS World Tour [ANDLESS] in Fort Worth",
@@ -2255,7 +1965,7 @@
       "region": "USA",
       "lat": 32.74571287,
       "lng": -97.36582138,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2266,6 +1976,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-fort-worth-texas-11-21-2026/event/0C0064F0C183A168",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-washington-2026-11-22-karma-dc-live-music-venue-994744",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Washington, D.C.",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-22",
+      "endDate": "2026-11-22",
+      "time": "19:00:00",
+      "venue": "Karma DC Live Music Venue",
+      "city": "Washington",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.9188956,
+      "lng": -76.9736085,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-karma-dc-live-music-venue-tickets/14355604"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-karma-dc-live-music-venue-tickets/14355604",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2284,7 +2023,7 @@
       "region": "USA",
       "lat": 34.06141494,
       "lng": -118.30879207,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2295,6 +2034,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-triples-world-tour-andless-in-los-angeles-california-11-24-2026/event/09006523EB64E79F",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-corona-2026-11-25-queens-theatre-in-the-park-63ede3",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in New York City",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-25",
+      "endDate": "2026-11-25",
+      "time": "19:00:00",
+      "venue": "Queens Theatre in the Park",
+      "city": "Corona",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.74426,
+      "lng": -73.844427,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-queens-theatre-in-the-park-tickets/14355624"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-queens-theatre-in-the-park-tickets/14355624",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2328,6 +2096,35 @@
       "note": ""
     },
     {
+      "id": "82major-columbus-2026-11-27-the-king-of-clubs-9b39b3",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Columbus",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-27",
+      "endDate": "2026-11-27",
+      "time": "19:00:00",
+      "venue": "The King of Clubs",
+      "city": "Columbus",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.0936654,
+      "lng": -82.992195,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-the-king-of-clubs-tickets/14355614"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-the-king-of-clubs-tickets/14355614",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "lisa-las-vegas-2026-11-27-the-colosseum-at-caesars-palace-37e9b1",
       "artist": "LISA",
       "tour": "VIVA LA LISA",
@@ -2357,6 +2154,35 @@
       "note": ""
     },
     {
+      "id": "82major-detroit-2026-11-28-garden-theater-at-midtown-5b5e36",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Detroit",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-28",
+      "endDate": "2026-11-28",
+      "time": "19:00:00",
+      "venue": "Garden Theater at Midtown",
+      "city": "Detroit",
+      "country": "USA",
+      "region": "USA",
+      "lat": 42.352709,
+      "lng": -83.059587,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-garden-theater-at-midtown-tickets/14355634"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-garden-theater-at-midtown-tickets/14355634",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "lisa-las-vegas-2026-11-28-the-colosseum-at-caesars-palace-31cd42",
       "artist": "LISA",
       "tour": "VIVA LA LISA",
@@ -2382,6 +2208,122 @@
         }
       ],
       "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-28-2026/event/3900647BA21F2CC1",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-indianapolis-2026-11-29-basile-theatre-at-the-historic-athenaeum-80a923",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Indianapolis",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-29",
+      "endDate": "2026-11-29",
+      "time": "19:00:00",
+      "venue": "Basile Theatre at the Historic Athenaeum",
+      "city": "Indianapolis",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.773659,
+      "lng": -86.150162,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-basile-theatre-at-the-historic-tickets/14355644"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-basile-theatre-at-the-historic-tickets/14355644",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "lisa-las-vegas-2026-11-29-the-colosseum-at-caesars-palace-db0610",
+      "artist": "LISA",
+      "tour": "VIVA LA LISA",
+      "type": "concert",
+      "tier": "soloist",
+      "date": "2026-11-29",
+      "endDate": "2026-11-29",
+      "time": "20:00:00",
+      "venue": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.116156,
+      "lng": -115.175058,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-29-2026/event/39006496CA45E33B"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/viva-la-lisa-las-vegas-nevada-11-29-2026/event/39006496CA45E33B",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-louisville-2026-12-01-bourbon-hall-live-c22015",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Louisville",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-01",
+      "endDate": "2026-12-01",
+      "time": "19:00:00",
+      "venue": "Bourbon Hall Live",
+      "city": "Louisville",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.253229,
+      "lng": -85.7530469,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-bourbon-hall-live-tickets/14355654"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-bourbon-hall-live-tickets/14355654",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-nashville-2026-12-02-riverside-revival-626e0b",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Nashville",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-02",
+      "endDate": "2026-12-02",
+      "time": "19:00:00",
+      "venue": "Riverside Revival",
+      "city": "Nashville",
+      "country": "USA",
+      "region": "USA",
+      "lat": 36.19653,
+      "lng": -86.72387,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-riverside-revival-tickets/14355664"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-riverside-revival-tickets/14355664",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2444,6 +2386,35 @@
       "note": ""
     },
     {
+      "id": "82major-kansas-city-2026-12-06-gem-theater-d4a75e",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Kansas City",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-06",
+      "endDate": "2026-12-06",
+      "time": "19:00:00",
+      "venue": "Gem Theater",
+      "city": "Kansas City",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.0909361,
+      "lng": -94.5625939,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-gem-theater-tickets/14355684"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-gem-theater-tickets/14355684",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "k-pop-superstars-wallingford-2026-12-06-toyota-oakdale-theatre-d6c022",
       "artist": "K-POP Superstars",
       "tour": "K-POP Superstars Live!",
@@ -2469,6 +2440,64 @@
         }
       ],
       "source": "https://www.ticketmaster.com/kpop-superstars-live-wallingford-connecticut-12-06-2026/event/1D0064F5CBE7F59D",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-coppell-2026-12-08-coppell-arts-center-10e99d",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Dallas",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-08",
+      "endDate": "2026-12-08",
+      "time": "19:00:00",
+      "venue": "Coppell Arts Center",
+      "city": "Coppell",
+      "country": "USA",
+      "region": "USA",
+      "lat": 32.9516098,
+      "lng": -97.0071543,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-coppell-arts-center-tickets/14355704"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-coppell-arts-center-tickets/14355704",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-houston-2026-12-09-rockefellers-738213",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Houston",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-09",
+      "endDate": "2026-12-09",
+      "time": "19:00:00",
+      "venue": "Rockefellers",
+      "city": "Houston",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.7697448,
+      "lng": -95.3968124,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-rockefellers-tickets/14355724"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-rockefellers-tickets/14355724",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2502,6 +2531,35 @@
       "note": ""
     },
     {
+      "id": "82major-san-antonio-2026-12-11-the-rock-box-f8f4cc",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in San Antonio",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-11",
+      "endDate": "2026-12-11",
+      "time": "19:00:00",
+      "venue": "The Rock Box",
+      "city": "San Antonio",
+      "country": "USA",
+      "region": "USA",
+      "lat": 29.42539,
+      "lng": -98.478488,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-the-rock-box-tickets/14355754"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-the-rock-box-tickets/14355754",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "z100-s-jingle-ball-new-york-2026-12-11-madison-square-garden-6c7b23",
       "artist": "Z100's Jingle Ball",
       "tour": "Z100's Jingle Ball Presented by Capital One",
@@ -2516,7 +2574,7 @@
       "region": "USA",
       "lat": 40.7497062,
       "lng": -73.9916006,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2527,6 +2585,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/z100s-jingle-ball-presented-by-capital-new-york-new-york-12-11-2026/event/3B0065321EE4C4C1",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-mesa-2026-12-13-nile-theater-e8ccee",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Mesa",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-13",
+      "endDate": "2026-12-13",
+      "time": "19:00:00",
+      "venue": "Nile Theater",
+      "city": "Mesa",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.414796,
+      "lng": -111.834494,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-nile-theater-tickets/14355764"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-nile-theater-tickets/14355764",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2574,7 +2661,7 @@
       "region": "USA",
       "lat": 42.365841,
       "lng": -71.060724,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2603,7 +2690,7 @@
       "region": "USA",
       "lat": 38.897412,
       "lng": -77.020029,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2614,6 +2701,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/hot-995s-jingle-ball-presented-by-washington-district-of-columbia-12-14-2026/event/150065148F1E5A24",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-santa-ana-2026-12-15-yost-theater-da2e4c",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in Santa Ana",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-15",
+      "endDate": "2026-12-15",
+      "time": "19:00:00",
+      "venue": "Yost Theater",
+      "city": "Santa Ana",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.747426,
+      "lng": -117.865195,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-yost-theater-tickets/14355774"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-yost-theater-tickets/14355774",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2643,6 +2759,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/2026-oneus-world-tour-full-moon-new-york-city-new-york-12-16-2026/event/0000651CB9C33ADB",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "82major-san-francisco-2026-12-17-great-american-music-hall-af3e74",
+      "artist": "82MAJOR",
+      "tour": "2026 82MAJOR [82CLUB : out of control] TOUR in San Francisco",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-17",
+      "endDate": "2026-12-17",
+      "time": "19:00:00",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "USA",
+      "lat": 37.784801,
+      "lng": -122.418823,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketweb.com/event/2026-82major-82club-out-great-american-music-hall-tickets/14355784"
+        }
+      ],
+      "source": "https://www.ticketweb.com/event/2026-82major-82club-out-great-american-music-hall-tickets/14355784",
       "poster": "#026cdf",
       "note": ""
     },
@@ -2788,6 +2933,64 @@
         }
       ],
       "source": "https://www.ticketmaster.com/kpop-superstars-nashville-tennessee-12-27-2026/event/1B0064DE91216605",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "evnne-philadelphia-2027-01-26-theatre-of-living-arts-478e49",
+      "artist": "Evnne",
+      "tour": "EVNNE \"ONE TAKE\" Fan-Concert Tour",
+      "type": "fanmeeting",
+      "tier": "rising",
+      "date": "2027-01-26",
+      "endDate": "2027-01-26",
+      "time": "19:30:00",
+      "venue": "Theatre of Living Arts",
+      "city": "Philadelphia",
+      "country": "USA",
+      "region": "USA",
+      "lat": 39.941305,
+      "lng": -75.148678,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/evnne-one-take-fanconcert-tour-philadelphia-pennsylvania-01-26-2027/event/02006541EE443CFE"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/evnne-one-take-fanconcert-tour-philadelphia-pennsylvania-01-26-2027/event/02006541EE443CFE",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "evnne-atlanta-2027-01-29-center-stage-theater-e107c3",
+      "artist": "Evnne",
+      "tour": "EVNNE FAN-CONCERT [ONE TAKE] IN NORTH AMERICA",
+      "type": "fanmeeting",
+      "tier": "rising",
+      "date": "2027-01-29",
+      "endDate": "2027-01-29",
+      "time": "19:30:00",
+      "venue": "Center Stage Theater",
+      "city": "Atlanta",
+      "country": "USA",
+      "region": "USA",
+      "lat": 33.7918926,
+      "lng": -84.3877907,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/evnne-fanconcert-one-take-in-north-atlanta-georgia-01-29-2027/event/0E006541B68226DD"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/evnne-fanconcert-one-take-in-north-atlanta-georgia-01-29-2027/event/0E006541B68226DD",
       "poster": "#026cdf",
       "note": ""
     },
