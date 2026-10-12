@@ -1,360 +1,12 @@
 {
-  "updated_at": "2026-10-05T09:46:56Z",
+  "updated_at": "2026-10-12T09:57:55Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 91
+    "ticketmaster": 86
   },
-  "count": 110,
+  "count": 100,
   "concerts": [
-    {
-      "id": "le-sserafim-washington-2026-10-05-capital-one-arena-6a8162",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN WASHINGTON",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-05",
-      "endDate": "2026-10-05",
-      "time": "19:30:00",
-      "venue": "Capital One Arena",
-      "city": "Washington",
-      "country": "USA",
-      "region": "USA",
-      "lat": 38.897412,
-      "lng": -77.020029,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-washington-district-of-columbia-10-05-2026/event/150064ABEA85C9A3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-washington-district-of-columbia-10-05-2026/event/150064ABEA85C9A3",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "monsta-x-new-york-2026-10-06-infosys-theater-at-madison-square-garden-e562eb",
-      "artist": "MONSTA X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN NEW YORK",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-06",
-      "endDate": "2026-10-06",
-      "time": "20:30:00",
-      "venue": "Infosys Theater at Madison Square Garden",
-      "city": "New York",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.7497062,
-      "lng": -73.9916006,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-new-york-new-york-10-06-2026/event/3B00647BF0495307"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-new-york-new-york-10-06-2026/event/3B00647BF0495307",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "aespa-oakland-2026-10-06-oakland-arena-850570",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in OAKLAND",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-06",
-      "endDate": "2026-10-06",
-      "time": "20:00:00",
-      "venue": "Oakland Arena",
-      "city": "Oakland",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.7515541,
-      "lng": -122.2015715,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-oakland-california-10-06-2026/event/1C0064959674C747"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-oakland-california-10-06-2026/event/1C0064959674C747",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "f5ve-newstead-2026-10-07-the-triffid-e16bde",
-      "artist": "f5ve",
-      "tour": "f5ve + THE DEEP: f4n m33t australia",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-07",
-      "endDate": "2026-10-07",
-      "time": "19:30:00",
-      "venue": "The Triffid",
-      "city": "Newstead",
-      "country": "Australia",
-      "region": "Other",
-      "lat": -27.452287,
-      "lng": 153.041969,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "Other",
-          "color": "#026cdf",
-          "url": "https://www.moshtix.com.au/v2/event/f5ve-the-deep-f4n-m33t-australia/200200"
-        }
-      ],
-      "source": "https://www.moshtix.com.au/v2/event/f5ve-the-deep-f4n-m33t-australia/200200",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-newark-nj-2026-10-08-prudential-center-26c1f1",
-      "artist": "LE SSERAFIM",
-      "tour": "2026 LE SSERAFIM TOUR 'PUREFLOW'",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-08",
-      "endDate": "2026-10-08",
-      "time": "",
-      "venue": "Prudential Center",
-      "city": "Newark, NJ",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.7336,
-      "lng": -74.171,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-newark-new-jersey-10-08-2026/event/020064ABF7904B12"
-        }
-      ],
-      "source": "https://kpopofficial.com/event/le-sserafim-concert-newark-2026/",
-      "poster": "#ff3d9a",
-      "note": ""
-    },
-    {
-      "id": "le-sserafim-newark-2026-10-08-prudential-center-3737f4",
-      "artist": "LE SSERAFIM",
-      "tour": "LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN NEWARK",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-08",
-      "endDate": "2026-10-08",
-      "time": "19:30:00",
-      "venue": "Prudential Center",
-      "city": "Newark",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.73340555,
-      "lng": -74.17121214,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-newark-new-jersey-10-08-2026/event/020064ABF7904B12"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-newark-new-jersey-10-08-2026/event/020064ABF7904B12",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "monsta-x-boston-2026-10-08-mgm-music-hall-at-fenway-d32fca",
-      "artist": "MONSTA X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN BOSTON",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-08",
-      "endDate": "2026-10-08",
-      "time": "20:00:00",
-      "venue": "MGM Music Hall at Fenway",
-      "city": "Boston",
-      "country": "USA",
-      "region": "USA",
-      "lat": 42.346806,
-      "lng": -71.097272,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-boston-massachusetts-10-08-2026/event/0100647BAD4DF692"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-boston-massachusetts-10-08-2026/event/0100647BAD4DF692",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "akmu-seoul-2026-10-09-kspo-dome-4e52bc",
-      "artist": "AKMU",
-      "tour": "2026 AKMU CONCERT [Paradise of Rumors]",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-09",
-      "endDate": "2026-10-11",
-      "time": "",
-      "venue": "KSPO DOME",
-      "city": "Seoul",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 37.5209,
-      "lng": 127.123,
-      "status": "presale",
-      "platforms": [
-        {
-          "key": "yes24",
-          "name": "YES24",
-          "region": "Korea",
-          "color": "#00539f",
-          "url": "https://m.ticket.yes24.com/Notice/18186?order=1"
-        }
-      ],
-      "source": "https://best.blue4sky.com/2026/07/",
-      "poster": "#22e3d4",
-      "note": "Fanclub presale 08-05, General 08-07."
-    },
-    {
-      "id": "aespa-seattle-2026-10-09-climate-pledge-arena-03ade6",
-      "artist": "aespa",
-      "tour": "aespa LIVE TOUR - SYNK : COMPLæXITY - in SEATTLE",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-09",
-      "endDate": "2026-10-09",
-      "time": "20:00:00",
-      "venue": "Climate Pledge Arena",
-      "city": "Seattle",
-      "country": "USA",
-      "region": "USA",
-      "lat": 47.6221261,
-      "lng": -122.35401604,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-seattle-washington-10-09-2026/event/0F006495AC598426"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/aespa-live-tour-synk-complxity-in-seattle-washington-10-09-2026/event/0F006495AC598426",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "boynextdoor-chiba-2026-10-10-makuhari-messe-0b6cb3",
-      "artist": "BOYNEXTDOOR",
-      "tour": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN JAPAN",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-10",
-      "endDate": "2026-10-11",
-      "time": "",
-      "venue": "Makuhari Messe",
-      "city": "Chiba",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 35.648,
-      "lng": 140.034,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "lawson",
-          "name": "Lawson Ticket",
-          "region": "Japan",
-          "color": "#0068b7",
-          "url": "https://l-tike.com/boynextdoor/"
-        }
-      ],
-      "source": "https://weverse.io/boynextdoor/notice/35847",
-      "poster": "#22e3d4",
-      "note": ""
-    },
-    {
-      "id": "triples-seoul-2026-10-10-jangchung-arena-6311a0",
-      "artist": "tripleS",
-      "tour": "tripleS 2026 World Tour <ANDLESS>",
-      "type": "concert",
-      "tier": "group",
-      "date": "2026-10-10",
-      "endDate": "2026-10-11",
-      "time": "",
-      "venue": "Jangchung Arena",
-      "city": "Seoul",
-      "country": "Korea",
-      "region": "Korea",
-      "lat": 37.5583,
-      "lng": 127.0075,
-      "status": "announced",
-      "platforms": [
-        {
-          "key": "yes24",
-          "name": "Interpark/YES24",
-          "region": "Korea",
-          "color": "#00539f",
-          "url": "https://ticket.yes24.com/English"
-        }
-      ],
-      "source": "https://kpop-ticket.com/zh-CN/articles/triples-concert-guide-2026",
-      "poster": "#22e3d4",
-      "note": "World tour opening shows."
-    },
-    {
-      "id": "gyubin-tokyo-2026-10-11-odaiba-shiokaze-park-ce9585",
-      "artist": "Gyubin",
-      "tour": "Odaiba Shiokaze Park Festival Show",
-      "type": "festival",
-      "tier": "festival",
-      "date": "2026-10-11",
-      "endDate": "2026-10-11",
-      "time": "",
-      "venue": "Odaiba Shiokaze Park",
-      "city": "Tokyo",
-      "country": "Japan",
-      "region": "Japan",
-      "lat": 35.63,
-      "lng": 139.77,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "eplus",
-          "name": "eplus",
-          "region": "Japan",
-          "color": "#f5a623",
-          "url": "https://eplus.jp/gyubin/"
-        }
-      ],
-      "source": "https://www.shazam.com/events/tokyo-japan/",
-      "poster": "#8b5cff",
-      "note": ""
-    },
     {
       "id": "monsta-x-rosemont-2026-10-13-rosemont-theatre-2f7ba1",
       "artist": "MONSTA X",
@@ -892,7 +544,7 @@
       "region": "USA",
       "lat": 47.6221261,
       "lng": -122.35401604,
-      "status": "on_sale",
+      "status": "sold_out",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -1603,8 +1255,8 @@
       "note": ""
     },
     {
-      "id": "koyote-north-america-tour-tacoma-2026-11-14-pantages-theater-b3247c",
-      "artist": "KOYOTE North America Tour",
+      "id": "koyote-tacoma-2026-11-14-pantages-theater-07e01b",
+      "artist": "Koyote",
       "tour": "KOYOTE North America Tour",
       "type": "concert",
       "tier": "rising",
@@ -1791,7 +1443,7 @@
       "region": "USA",
       "lat": 28.541017,
       "lng": -81.3723874,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -1820,7 +1472,7 @@
       "region": "USA",
       "lat": 32.79067196,
       "lng": -96.81081803,
-      "status": "on_sale",
+      "status": "sold_out",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -1878,7 +1530,7 @@
       "region": "USA",
       "lat": 33.74416,
       "lng": -84.417107,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -1936,7 +1588,7 @@
       "region": "USA",
       "lat": 37.547266,
       "lng": -77.438049,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -1994,7 +1646,7 @@
       "region": "USA",
       "lat": 38.9188956,
       "lng": -76.9736085,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2052,7 +1704,7 @@
       "region": "USA",
       "lat": 40.74426,
       "lng": -73.844427,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2110,7 +1762,7 @@
       "region": "USA",
       "lat": 40.0936654,
       "lng": -82.992195,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2168,7 +1820,7 @@
       "region": "USA",
       "lat": 42.352709,
       "lng": -83.059587,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2226,7 +1878,7 @@
       "region": "USA",
       "lat": 39.773659,
       "lng": -86.150162,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2284,7 +1936,7 @@
       "region": "USA",
       "lat": 38.253229,
       "lng": -85.7530469,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2313,7 +1965,7 @@
       "region": "USA",
       "lat": 36.19653,
       "lng": -86.72387,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2400,7 +2052,7 @@
       "region": "USA",
       "lat": 39.0909361,
       "lng": -94.5625939,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2458,7 +2110,7 @@
       "region": "USA",
       "lat": 32.9516098,
       "lng": -97.0071543,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2487,7 +2139,7 @@
       "region": "USA",
       "lat": 29.7697448,
       "lng": -95.3968124,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2545,7 +2197,7 @@
       "region": "USA",
       "lat": 29.42539,
       "lng": -98.478488,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2603,7 +2255,7 @@
       "region": "USA",
       "lat": 33.414796,
       "lng": -111.834494,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2645,6 +2297,35 @@
       "source": "https://travelodgehotels.asia/travel-guide/kpop-concert-calendar-japan/",
       "poster": "#ff3d9a",
       "note": "3 nights at Tokyo Dome."
+    },
+    {
+      "id": "k-pop-superstars-saginaw-2026-12-13-temple-theatre-e9c64f",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-13",
+      "endDate": "2026-12-13",
+      "time": "17:00:00",
+      "venue": "Temple Theatre",
+      "city": "Saginaw",
+      "country": "USA",
+      "region": "USA",
+      "lat": 43.4970856,
+      "lng": -83.9532571,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-saginaw-michigan-12-13-2026/event/0800653EA6005F7E"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-saginaw-michigan-12-13-2026/event/0800653EA6005F7E",
+      "poster": "#026cdf",
+      "note": ""
     },
     {
       "id": "kiss-108-s-jingle-ball-boston-2026-12-13-td-garden-83ea2f",
@@ -2719,7 +2400,7 @@
       "region": "USA",
       "lat": 33.747426,
       "lng": -117.865195,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2777,7 +2458,7 @@
       "region": "USA",
       "lat": 37.784801,
       "lng": -122.418823,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2933,6 +2614,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/kpop-superstars-nashville-tennessee-12-27-2026/event/1B0064DE91216605",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "evnne-louisville-2027-01-19-mercury-ballroom-77b53e",
+      "artist": "Evnne",
+      "tour": "EVNNE \"ONE TAKE\" Fan-Concert Tour",
+      "type": "fanmeeting",
+      "tier": "rising",
+      "date": "2027-01-19",
+      "endDate": "2027-01-19",
+      "time": "19:30:00",
+      "venue": "Mercury Ballroom",
+      "city": "Louisville",
+      "country": "USA",
+      "region": "USA",
+      "lat": 38.24851446,
+      "lng": -85.75788997,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/evnne-one-take-fanconcert-tour-louisville-kentucky-01-19-2027/event/160065413A029D93"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/evnne-one-take-fanconcert-tour-louisville-kentucky-01-19-2027/event/160065413A029D93",
       "poster": "#026cdf",
       "note": ""
     },
