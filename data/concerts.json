@@ -1,244 +1,12 @@
 {
-  "updated_at": "2026-10-19T08:15:04Z",
+  "updated_at": "2026-10-26T08:15:08Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 83
+    "ticketmaster": 78
   },
-  "count": 91,
+  "count": 86,
   "concerts": [
-    {
-      "id": "monsta-x-inglewood-2026-10-20-kia-forum-b3bc4a",
-      "artist": "MONSTA X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN LOS ANGELES",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-20",
-      "endDate": "2026-10-20",
-      "time": "20:00:00",
-      "venue": "Kia Forum",
-      "city": "Inglewood",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.9583,
-      "lng": -118.341868,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-inglewood-california-10-20-2026/event/09006481D49ADEBB"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-inglewood-california-10-20-2026/event/09006481D49ADEBB",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "monsta-x-san-francisco-2026-10-22-the-theater-at-bill-graham-civic-auditorium-fa",
-      "artist": "MONSTA X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN SAN FRANCISCO",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-22",
-      "endDate": "2026-10-22",
-      "time": "20:00:00",
-      "venue": "The Theater at Bill Graham Civic Auditorium",
-      "city": "San Francisco",
-      "country": "USA",
-      "region": "USA",
-      "lat": 37.77833,
-      "lng": -122.41743,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-san-francisco-california-10-22-2026/event/1C006483CF0D29E6"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-san-francisco-california-10-22-2026/event/1C006483CF0D29E6",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "artms-las-vegas-2026-10-23-house-of-blues-las-vegas-6700bf",
-      "artist": "ARTMS",
-      "tour": "ARTMS",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-23",
-      "endDate": "2026-10-23",
-      "time": "18:00:00",
-      "venue": "House of Blues Las Vegas ",
-      "city": "Las Vegas",
-      "country": "USA",
-      "region": "USA",
-      "lat": 36.087535,
-      "lng": -115.174742,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/artms-las-vegas-nevada-10-23-2026/event/170064EA394F184A"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/artms-las-vegas-nevada-10-23-2026/event/170064EA394F184A",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "be-first-new-york-2026-10-23-gramercy-theatre-1f0eb4",
-      "artist": "BE:FIRST",
-      "tour": "BE:FIRST",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-23",
-      "endDate": "2026-10-23",
-      "time": "19:00:00",
-      "venue": "Gramercy Theatre",
-      "city": "New York",
-      "country": "USA",
-      "region": "USA",
-      "lat": 40.73975368,
-      "lng": -73.98501292,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/befirst-new-york-new-york-10-23-2026/event/000064AEC75955A5"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/befirst-new-york-new-york-10-23-2026/event/000064AEC75955A5",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "ten-san-diego-2026-10-23-humphreys-concerts-by-the-bay-5e98ca",
-      "artist": "TEN",
-      "tour": "TEN - US Showcase Tour",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-23",
-      "endDate": "2026-10-23",
-      "time": "20:00:00",
-      "venue": "Humphreys Concerts By the Bay",
-      "city": "San Diego",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.7169815,
-      "lng": -117.22362958,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-san-diego-california-10-23-2026/event/0A0065139AD2B2C3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-san-diego-california-10-23-2026/event/0A0065139AD2B2C3",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "monsta-x-seattle-2026-10-24-wamu-theater-9b5753",
-      "artist": "MONSTA X",
-      "tour": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN SEATTLE",
-      "type": "concert",
-      "tier": "major",
-      "date": "2026-10-24",
-      "endDate": "2026-10-24",
-      "time": "20:00:00",
-      "venue": "WAMU Theater",
-      "city": "Seattle",
-      "country": "USA",
-      "region": "USA",
-      "lat": 47.596704,
-      "lng": -122.332085,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-seattle-washington-10-24-2026/event/0F006482D94050A3"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/2026-monsta-x-world-tour-the-seattle-washington-10-24-2026/event/0F006482D94050A3",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "next-level-k-pop-chicago-2026-10-24-subterranean-f1631c",
-      "artist": "Next Level K-Pop",
-      "tour": "NEXT LEVEL KPOP RAVE - Ages 17+",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-24",
-      "endDate": "2026-10-24",
-      "time": "22:30:00",
-      "venue": "Subterranean",
-      "city": "Chicago",
-      "country": "USA",
-      "region": "USA",
-      "lat": 41.920898,
-      "lng": -87.702003,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgFV"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgFV",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "taemin-seattle-2026-10-25-climate-pledge-arena-9210cc",
-      "artist": "Taemin",
-      "tour": "K-ERA Fest 2026: TAEMIN",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-25",
-      "endDate": "2026-10-25",
-      "time": "19:00:00",
-      "venue": "Climate Pledge Arena",
-      "city": "Seattle",
-      "country": "USA",
-      "region": "USA",
-      "lat": 47.6221261,
-      "lng": -122.35401604,
-      "status": "sold_out",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kera-fest-2026-taemin-seattle-washington-10-25-2026/event/0F006531EC753547"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kera-fest-2026-taemin-seattle-washington-10-25-2026/event/0F006531EC753547",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "ten-phoenix-2026-10-26-the-van-buren-65f912",
       "artist": "TEN",
@@ -1284,6 +1052,35 @@
       "note": ""
     },
     {
+      "id": "bol4-camperdown-2026-11-21-manning-bar-26ffea",
+      "artist": "BOL4",
+      "tour": "BOL4",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-11-21",
+      "endDate": "2026-11-21",
+      "time": "19:30:00",
+      "venue": "Manning Bar",
+      "city": "Camperdown",
+      "country": "Australia",
+      "region": "Other",
+      "lat": -33.886691,
+      "lng": 151.188164,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "Other",
+          "color": "#026cdf",
+          "url": "https://www.moshtix.com.au/v2/event/bol4/201464"
+        }
+      ],
+      "source": "https://www.moshtix.com.au/v2/event/bol4/201464",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "triples-fort-worth-2026-11-21-will-rogers-auditorium-1533f2",
       "artist": "tripleS",
       "tour": "2026 tripleS World Tour [ANDLESS] in Fort Worth",
@@ -1704,7 +1501,7 @@
       "region": "USA",
       "lat": 25.792917,
       "lng": -80.13314,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
@@ -2212,6 +2009,35 @@
       "note": "Klook official experience partner."
     },
     {
+      "id": "kpop-club-night-new-york-2026-12-18-irving-plaza-powered-by-verizon-5g-20652a",
+      "artist": "KPop Club Night",
+      "tour": "KPop Club Night (18+)",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2026-12-18",
+      "endDate": "2026-12-18",
+      "time": "22:00:00",
+      "venue": "Irving Plaza Powered By Verizon 5G",
+      "city": "New York",
+      "country": "USA",
+      "region": "USA",
+      "lat": 40.734917,
+      "lng": -73.9884469,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-club-night-18-new-york-new-york-12-18-2026/event/00006553EB8013E5"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-club-night-18-new-york-new-york-12-18-2026/event/00006553EB8013E5",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "oneus-atlanta-2026-12-18-center-stage-theater-85118e",
       "artist": "ONEUS",
       "tour": "2026 ONEUS World Tour: Full Moon",
@@ -2411,6 +2237,35 @@
         }
       ],
       "source": "https://www.ticketmaster.com/evnne-fanconcert-one-take-in-north-atlanta-georgia-01-29-2027/event/0E006541B68226DD",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
+      "id": "the-moonlight-princesses-tribute-to-demon-hunters-joliet-2027-01-30-rialto-squar",
+      "artist": "The Moonlight Princesses - Tribute To Demon Hunters",
+      "tour": "The Moonlight Princesses - Tribute To Demon Hunters",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2027-01-30",
+      "endDate": "2027-01-30",
+      "time": "18:30:00",
+      "venue": "Rialto Square Theatre",
+      "city": "Joliet",
+      "country": "USA",
+      "region": "USA",
+      "lat": 41.5260601,
+      "lng": -88.0815767,
+      "status": "sold_out",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/the-moonlight-princesses-tribute-to-demon-joliet-illinois-01-30-2027/event/07006554D47E8049"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/the-moonlight-princesses-tribute-to-demon-joliet-illinois-01-30-2027/event/07006554D47E8049",
       "poster": "#026cdf",
       "note": ""
     },
