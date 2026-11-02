@@ -1,215 +1,12 @@
 {
-  "updated_at": "2026-10-26T08:15:08Z",
+  "updated_at": "2026-11-02T10:14:44Z",
   "source_counts": {
     "curated": 45,
     "bandsintown": 0,
-    "ticketmaster": 78
+    "ticketmaster": 72
   },
-  "count": 86,
+  "count": 80,
   "concerts": [
-    {
-      "id": "ten-phoenix-2026-10-26-the-van-buren-65f912",
-      "artist": "TEN",
-      "tour": "TEN - US Showcase Tour",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-26",
-      "endDate": "2026-10-26",
-      "time": "20:00:00",
-      "venue": "The Van Buren",
-      "city": "Phoenix",
-      "country": "USA",
-      "region": "USA",
-      "lat": 33.451085,
-      "lng": -112.079228,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-phoenix-arizona-10-26-2026/event/19006511EE23C55B"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-phoenix-arizona-10-26-2026/event/19006511EE23C55B",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "planet-kpop-grand-rapids-2026-10-28-devos-performance-hall-1f5583",
-      "artist": "Planet KPOP",
-      "tour": "Planet Kpop: The Ultimate Kpop Tribute",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-28",
-      "endDate": "2026-10-28",
-      "time": "19:00:00",
-      "venue": "DeVos Performance Hall",
-      "city": "Grand Rapids",
-      "country": "USA",
-      "region": "USA",
-      "lat": 42.969376,
-      "lng": -85.673835,
-      "status": "sold_out",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-grand-rapids-michigan-10-28-2026/event/080064A6B6C2A4DE"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/planet-kpop-the-ultimate-kpop-tribute-grand-rapids-michigan-10-28-2026/event/080064A6B6C2A4DE",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "ten-houston-2026-10-28-white-oak-music-hall-downstairs-b3b5fa",
-      "artist": "TEN",
-      "tour": "TEN: US SHOWCASE TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-28",
-      "endDate": "2026-10-28",
-      "time": "19:00:00",
-      "venue": "White Oak Music Hall - Downstairs",
-      "city": "Houston",
-      "country": "USA",
-      "region": "USA",
-      "lat": 29.78627,
-      "lng": -95.36562,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-houston-texas-10-28-2026/event/3A006513E6A942C5"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-houston-texas-10-28-2026/event/3A006513E6A942C5",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "boynextdoor-dallas-2026-10-30-the-bomb-factory-6ced68",
-      "artist": "BOYNEXTDOOR",
-      "tour": "BOYNEXTDOOR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-30",
-      "endDate": "2026-10-30",
-      "time": "19:30:00",
-      "venue": "The Bomb Factory",
-      "city": "Dallas",
-      "country": "USA",
-      "region": "USA",
-      "lat": 32.7827,
-      "lng": -96.775803,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_I"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_I",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "kpop-club-night-minneapolis-2026-10-30-varsity-theater-4cc637",
-      "artist": "KPop Club Night",
-      "tour": "KPop Club Night",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-30",
-      "endDate": "2026-10-30",
-      "time": "21:00:00",
-      "venue": "Varsity Theater",
-      "city": "Minneapolis",
-      "country": "USA",
-      "region": "USA",
-      "lat": 44.980837,
-      "lng": -93.237034,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/kpop-club-night-minneapolis-minnesota-10-30-2026/event/06006522CFBED430"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/kpop-club-night-minneapolis-minnesota-10-30-2026/event/06006522CFBED430",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "ten-minneapolis-2026-10-31-uptown-theater-minneapolis-4b5c18",
-      "artist": "TEN",
-      "tour": "TEN: US SHOWCASE TOUR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-10-31",
-      "endDate": "2026-10-31",
-      "time": "19:00:00",
-      "venue": "Uptown Theater Minneapolis",
-      "city": "Minneapolis",
-      "country": "USA",
-      "region": "USA",
-      "lat": 44.94922,
-      "lng": -93.29845,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/ten-us-showcase-tour-minneapolis-minnesota-10-31-2026/event/06006511E53DFD04"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/ten-us-showcase-tour-minneapolis-minnesota-10-31-2026/event/06006511E53DFD04",
-      "poster": "#026cdf",
-      "note": ""
-    },
-    {
-      "id": "boynextdoor-pompano-beach-2026-11-01-pompano-beach-amphitheatre-43c0e0",
-      "artist": "BOYNEXTDOOR",
-      "tour": "BOYNEXTDOOR",
-      "type": "concert",
-      "tier": "rising",
-      "date": "2026-11-01",
-      "endDate": "2026-11-01",
-      "time": "20:00:00",
-      "venue": "Pompano Beach Amphitheatre",
-      "city": "Pompano Beach",
-      "country": "USA",
-      "region": "USA",
-      "lat": 26.2349,
-      "lng": -80.120102,
-      "status": "on_sale",
-      "platforms": [
-        {
-          "key": "ticketmaster",
-          "name": "Ticketmaster",
-          "region": "USA",
-          "color": "#026cdf",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIj_"
-        }
-      ],
-      "source": "https://www.ticketmaster.com/event/Z7r9jZ1A7PIj_",
-      "poster": "#026cdf",
-      "note": ""
-    },
     {
       "id": "ten-atlanta-2026-11-03-buckhead-theatre-20ef22",
       "artist": "TEN",
@@ -2241,6 +2038,35 @@
       "note": ""
     },
     {
+      "id": "k-pop-superstars-miami-beach-2027-01-30-the-fillmore-miami-beach-at-jackie-gleas",
+      "artist": "K-POP Superstars",
+      "tour": "K-POP Superstars",
+      "type": "concert",
+      "tier": "rising",
+      "date": "2027-01-30",
+      "endDate": "2027-01-30",
+      "time": "17:00:00",
+      "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
+      "city": "Miami Beach",
+      "country": "USA",
+      "region": "USA",
+      "lat": 25.792917,
+      "lng": -80.13314,
+      "status": "on_sale",
+      "platforms": [
+        {
+          "key": "ticketmaster",
+          "name": "Ticketmaster",
+          "region": "USA",
+          "color": "#026cdf",
+          "url": "https://www.ticketmaster.com/kpop-superstars-miami-beach-florida-01-30-2027/event/0D006554B0917E4E"
+        }
+      ],
+      "source": "https://www.ticketmaster.com/kpop-superstars-miami-beach-florida-01-30-2027/event/0D006554B0917E4E",
+      "poster": "#026cdf",
+      "note": ""
+    },
+    {
       "id": "the-moonlight-princesses-tribute-to-demon-hunters-joliet-2027-01-30-rialto-squar",
       "artist": "The Moonlight Princesses - Tribute To Demon Hunters",
       "tour": "The Moonlight Princesses - Tribute To Demon Hunters",
@@ -2255,7 +2081,7 @@
       "region": "USA",
       "lat": 41.5260601,
       "lng": -88.0815767,
-      "status": "sold_out",
+      "status": "on_sale",
       "platforms": [
         {
           "key": "ticketmaster",
